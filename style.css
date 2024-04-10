@@ -4,7 +4,7 @@ body,html {
     overflow: scroll;
   }
 
-  .sidebar {
+.sidebar {
     z-index: 1;
     border-radius: 45px;
     height: 7%;
@@ -14,18 +14,13 @@ body,html {
     transition: 0.3s;
     scrollbar-width: none;
     opacity: 0.9;
-    background: linear-gradient(
-        45deg,
-        hsla(168, 85%, 52%, 0.5),
-        hsla(263, 88%, 45%, 0.5) 100%
-    );
-    
-  }
+    background: rgb(0, 157, 220)
+}
 
   .sidebar a {
     text-decoration: none;
     display: block;
-    color: white;
+    color: white !important;
     transition: 0.3s;
   }
 
