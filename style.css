@@ -1,13 +1,14 @@
-/*body,html {
-    height: 100%;
+body,html {
+    height: auto;
     margin: 0;
-  }*/
+    overflow: scroll;
+  }
 
   .sidebar {
     z-index: 1;
     border-radius: 45px;
     height: 7%;
-    width: 12%;
+    width: 7%;
     position: fixed;
     overflow-x: hidden;
     transition: 0.3s;
@@ -41,11 +42,5 @@
   }
 
   #navButton {
-    z-index: 2;
-    position: fixed;
-    left: 2rem;
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    transition: 0.5s;
+    
   }
