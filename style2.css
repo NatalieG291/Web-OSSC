@@ -1,0 +1,123 @@
+body, html {
+    height: auto;
+    margin: 0;
+    overflow: scroll;
+}
+/* Ventana Mayor a 1200px */
+@media (min-width: 1200px) {
+    .responsive-font {
+        font-size: 38px;
+    }
+}
+/* Ventana Menor a 1200px */
+@media (max-width: 1199.98px) {
+    .responsive-font {
+        font-size: 20px;
+    }
+}
+/* Ventana Mayor a 1200px */
+@media (min-width: 1200px) {
+    .responsive-box {
+        height: 8%;
+        width: 14%;
+        z-index: 1;
+        border-radius: 45px;
+        position: fixed;
+        overflow-x: hidden;
+        transition: 0.2s;
+        scrollbar-width: none;
+        opacity: 0.9;
+        background: rgb(0, 157, 220);
+    }
+
+        .responsive-box a {
+            text-decoration: none;
+            display: block;
+            color: white !important;
+            transition: 0.2s;
+            padding-left: 1rem;
+        }
+}
+/* Ventana Menor a 800px */
+@media (max-width: 800px) {
+    .responsive-box {
+        height: 8%;
+        width: 14%;
+        z-index: 1;
+        border-radius: 45px;
+        position: fixed;
+        overflow-x: hidden;
+        transition: 0.2s;
+        scrollbar-width: none;
+        opacity: 0.9;
+        background: rgb(0, 157, 220);
+    }
+
+        .responsive-box a {
+            text-decoration: none;
+            display: block;
+            color: white !important;
+            transition: 0.2s;
+            padding-left: 0.8rem;
+            padding-top: 0.8rem;
+        }
+}
+/* Ventana Menor a 500px */
+@media (max-width: 500px) {
+    .responsive-box {
+        height: 10%;
+        width: 32%;
+        z-index: 1;
+        border-radius: 45px;
+        position: fixed;
+        overflow-x: hidden;
+        transition: 0.2s;
+        scrollbar-width: none;
+        opacity: 0.9;
+        background: rgb(0, 157, 220);
+    }
+
+        .responsive-box a {
+            text-decoration: none;
+            display: block;
+            color: white !important;
+            transition: 0.2s;
+            padding-left: 0.8rem;
+            padding-top: 0.8rem;
+        }
+}
+/* Ventana Menor a 400px */
+@media (max-width: 400px) {
+    .responsive-box {
+        height: 9%;
+        width: 26%;
+        z-index: 1;
+        border-radius: 45px;
+        position: fixed;
+        overflow-x: hidden;
+        transition: 0.2s;
+        scrollbar-width: none;
+        opacity: 0.9;
+        background: rgb(0, 157, 220);
+    }
+
+        .responsive-box a {
+            text-decoration: none;
+            display: block;
+            color: white !important;
+            transition: 0.2s;
+            padding-left: 0.8rem;
+            padding-top: 0.8rem;
+        }
+}
+
+.responsive-box a:hover {
+    color: black;
+}
+
+.wall {
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
