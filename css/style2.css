@@ -16,6 +16,10 @@
         -moz-animation: anim 18s ease infinite;
         animation: anim 18s ease infinite;
     }
+
+    .tl{
+        font-size: 3vw;
+    }
     
     @-webkit-keyframes anim {
         0%{background-position:0% 49%}
@@ -74,6 +78,10 @@
     -webkit-animation: anim 18s ease infinite;
     -moz-animation: anim 18s ease infinite;
     animation: anim 18s ease infinite;
+}
+
+.tl{
+    font-size: 2.5vw;
 }
 
 @-webkit-keyframes anim {
