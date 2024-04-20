@@ -9,8 +9,8 @@ function openNav() {
 }
 
 document.getElementById("mySidebar").addEventListener("mouseleave", function() {
-  document.getElementById("mySidebar").style.height = "7%";
-  document.getElementById("mySidebar").style.width = "7%";
+  document.getElementById("mySidebar").style.height = "8%";
+  document.getElementById("mySidebar").style.width = "8%";
     document.getElementById("navButton").style.left = "50px";
     document.getElementById("navButton").innerHTML = home + " Inicio"; //+ document.title;
 });

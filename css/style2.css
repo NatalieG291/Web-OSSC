@@ -42,6 +42,12 @@
         height: 55vw;
         width: 24vw;
     }
+
+    .menu:active, .menu:focus {
+        transition: 0.5s;
+        height: 55vw;
+        width: 24vw;
+    }
     
     .menu:not(:hover) {
             transition: 0.5s;

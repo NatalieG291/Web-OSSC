@@ -7,35 +7,29 @@ body,html {
 .sidebar {
     z-index: 1;
     border-radius: 45px;
-    height: 7%;
-    width: 7%;
+    height: 8%;
+    width: 8%;
     position: fixed;
     overflow-x: hidden;
     transition: 0.3s;
     scrollbar-width: none;
-    opacity: 0.9;
-    background: rgb(0, 157, 220)
+    opacity: 0.8;
+    background: rgb(0, 157, 220);
+    padding: 10px;
+    margin: 0 auto;
 }
 
-  .sidebar a {
-    text-decoration: none;
-    display: block;
-    color: white !important;
-    transition: 0.3s;
-  }
+.btn-primary:hover {
+    background-color: #f4f4f4 !important;
+    border-color: transparent !important;
+    background: rgba(0,0,0,0.1) !important;
+}
 
-  .sidebar a:hover {
-    color: black;
-  }
+.btn-primary {
+    background-color: transparent !important;
+    border-color: transparent !important;
+    display: block !important;
+    width: 100% !important;
+    text-align: left !important; 
+}
 
-  .wall{
-    
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  #navButton {
-    
-  }
