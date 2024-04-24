@@ -11,13 +11,32 @@
 </head>
 <body onresize="resizeW()">
     <div class="container-fluid d-flex">
-        <div class="d-flex flex-column align-items-center menu" id="btn">
-            <a href="#" class="navbar-brand"><b>OSSC</b></a>
-            <div class="d-flex flex-column align-items-center show" id="itm">
-                <a class="nav-link" href="#"><b>First</b></a>
-                <a class="nav-link" href="#"><b>Second</b></a>
-                <a class="nav-link" href="#"><b>Third</b></a>
-                <a class="nav-link" href="#"><b>Fourth</b></a>
+        <div class="d-flex flex-row align-items-start menu" id="btn">
+            <div class="d-flex flex-column align-items-start pe-5" id="itm">
+                <a href="#" class="navbar-brand" id="menubtn"><b>Inicio</b></a>
+                <a class="nav-link" href="#"><b>Nosotros</b></a>
+                <a class="nav-link" id="sub1" href="#"><b>Productos ></b></a>
+                <a class="nav-link" id="sub2" href="#"><b>Soluciones ></b></a>
+                <a class="nav-link" href="#"><b>Cursos</b></a>
+            </div>
+            <div class="d-flex flex-row px-5">
+                <div class="position-absolute productos">
+                    <a class="nav-link" href="#"><b>Nómina y capital humano</b></a>
+                    <a class="nav-link" href="#"><b>Reloj Checador</b></a>
+                    <a class="nav-link" href="#"><b>Kiosco de empleados</b></a>
+                    <a class="nav-link" href="#"><b>Gestion y desarrollo del talento humano</b></a>
+                    <a class="nav-link" href="#"><b>Portal OSSC Empresa</b></a>
+                    <a class="nav-link" href="#"><b>Evaluaciones 360 y por objetivos</b></a>
+                    <a class="nav-link" href="#"><b>Reclutamiento</b></a>
+                    <a class="nav-link" href="#"><b>Comedor electrónico</b></a>
+                    <a class="nav-link" href="#"><b>Digitalizador de documentos</b></a>
+                </div>
+                <div class="position-absolute soluciones">
+                    <a class="nav-link" href="#"><b>Capacitación</b></a>
+                    <a class="nav-link" href="#"><b>Soporte y calidad</b></a>
+                    <a class="nav-link" href="#"><b>Arrendamiento software GIRO</b></a>
+                    <a class="nav-link" href="#"><b>Renta de servidor</b></a>
+                </div>
             </div>
         </div>
     </div>

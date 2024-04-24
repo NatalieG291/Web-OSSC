@@ -71,10 +71,10 @@
 @media (min-width: 640px) and (max-width: 1900px) {
 .menu {
     position:fixed;
-    height: 5vw;
+    height: 4vw;
     width: 12.5vw;
     border-radius: 2vw;
-    font-size: 2.4vw;
+    font-size: 2vw;
     color:white;
     padding: 0.5vw;
     margin:1vw;
@@ -84,6 +84,8 @@
     -webkit-animation: anim 18s ease infinite;
     -moz-animation: anim 18s ease infinite;
     animation: anim 18s ease infinite;
+    align-content: start    ;
+    overflow: hidden;
 }
 
 .tl{
@@ -112,21 +114,77 @@
     width: 15vw;
 }
 
-.menu:not(:hover) {
-        transition: 0.5s;
-        height: 5vw;
-        width: 12.5vw;
+.menu:hover #menubtn{
+    transition: 0.5s;
+    position: relative;
+    left: 0%;
 }
+
+.menu:not(:hover) {
+    transition: 0.5s;
+    height: 4vw;
+    width: 12.5vw !important;
+}
+
+.menu:not(:hover) #menubtn {
+    transition: 0.5s;
+    position: relative !important;
+    left: 25% !important;
+}
+
+body:has(#sub1:focus) .menu {
+    transition: 0.5s;
+    align-items: initial !important;
+    width: 50vw;
+}
+
+body:has(#sub1:focus) #menubtn {
+    transition: 0.5s;
+    position: relative;
+    left: 0%;
+}
+
+.productos {
+    opacity: 0%;
+}
+
+body:has(#sub1:focus) .productos {
+    transition: 0.5s;
+    opacity: 100%;
+}
+
+body:has(#sub2:focus) .menu {
+    transition: 0.5s;
+    align-items: initial !important;
+    width: 50vw;
+}
+
+.soluciones {
+    opacity: 0%;
+}
+
+body:has(#sub2:focus) .soluciones {
+    transition: 0.5s;
+    opacity: 100%;
+}
+
+body:has(#sub2:focus) #menubtn {
+    transition: 0.5s;
+    position: relative;
+    left: 0%;
+}
+/*body:not(:has(#subm:active, #subm:focus, .menu:hover)) .menu {
+    transition: 0.5s;
+    width: 12.5vw;
+}*/
 
 .menu a:hover{
-    color:black;
+color:black;
 }
-
-.menu a:not(:hover){
-    color:white;
+.menu a:not(:hover) {
+    color: white;
 }
-
-.show{
-    opacity:0;
-}
+/*/*.show {
+    opacity: 0;
+}*/
 }
