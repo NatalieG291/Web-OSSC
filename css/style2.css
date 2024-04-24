@@ -1,19 +1,21 @@
-@media (min-width: 132px) and (max-width: 639px) {
+@media (min-width: 132px) and (max-width: 899px) {
     .menu {
         position: fixed;
         height: 10vw;
         width: 20vw;
         border-radius: 4vw;
         font-size: 5vw;
-        color: rgb(226, 88, 88);
+        color: white;
         padding: 0.5vw;
         margin: 1vw;
         box-shadow: 3px 1px 2px rgba(0, 0, 0, 0.3);
-        background: linear-gradient(120deg, #0dd4d3, #282466);
+        background: linear-gradient(120deg, #0dd4d470, #2824666b);
         background-size: 100% 100%;
         -webkit-animation: anim 18s ease infinite;
         -moz-animation: anim 18s ease infinite;
         animation: anim 18s ease infinite;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: black;
     }
 
     .tl {
@@ -104,7 +106,7 @@
     }
 
     .logo2 {
-        width: 10vw;
+        width: 15vw;
         height: auto;
         margin-top: 1vw;
     }
@@ -114,7 +116,7 @@
         transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);
         overflow: hidden;
         border-radius: 20px;
-        min-height: 25vW;
+        min-height: 40vw;
         box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.2);
 
         @media (max-width: 768px) {
@@ -126,7 +128,7 @@
         }
 
         &.card-has-bg {
-            transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);
+            transition: all 1000ms cubic-bezier(0.19, 1, 0.22, 1);
             background-size: 195%;
             background-repeat: no-repeat;
             background-position: center center;
@@ -145,7 +147,7 @@
                 transform: scale(0.98);
                 box-shadow: 0 0 5px -2px rgba(0, 0, 0, 0.3);
                 background-size: 250%;
-                transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);
+                transition: all 1000ms cubic-bezier(0.19, 1, 0.22, 1);
 
                 .card-img-overlay {
                     transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
@@ -165,7 +167,7 @@
         }
 
         .card-title {
-            font-weight: 800;
+            font-size: 100%;
         }
 
         .card-meta {
@@ -232,7 +234,7 @@
     }
 }
 
-@media (min-width: 640px) and (max-width: 1900px) {
+@media (min-width: 900px) and (max-width: 1900px) {
     .menu {
         position: fixed;
         height: 5vw;
@@ -243,11 +245,13 @@
         padding: 0.5vw;
         margin: 1vw;
         box-shadow: 3px 1px 2px rgba(0, 0, 0, 0.3);
-        background: linear-gradient(120deg, #0dd4d3, #282466);
+        background: linear-gradient(120deg, #0dd4d462, #2824665d);
         background-size: 100% 100%;
         -webkit-animation: anim 18s ease infinite;
         -moz-animation: anim 18s ease infinite;
         animation: anim 18s ease infinite;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: black;
     }
 
     .tl {
@@ -323,7 +327,7 @@
     }
 
     .logo2 {
-        width: 10vw;
+        width: 15vw;
         height: auto;
         margin-top: 1vw;
     }
@@ -347,7 +351,7 @@
         transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);
         overflow: hidden;
         border-radius: 20px;
-        min-height: 25vw;
+        min-height: 28vw;
         box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.2);
 
         @media (max-width: 768px) {
@@ -359,7 +363,7 @@
         }
 
         &.card-has-bg {
-            transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);
+            transition: all 1000ms cubic-bezier(0.19, 1, 0.22, 1);
             background-size: 165%;
             background-repeat: no-repeat;
             background-position: center center;
@@ -378,7 +382,7 @@
                 transform: scale(0.98);
                 box-shadow: 0 0 5px -2px rgba(0, 0, 0, 0.3);
                 background-size: 250%;
-                transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);
+                transition: all 1000ms cubic-bezier(0.19, 1, 0.22, 1);
 
                 .card-img-overlay {
                     transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
@@ -398,7 +402,7 @@
         }
 
         .card-title {
-            font-weight: 800;
+            font-size: 100%;
         }
 
         .card-meta {
