@@ -8,20 +8,37 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style2.css">
+          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body onresize="resizeW()">
     <!-- Menu Principal -->
-    <nav class="justify-content-start flex-column z-3 position-absolute">
-        <div class="container-fluid d-flex">
-            <div class="d-flex flex-column align-items-center menu" id="btn">
-                <a href="#" class="navbar-brand"><b>Home</b></a>
-                <div class="d-flex flex-column align-items-center show" id="itm">
-                    <a class="nav-link" href="#"><b>First</b></a>
-                    <a class="nav-link" href="#"><b>Second</b></a>
-                    <a class="nav-link" href="#"><b>Third</b></a>
-                    <a class="nav-link" href="#"><b>Fourth</b></a>
+    <nav class="container-fluid d-flex">
+        <div class="d-flex flex-row align-items-start menu" id="btn">
+            <div class="sidebar m-2" id="itm">
+                <button type="button" class="btn btn-primary btn-lg" id="custom-btn"><b>Inicio</b></button>
+                <button type="button" class="btn btn-primary btn-lg" id="custom-btn"><b>Nosotros</b></button>
+                <button type="button" class="btn btn-primary btn-lg sub1" id="custom-btn"><b>Productos</b></button>
+                <button type="button" class="btn btn-primary btn-lg sub2" id="custom-btn"><b>Soluciones</b></button>
+                <button type="button" class="btn btn-primary btn-lg" id="custom-btn"><b>Cursos</b></button>
+            </div>
+            <div class="sidebar p-3 m-3">
+                <div class="position-absolute productos">
+                    <button type="button" class="btn btn-primary btn-lg" id="custom-btn"><b>Nómina y capital humano</b></button>
+                    <button type="button" class="btn btn-primary btn-lg" id="custom-btn"><b>Reloj checador</b></button>
+                    <button type="button" class="btn btn-primary btn-lg" id="custom-btn"><b>Kiosco de empleados</b></button>
+                    <button type="button" class="btn btn-primary btn-lg" id="custom-btn"><b>Gestión y desarrollo del talento humano</b></button>
+                    <button type="button" class="btn btn-primary btn-lg" id="custom-btn"><b>Portal OSSC Empresa</b></button>
+                    <button type="button" class="btn btn-primary btn-lg" id="custom-btn"><b>Evaluaciones 360 y por objetivos</b></button>
+                    <button type="button" class="btn btn-primary btn-lg" id="custom-btn"><b>Reclutamiento</b></button>
+                    <button type="button" class="btn btn-primary btn-lg" id="custom-btn"><b>Comedor electrónico</b></button>
+                    <button type="button" class="btn btn-primary btn-lg" id="custom-btn"><b>Digitalizador de documentos</b></button>
+                </div>
+                <div class="position-absolute soluciones">
+                    <button type="button" class="btn btn-primary btn-lg" id="custom-btn"><b>Capacitación</b></button>
+                    <button type="button" class="btn btn-primary btn-lg" id="custom-btn"><b>Soporte y calidad</b></button>
+                    <button type="button" class="btn btn-primary btn-lg" id="custom-btn"><b>Arrendamiento software GIRO</b></button>
+                    <button type="button" class="btn btn-primary btn-lg" id="custom-btn"><b>Renta de servidor</b></button>
                 </div>
             </div>
         </div>
@@ -38,10 +55,10 @@
             <!-- Primer Contenido -->
             <div class="row bg-light">
                 <div class="col-sm-12 col-md-12 col-lg-6 mb-4" data-aos="fade-up-right"
-                data-aos-offset="100"
-                data-aos-duration="1000">
+                     data-aos-offset="100"
+                     data-aos-duration="1000">
                     <div class="card text-dark card-has-bg click-col"
-                        style="background-image: url(images/slide1.jpg);">
+                         style="background-image: url(images/slide1.jpg);">
                         <div class="card-img-overlay d-flex flex-column">
                             <div class="card-body">
                                 <h4 class="card-title mt-0 text-white">Siente la confianza de trabajar en equipo</h4>
@@ -50,16 +67,16 @@
                             </div>
                             <div class="card-footer">
                                 <!-- <h4 class="card-title mt-0 text-white">Siente la confianza de trabajar en equipo</h4>
-                            <h3 class="card-text mt-0 text-light">Logra tus metas. Conócenos, ¡sé parte! OSSC</h3> -->
+                                <h3 class="card-text mt-0 text-light">Logra tus metas. Conócenos, ¡sé parte! OSSC</h3> -->
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-6 mb-4" data-aos="fade-up-left"
-                data-aos-offset="100"
-                data-aos-duration="1000">
+                     data-aos-offset="100"
+                     data-aos-duration="1000">
                     <div class="card text-dark card-has-bg click-col"
-                        style="background-image: url(images/slide2.jpg);">
+                         style="background-image: url(images/slide2.jpg);">
                         <div class="card-img-overlay d-flex flex-column">
                             <div class="card-body">
                                 <h5 class="card-title text-white"></h5>
@@ -78,17 +95,21 @@
     <!-- Segundo Contenido -->
     <section class="wrapper">
         <div class="container" data-aos="zoom-in" data-aos-offset="200"
-        data-aos-duration="1000">
+             data-aos-duration="1000">
             <div class="row bg-light">
                 <div class="col-sm-12 col-md-12 col-lg-12 text-center mb-5 animated hinge slideInDown">
                     <h1 class=""><b>La información de tu negocio y tus colaboradores más organizada.</b></h1>
-                    <p class="fs-3"><i>En OSSC nos define la idea de darles a nuestros clientes y amigos las mejores
+                    <p class="fs-3">
+                        <i>
+                            En OSSC nos define la idea de darles a nuestros clientes y amigos las mejores
                             herramientas para poder desempeñarse en su área de la manera más sencilla y eficiente.
                             Nuestra experiencia y la capacitación constante son formas en las que garantizamos un
                             servicio único además de regirnos por altos estándares de Calidad en nuestros
                             procedimientos.
                             Nuestro software de nómina y capital humano tiene el fin de ayudarte con tus tareas del día
-                            a día.</i></p>
+                            a día.
+                        </i>
+                    </p>
                 </div>
             </div>
         </div>
@@ -96,7 +117,7 @@
     <!-- Logo intermedio -->
     <section class="wrapper">
         <div class="container" data-aos="zoom-in-down" data-aos-offset="200"
-        data-aos-duration="1000">
+             data-aos-duration="1000">
             <div class="row bg-light">
                 <div class="col text-center mb-5 animated hinge slideInDown">
                     <img src="images/Emblema_OSSC_1.png" alt="Logo" class="logo2">
@@ -108,7 +129,7 @@
     <!-- Tercer Contenido - Productos -->
     <section class="wrapper">
         <div class="container shadow" data-aos="zoom-in-down" data-aos-offset="200"
-        data-aos-duration="1000">
+             data-aos-duration="1000">
             <div class="row p-2">
                 <div class="col-sm-12 col-md-12 col-lg-3 m-1">
                     <div class="card c-size click-cool" style="background-image: url(images/pd8.png);min-height: 20vw;">
@@ -144,7 +165,7 @@
     <!-- Segunda Seccion Productos -->
     <section class="wrapper">
         <div class="container shadow mt-5" data-aos="zoom-in-down" data-aos-offset="200"
-        data-aos-duration="1000">
+             data-aos-duration="1000">
             <div class="row p-3">
                 <div class="col-sm-12 col-md-12 col-lg-3 m-1">
                     <div class="card c-size click-cool" style="background-image: url(images/pd1.jpg);min-height: 20vw;">
@@ -180,22 +201,25 @@
     <!-- Primera Info -->
     <section class="wrapper">
         <div class="container-fluid mt-5 mb-5" data-aos="zoom-out-up" data-aos-offset="200"
-        data-aos-duration="1000">
+             data-aos-duration="1000">
             <div class="container">
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-7">
                         <img src="https://lirp.cdn-website.com/50b520dc/dms3rep/multi/opt/HomeCapacitacion-1920w.jpg"
-                            class="img-fluid rounded" alt="">
+                             class="img-fluid rounded" alt="">
                     </div>
                     <div class="col-lg-5">
-                        <small
-                            class="fs-2 d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-3"><i class="bi bi-person-arms-up"></i></small>
+                        <small class="fs-2 d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-3"><i class="bi bi-person-arms-up"></i></small>
                         <h1 class="display-3 mb-4">Capacitación</h1>
-                        <h5 class="mb-4">Desde inducción a perfeccionamiento sobre el uso de la plataforma Giro Nómina,
+                        <h5 class="mb-4">
+                            Desde inducción a perfeccionamiento sobre el uso de la plataforma Giro Nómina,
                             software de nómina y capital humano, temas de seguro social, información laboral, sueldos y
-                            salarios, calidad en el servicio; OSSC ofrece capacitaciones a la medida.</h5>
-                        <a href="" class="btn btn-primary py-3 px-5 rounded-pill"><i class="bi bi-info-circle-fill"></i>
-                            Más información</a>
+                            salarios, calidad en el servicio; OSSC ofrece capacitaciones a la medida.
+                        </h5>
+                        <a href="" class="btn btn-primary py-3 px-5 rounded-pill">
+                            <i class="bi bi-info-circle-fill"></i>
+                            Más información
+                        </a>
                     </div>
                 </div>
             </div>
@@ -204,22 +228,23 @@
     <!-- Segunda Info -->
     <section class="wrapper">
         <div class="container-fluid mt-5 mb-5" data-aos="zoom-out-down" data-aos-offset="200"
-        data-aos-duration="1000">
+             data-aos-duration="1000">
             <div class="container">
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-5">
-                        <small
-                            class="fs-2 d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-3"><i class="bi bi-headset"></i></small>
+                        <small class="fs-2 d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-3"><i class="bi bi-headset"></i></small>
                         <h1 class="display-3 mb-4">Soporte y Calidad</h1>
-                        <h5 class="mb-4">Además de la preparación para conocer mejor nuestras plataformas, existe un
+                        <h5 class="mb-4">
+                            Además de la preparación para conocer mejor nuestras plataformas, existe un
                             equipo en constante disponibilidad para aclarar cualquier duda o situación relacionada a
                             nuestros sistemas y mejoramiento en la calidad.<a href=""
-                                class="btn btn-primary py-3 px-5 rounded-pill mt-4"><i
-                                    class="bi bi-info-circle-fill"></i> Más información</a>
+                                                                              class="btn btn-primary py-3 px-5 rounded-pill mt-4">
+                                <i class="bi bi-info-circle-fill"></i> Más información
+                            </a>
                     </div>
                     <div class="col-lg-7">
                         <img src="https://lirp.cdn-website.com/50b520dc/dms3rep/multi/opt/HomeSoporte-1920w.jpg"
-                            class="img-fluid rounded" alt="">
+                             class="img-fluid rounded" alt="">
                     </div>
                 </div>
             </div>
@@ -228,22 +253,25 @@
     <!-- Tercera Info -->
     <section class="wrapper">
         <div class="container-fluid mt-5 mb-5" data-aos="zoom-out-up" data-aos-offset="200"
-        data-aos-duration="1000">
+             data-aos-duration="1000">
             <div class="container">
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-7">
                         <img src="https://lirp.cdn-website.com/50b520dc/dms3rep/multi/opt/otra-1920w.jpg"
-                            class="img-fluid rounded" alt="">
+                             class="img-fluid rounded" alt="">
                     </div>
                     <div class="col-lg-5">
-                        <small
-                            class=" fs-2 d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-3"><i class="bi bi-device-hdd"></i></small>
+                        <small class=" fs-2 d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-3"><i class="bi bi-device-hdd"></i></small>
                         <h1 class="display-3 mb-4">Arrendamiento Software Giro</h1>
-                        <h5 class="mb-4">Dentro de las posibilidades y aplicaciones ofrecidas por OSSC, pueden armarse
+                        <h5 class="mb-4">
+                            Dentro de las posibilidades y aplicaciones ofrecidas por OSSC, pueden armarse
                             paquetes desde lo básico a incluir todos los módulos, armando convenientes programas de
-                            arrendamiento para tu empresa.</h5>
-                        <a href="" class="btn btn-primary py-3 px-5 rounded-pill"><i class="bi bi-info-circle-fill"></i>
-                            Más información</a>
+                            arrendamiento para tu empresa.
+                        </h5>
+                        <a href="" class="btn btn-primary py-3 px-5 rounded-pill">
+                            <i class="bi bi-info-circle-fill"></i>
+                            Más información
+                        </a>
                     </div>
                 </div>
             </div>
@@ -252,42 +280,44 @@
     <!-- Cuarta Info -->
     <section class="wrapper">
         <div class="container-fluid mt-5 mb-5" data-aos="zoom-out-down" data-aos-offset="200"
-        data-aos-duration="1000">
+             data-aos-duration="1000">
             <div class="container">
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-5 ">
                         <small class="fs-2 d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-3"><i class="bi bi-cloud-check-fill"></i></small>
                         <h1 class="display-3 mb-4">Renta de Servidor</h1>
-                        <h5 class="mb-4">Nuestros servidores son una alternativa segura, estable y confiable, para ofrecer accesibilidad y funcionalidad a aquellas empresas que requieran acceso al sistema desde cualquier punto a través de una conexión segura.<a href=""
-                                class="btn btn-primary py-3 px-5 rounded-pill mt-4"><i
-                                    class="bi bi-info-circle-fill"></i> Más información</a>
+                        <h5 class="mb-4">
+                            Nuestros servidores son una alternativa segura, estable y confiable, para ofrecer accesibilidad y funcionalidad a aquellas empresas que requieran acceso al sistema desde cualquier punto a través de una conexión segura.<a href=""
+                                                                                                                                                                                                                                                         class="btn btn-primary py-3 px-5 rounded-pill mt-4">
+                                <i class="bi bi-info-circle-fill"></i> Más información
+                            </a>
                     </div>
                     <div class="col-lg-7">
                         <img src="https://lirp.cdn-website.com/50b520dc/dms3rep/multi/opt/Banner-3c019ec3-1920w.jpg"
-                            class="img-fluid rounded" alt="">
+                             class="img-fluid rounded" alt="">
                     </div>
                 </div>
             </div>
         </div>
     </section>
-        <!-- Logo final -->
-        <section class="wrapper">
-            <div class="container">
-                <div class="row bg-light">
-                    <div class="col text-center mb-5" data-aos="fade-up"
-                    data-aos-offset="200"
-                    data-aos-duration="1000">
-                        <img src="images/Emblema_OSSC.png" alt="Logo" class="logo2">
-                        <h1 class="text-primary"><b>¡Soy OSSC!</b></h1>
-                    </div>
+    <!-- Logo final -->
+    <section class="wrapper">
+        <div class="container">
+            <div class="row bg-light">
+                <div class="col text-center mb-5" data-aos="fade-up"
+                     data-aos-offset="200"
+                     data-aos-duration="1000">
+                    <img src="images/Emblema_OSSC.png" alt="Logo" class="logo2">
+                    <h1 class="text-primary"><b>¡Soy OSSC!</b></h1>
                 </div>
             </div>
-        </section>
-        <section class="wrapper">
-            <div class="container-fluid copyright bg-primary py-4">
-                <div class="container">
-                    <div class="row">
-                       <div class="col-md-4 text-center text-md-start mb-3 mb-md-0">
+        </div>
+    </section>
+    <section class="wrapper">
+        <div class="container-fluid copyright bg-primary py-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 text-center text-md-start mb-3 mb-md-0">
                         <div class="col">
                             <span class="text-light">CONTACTANOS</span>
                         </div>
@@ -297,60 +327,60 @@
                         <div class="col">
                             <span class="text-light fs-3">info@ossc.com.mx</span>
                         </div>
-                        </div> 
-                        <div class="col-md-4 text-center text-md-center mb-3 mb-md-0">
-                            <div class="col">
-                                <span class="text-light">UBICACIÓN</span>
-                            </div>
-                            <div class="col">
-                                <span class="text-light fs-3">Unknow</span>
-                            </div>
-                            <div class="col">
-                                <span class="text-light fs-3">.</span>
-                            </div>
+                    </div>
+                    <div class="col-md-4 text-center text-md-center mb-3 mb-md-0">
+                        <div class="col">
+                            <span class="text-light">UBICACIÓN</span>
                         </div>
-                        <div class="col-md-4 text-center text-md-end mb-3 mb-md-0">
-                            <div class="col">
-                                <span class="text-light">REDES SOCIALES</span>
-                            </div>
-                            <div class="col">
-                                <span class="text-light fs-2">
-                                    <i class="bi bi-facebook"></i>
-                                    <i class="bi bi-twitter-x"></i>
-                                    <i class="bi bi-person-bounding-box"></i>
-                                </span>
-                            </div>
-                            <div class="col">
-                                <span class="text-light">.</span>
-                            </div>
+                        <div class="col">
+                            <span class="text-light fs-3">Unknow</span>
+                        </div>
+                        <div class="col">
+                            <span class="text-light fs-3">.</span>
                         </div>
                     </div>
-                    <br>
-                    <div class="row">
-                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                            <span class="text-light"><a href="https://www.ossc.mx/" class="text-light">OSSC</a>, Derechos reservados.</span>
+                    <div class="col-md-4 text-center text-md-end mb-3 mb-md-0">
+                        <div class="col">
+                            <span class="text-light">REDES SOCIALES</span>
                         </div>
-                        <div class="col-md-6 text-center text-md-end text-white">
-                            Desarrollado por OSSC y Distribuido por <a class="text-light" href="https://www.ossc.mx/">OSSC</a>
+                        <div class="col">
+                            <span class="text-light fs-2">
+                                <i class="bi bi-facebook"></i>
+                                <i class="bi bi-twitter-x"></i>
+                                <i class="bi bi-person-bounding-box"></i>
+                            </span>
+                        </div>
+                        <div class="col">
+                            <span class="text-light">.</span>
                         </div>
                     </div>
                 </div>
+                <br>
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        <span class="text-light"><a href="https://www.ossc.mx/" class="text-light">OSSC</a>, Derechos reservados.</span>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end text-white">
+                        Desarrollado por OSSC y Distribuido por <a class="text-light" href="https://www.ossc.mx/">OSSC</a>
+                    </div>
+                </div>
             </div>
-        </section>
-    <script type="text/javascript" src="lib/main2.js"></script>
+        </div>
+    </section>
+    <script type="text/javascript" src="lib/main.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-        crossorigin="anonymous"></script>
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
-        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
-        crossorigin="anonymous"></script>
+            integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+            crossorigin="anonymous"></script>
 </body>
 
 </html>
