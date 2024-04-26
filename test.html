@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Horizontal Scrolling Card Carousel</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    .card-container {
+      display: flex;
+      overflow-x: hidden; /* Hide the horizontal scrollbar */
+      position: relative;
+      margin-bottom: 20px;
+      cursor: grab; /* Add grab cursor for draggable effect */
+    }
+    .card {
+      flex: 0 0 auto;
+      width: 300px; /* Adjust the width of each card */
+      margin-right: 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+      user-select: none;
+      -moz-user-select: none;
+      -webkit-user-select: none;
+      -ms-user-select: none;
+      width: 18vw;
+      height: 24vw;
+    }
+
+    @media (max-width: 768px) {
+        .card{
+            width: 45vw;
+            height: 65vw;
+        }
+    }
+
+    @media (min-width: 769px) {
+        .card{
+            width: 18vw;
+            height: 24vw;
+        }
+    }
+    .card:hover {
+      transform: scale(101%);
+    }
+    .card img {
+      width: 100%;
+      height: auto;
+    }
+    .carousel-controls {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      z-index: 1;
+    }
+    .carousel-controls button {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      border: none;
+      outline: none;
+      cursor: pointer;
+    }
+    .prev-btn {
+      left: 0;
+      border-radius: 5rem;
+      font-size: 2rem;
+      opacity: 0.5;
+    }
+    .next-btn {
+      right: 0;
+      border-radius: 5rem;
+      font-size: 2rem;
+      opacity: 0.5;
+    }
+
+    .prev-btn:hover{
+        transition: 1s;
+        opacity: 1;
+    }
+
+    .next-btn:hover{
+        transition: 1s;
+        opacity: 1;
+    }
+
+    .prev-btn:not(:hover){
+        transition: 1s;
+        opacity: 0.5;
+    }
+
+    .next-btn:not(:hover){
+        transition: 1s;
+        opacity: 0.5;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col p-3">
+    <button class="carousel-controls btn btn-light prev-btn" id="prevBtn">&lt;</button>
+      <div class="card-container p-1 m-1" id="cardContainer">
+        <div class="card shadow-lg p-3" style="background-image: url(https://via.placeholder.com/300);">
+            <h5 class="card-title">Card 1</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+        <!-- Add more cards -->
+        <div class="card shadow-lg p-3" style="background-image: url(https://via.placeholder.com/300);">
+            <h5 class="card-title">Card 2</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+        <div class="card shadow-lg p-3" style="background-image: url(https://via.placeholder.com/300);">
+            <h5 class="card-title">Card 3</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+        <div class="card shadow-lg p-3" style="background-image: url(https://via.placeholder.com/300);">
+            <h5 class="card-title">Card 4</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+        <div class="card shadow-lg p-3" style="background-image: url(https://via.placeholder.com/300);">
+            <h5 class="card-title">Card 5</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+        <div class="card shadow-lg p-3" style="background-image: url(https://via.placeholder.com/300);">
+            <h5 class="card-title">Card 6</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+        <!-- Repeat card structure for cards 3 to 9 -->
+      </div>
+      <button class="carousel-controls btn btn-light next-btn" id="nextBtn">&gt;</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  const prevBtn = document.getElementById('prevBtn');
+  const nextBtn = document.getElementById('nextBtn');
+  const cardContainer = document.getElementById('cardContainer');
+  let isMouseDown = false;
+  let startX;
+  let scrollLeft;
+
+  prevBtn.addEventListener('click', function() {
+    cardContainer.scroll({
+      left: cardContainer.scrollLeft - 350, // Adjust scroll distance as needed
+      behavior: 'smooth' // Smooth scrolling behavior
+    });
+  });
+
+  nextBtn.addEventListener('click', function() {
+    cardContainer.scroll({
+      left: cardContainer.scrollLeft + 350, // Adjust scroll distance as needed
+      behavior: 'smooth' // Smooth scrolling behavior
+    });
+  });
+
+  cardContainer.addEventListener('mousedown', (e) => {
+    isMouseDown = true;
+    startX = e.pageX - cardContainer.offsetLeft;
+    scrollLeft = cardContainer.scrollLeft;
+  });
+
+  cardContainer.addEventListener('mouseleave', () => {
+    isMouseDown = false;
+  });
+
+  cardContainer.addEventListener('mouseup', () => {
+    isMouseDown = false;
+  });
+
+  cardContainer.addEventListener('mousemove', (e) => {
+    if (!isMouseDown) return;
+    e.preventDefault();
+    const x = e.pageX - cardContainer.offsetLeft;
+    const walk = (x - startX) * 3; // Adjust scroll speed
+    cardContainer.scrollLeft = scrollLeft - walk;
+  });
+</script>
+
+</body>
+</html>

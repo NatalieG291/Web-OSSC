@@ -10,6 +10,11 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        * {
+            font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+        }
+    </style>
 </head>
 
 <body onresize="resizeW()">
@@ -19,287 +24,205 @@
             <div class="col-sm col-md col-lg text-start ms-2" id="btn">
                 <a class="navbar-brand" id="principal"><b><i class="bi bi-house-door-fill"></i> Inicio</b></a>
                 <a class="navbar-brand show" id="itm" href="#"><b><i class="bi bi-clipboard-fill"></i> Productos</b></a>
-                <a class="navbar-brand show" id="itm2" href="#"><b><i class="bi bi-info-circle-fill"></i> Nosotros</b></a>
+                <a class="navbar-brand show" id="itm2" href="#"><b><i class="bi bi-info-circle-fill"></i>
+                        Nosotros</b></a>
                 <a class="navbar-brand show" id="itm3" href="#"><b><i class="bi bi-gear-fill"></i> Soluciones</b></a>
-                <a class="navbar-brand show" id="itm4" href="#"><b><i class="bi bi-clipboard2-data-fill"></i> Cursos</b></a>
+                <a class="navbar-brand show" id="itm4" href="#"><b><i class="bi bi-clipboard2-data-fill"></i>
+                        Cursos</b></a>
             </div>
         </div>
     </nav>
     <!-- Logo y Titulo -->
-    <div class="container-fluid pt-1 bg-primary mb-5">
+    <div class="container-fluid pt-1 bg-light mb-5">
         <div class="container pt-5">
             <div class="row g-5 pt-5">
-                <div class="col-lg-6 align-self-center text-center text-lg-start mb-lg-5" data-aos="zoom-in-right" data-aos-offset="200" data-aos-duration="1000">
+                <div class="col-lg-6 align-self-center text-center text-lg-start mb-lg-5" data-aos="zoom-in-right"
+                    data-aos-offset="200" data-aos-duration="1000">
                     <!-- <div class="btn btn-sm border rounded-pill text-white px-3 mb-3 ">AI.Tech</div> -->
-                    <h1 class="display-4 text-white mb-4 ">Artificial Intelligence for Your Business</h1>
-                    <p class="text-white mb-4 ">Tempor rebum no at dolore lorem clita rebum rebum ipsum
-                        rebum stet dolor sed justo kasd. Ut dolor sed magna dolor sea diam. Sit diam sit</p>
-                    <a href="" class="btn btn-light py-sm-3 px-sm-5 rounded-pill me-3 ">Read More</a>
-                    <a href="" class="btn btn-outline-light py-sm-3 px-sm-5 rounded-pill ">Contact Us</a>
+                    <h1 class="display-4 text-black mb-4 "><b>Unete a !OSSC¡</b></h1>
+                    <p class="text-secondary mb-4 "><b>Tu mejor opción en cuanto a software de nomina y capital
+                            humano.</b></p>
+                    <a href="" class="btn btn-secondary py-sm-3 px-sm-5 rounded-pill me-3 ">Nosotros</a>
+                    <a href="" class="btn btn-outline-secondary py-sm-3 px-sm-5 rounded-pill ">Contacto</a>
                 </div>
-                <div class="col-lg-6 align-self-center text-center text-lg-center" data-aos="zoom-in-left" data-aos-offset="200" data-aos-duration="1000">
+                <div class="col-lg-6 align-self-center text-center text-lg-center" data-aos="zoom-in-left"
+                    data-aos-offset="200" data-aos-duration="1000">
                     <img class="img-fluid" src="images/Logo_OSSC.png" alt="">
-                    <h3 class="text-white">Software De Nomina y Capital Humano</h3>
+                    <h3 class="text-ossc2">Software De Nomina y Capital Humano</h3>
                 </div>
             </div>
         </div>
     </div>
     <!-- Segundo Contenido -->
-        <div class="container-fluid bg-light" data-aos="fade-right" data-aos-offset="200" data-aos-duration="1000" data-aos-easing="ease-in-sine">
-            <div class="row">
-                <div class="col-sm-12 col-md-12 col-lg-12 text-center mb-5 animated hinge slideInDown">
-                    <p class="fs-2"><b>La información de tu negocio y tus colaboradores más organizada.</b></h1>
-                    <p class="fs-3">
-                        <i>
-                            En OSSC nos define la idea de darles a nuestros clientes y amigos las mejores
-                            herramientas para poder desempeñarse en su área de la manera más sencilla y eficiente.
-                            Nuestra experiencia y la capacitación constante son formas en las que garantizamos un
-                            servicio único además de regirnos por altos estándares de Calidad en nuestros
-                            procedimientos.
-                            Nuestro software de nómina y capital humano tiene el fin de ayudarte con tus tareas del día
-                            a día.
-                        </i>
-                    </p>
-                </div>
+    <div class="container-fluid">
+        <div class="row-sm row-md row-lg">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <h1 class="text-ossc2 text-center">Nuestros Clientes</h1>
             </div>
         </div>
-    <!-- Logo intermedio -->
-        <div class="container-fluid bg-light" data-aos="zoom-in-down" data-aos-offset="200" data-aos-duration="1000">
-            <div class="row">
-                <div class="col text-center mb-5 animated hinge slideInDown">
-                    <img src="images/Emblema_OSSC_1.png" alt="Logo" class="logo2">
-                    <h1 class="text-primary"><b>Nuestros Productos</b></h1>
-                </div>
-            </div>
+    </div>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm col-md col-lg">
+        <button class="carousel-controls prev-btn" id="prevBtn">&lt;</button>
+    </div>
+    <div class="col-sm col-md col-lg p-3">
+      <div class="card-container p-1 m-1" id="cardContainer">
+        <div class="cards shadow p-3" style="background-image: url(images/canadian.png);">
+            <!-- <h5 class="card-title">Card 1</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
         </div>
+        <!-- Add more cards -->
+        <div class="cards shadow p-3" style="background-image: url(images/fabricas.png);">
+            <!-- <h5 class="card-title">Card 2</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+        </div>
+        <div class="cards shadow p-3" style="background-image: url(images/fruti_queko.jpg);">
+            <!-- <h5 class="card-title">Card 3</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+        </div>
+        <div class="cards shadow p-3" style="background-image: url(images/global_gas.png);">
+            <!-- <h5 class="card-title">Card 4</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+        </div>
+        <div class="cards shadow p-3" style="background-image: url(images/mca.png);">
+            <!-- <h5 class="card-title">Card 5</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+        </div>
+        <div class="cards shadow p-3" style="background-image: url(images/nefab.png);">
+            <!-- <h5 class="card-title">Card 6</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+        </div>
+        <!-- Repeat card structure for cards 3 to 9 -->
+      </div>
+      <div class="col-sm col-md col-lg">
+        <button class="carousel-controls next-btn" id="nextBtn">&gt;</button>
+      </div>
+    </div>
+  </div>
+</div>
     <!-- Tercer Contenido - Productos -->
-        <div class="container" data-aos="zoom-in-down" data-aos-offset="200" data-aos-duration="1000">
-            <div class="row-sm row flex-nowrap p-2">
-                <div class="col-sm-12 col-md-12 col-lg-3 m-1">
-                    <div class="card c-size click-cool" style="background-image: url(images/pd8.png);min-height: 20vw;">
-                        <div class="card-img-overlay d-flex flex-column">
-                            <p class="fs-4 card-text text-light contorno"><b>Nomina y Capital Humano</b></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-12 col-lg-3 m-1">
-                    <div class="card c-size click-cool" style="background-image: url(images/pd9.png);min-height: 20vw;">
-                        <div class="card-img-overlay d-flex flex-column">
-                            <p class="fs-4 card-text text-light contorno"><b>Reloj Checador</b></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-12 col-lg-3 m-1">
-                    <div class="card c-size click-cool" style="background-image: url(images/pd5.jpg);min-height: 20vw;">
-                        <div class="card-img-overlay d-flex flex-column">
-                            <p class="fs-4 card-text text-light contorno"><b>Kiosko De Empleados</b></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-12 col-lg-3 m-1">
-                    <div class="card c-size click-cool"
-                        style="background-image: url(images/pd10.jpg);min-height: 20vw;">
-                        <div class="card-img-overlay d-flex flex-column">
-                            <p class="fs-4 card-title text-light contorno"><b>Gestión y Desarrollo Del Talento
-                                    Humano</b></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row-sm row flex-nowrap p-3">
-                <div class="col-sm-12 col-md-12 col-lg-3 m-1">
-                    <div class="card c-size click-cool" style="background-image: url(images/pd1.jpg);min-height: 20vw;">
-                        <div class="card-img-overlay d-flex flex-column">
-                            <p class="fs-4 card-text text-light contorno"><b>Evaluaciones 360° y Por Objetivos</b></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-12 col-lg-3 m-1">
-                    <div class="card c-size click-cool" style="background-image: url(images/pd2.jpg);min-height: 20vw;">
-                        <div class="card-img-overlay d-flex flex-column">
-                            <p class="fs-4 card-text text-light contorno"><b>Reclutamiento</b></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-12 col-lg-3 m-1">
-                    <div class="card c-size click-cool" style="background-image: url(images/pd4.jpg);min-height: 20vw;">
-                        <div class="card-img-overlay d-flex flex-column">
-                            <p class="fs-4 card-text text-light contorno"><b>Digitalizador De Documentos</b></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-12 col-lg-3 m-1">
-                    <div class="card c-size click-cool" style="background-image: url(images/pd6.png);min-height: 20vw;">
-                        <div class="card-img-overlay d-flex flex-column">
-                            <p class="fs-4 card-text text-light contorno"><b>Portal OSSC Empresa</b></p>
-                        </div>
-                    </div>
-                </div>
+    <div class="container-fluid">
+        <div class="row-sm row-md row-lg">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <h1 class="text-ossc2 text-center">Nuestros Productos</h1>
             </div>
         </div>
+    </div>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm col-md col-lg">
+        <button class="carousel-controls2 prev-btn" id="prevBtn2">&lt;</button>
+    </div>
+    <div class="col-sm col-md col-lg p-3">
+      <div class="card-container p-1 m-1" id="cardContainer2">
+        <div class="cards2 shadow p-3" style="background-image: url(images/pd1.jpg);">
+            <!-- <h5 class="card-title">Card 1</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+        </div>
+        <!-- Add more cards -->
+        <div class="cards2 shadow p-3" style="background-image: url(images/pd2.jpg);">
+            <!-- <h5 class="card-title">Card 2</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+        </div>
+        <div class="cards2 shadow p-3" style="background-image: url(images/pd4.jpg);">
+            <!-- <h5 class="card-title">Card 3</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+        </div>
+        <div class="cards2 shadow p-3" style="background-image: url(images/pd5.jpg);">
+            <!-- <h5 class="card-title">Card 4</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+        </div>
+        <div class="cards2 shadow p-3" style="background-image: url(images/pd6.png);">
+            <!-- <h5 class="card-title">Card 5</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+        </div>
+        <div class="cards2 shadow p-3" style="background-image: url(images/pd7.png);">
+            <!-- <h5 class="card-title">Card 6</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+        </div>
+        <div class="cards2 shadow p-3" style="background-image: url(images/pd8.png);">
+            <!-- <h5 class="card-title">Card 6</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+        </div>
+        <div class="cards2 shadow p-3" style="background-image: url(images/pd9.png);">
+            <!-- <h5 class="card-title">Card 6</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+        </div>
+        <div class="cards2 shadow p-3" style="background-image: url(images/pd10.jpg);">
+            <!-- <h5 class="card-title">Card 6</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+        </div>
+        <!-- Repeat card structure for cards 3 to 9 -->
+      </div>
+    </div>
+    <div class="col-sm col-md col-lg">
+        <button class="carousel-controls2 next-btn" id="nextBtn2">&gt;</button>
+    </div>
+  </div>
+</div>
     <!-- Primera Info -->
-        <div class="container-fluid mt-5 mb-5" data-aos="zoom-out-up" data-aos-offset="200" data-aos-duration="1000">
-            <div class="container">
-                <div class="row g-5 align-items-center">
-                    <div class="col-lg-7">
-                        <img src="https://lirp.cdn-website.com/50b520dc/dms3rep/multi/opt/HomeCapacitacion-1920w.jpg"
-                            class="img-fluid rounded" alt="">
-                    </div>
-                    <div class="col-lg-5">
-                        <small
-                            class="fs-2 d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-3"><i
-                                class="bi bi-person-arms-up"></i></small>
-                        <h1 class="display-3 mb-4">Capacitación</h1>
-                        <h5 class="mb-4">
-                            Desde inducción a perfeccionamiento sobre el uso de la plataforma Giro Nómina,
-                            software de nómina y capital humano, temas de seguro social, información laboral, sueldos y
-                            salarios, calidad en el servicio; OSSC ofrece capacitaciones a la medida.
-                        </h5>
-                        <a href="" class="btn btn-primary py-3 px-5 rounded-pill">
-                            <i class="bi bi-info-circle-fill"></i>
-                            Más información
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
+
     <!-- Segunda Info -->
-        <div class="container-fluid mt-5 mb-5" data-aos="zoom-out-down" data-aos-offset="200" data-aos-duration="1000">
-            <div class="container">
-                <div class="row g-5 align-items-center">
-                    <div class="col-lg-5">
-                        <small
-                            class="fs-2 d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-3"><i
-                                class="bi bi-headset"></i></small>
-                        <h1 class="display-3 mb-4">Soporte y Calidad</h1>
-                        <h5 class="mb-4">
-                            Además de la preparación para conocer mejor nuestras plataformas, existe un
-                            equipo en constante disponibilidad para aclarar cualquier duda o situación relacionada a
-                            nuestros sistemas y mejoramiento en la calidad.<a href=""
-                                class="btn btn-primary py-3 px-5 rounded-pill mt-4">
-                                <i class="bi bi-info-circle-fill"></i> Más información
-                            </a>
-                    </div>
-                    <div class="col-lg-7">
-                        <img src="https://lirp.cdn-website.com/50b520dc/dms3rep/multi/opt/HomeSoporte-1920w.jpg"
-                            class="img-fluid rounded" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
+
     <!-- Tercera Info -->
-        <div class="container-fluid mt-5 mb-5" data-aos="zoom-out-up" data-aos-offset="200" data-aos-duration="1000">
-            <div class="container">
-                <div class="row g-5 align-items-center">
-                    <div class="col-lg-7">
-                        <img src="https://lirp.cdn-website.com/50b520dc/dms3rep/multi/opt/otra-1920w.jpg"
-                            class="img-fluid rounded" alt="">
-                    </div>
-                    <div class="col-lg-5">
-                        <small
-                            class=" fs-2 d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-3"><i
-                                class="bi bi-device-hdd"></i></small>
-                        <h1 class="display-3 mb-4">Arrendamiento Software Giro</h1>
-                        <h5 class="mb-4">
-                            Dentro de las posibilidades y aplicaciones ofrecidas por OSSC, pueden armarse
-                            paquetes desde lo básico a incluir todos los módulos, armando convenientes programas de
-                            arrendamiento para tu empresa.
-                        </h5>
-                        <a href="" class="btn btn-primary py-3 px-5 rounded-pill">
-                            <i class="bi bi-info-circle-fill"></i>
-                            Más información
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
+
     <!-- Cuarta Info -->
-        <div class="container-fluid mt-5 mb-5" data-aos="zoom-out-down" data-aos-offset="200" data-aos-duration="1000">
-            <div class="container">
-                <div class="row g-5 align-items-center">
-                    <div class="col-lg-5 ">
-                        <small
-                            class="fs-2 d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-3"><i
-                                class="bi bi-cloud-check-fill"></i></small>
-                        <h1 class="display-3 mb-4">Renta de Servidor</h1>
-                        <h5 class="mb-4">
-                            Nuestros servidores son una alternativa segura, estable y confiable, para ofrecer
-                            accesibilidad y funcionalidad a aquellas empresas que requieran acceso al sistema desde
-                            cualquier punto a través de una conexión segura.<a href=""
-                                class="btn btn-primary py-3 px-5 rounded-pill mt-4">
-                                <i class="bi bi-info-circle-fill"></i> Más información
-                            </a>
-                    </div>
-                    <div class="col-lg-7">
-                        <img src="https://lirp.cdn-website.com/50b520dc/dms3rep/multi/opt/Banner-3c019ec3-1920w.jpg"
-                            class="img-fluid rounded" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
+
     <!-- Logo final -->
-        <div class="container-fluid">
-            <div class="row bg-light">
-                <div class="col text-center mb-5" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000">
-                    <img src="images/Emblema_OSSC.png" alt="Logo" class="logo2">
-                    <h1 class="text-primary"><b>¡Soy OSSC!</b></h1>
-                </div>
-            </div>
-        </div>
-        <div class="container-fluid copyright bg-primary py-4">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4 text-center text-md-start mb-3 mb-md-0">
-                        <div class="col">
-                            <span class="text-light">CONTACTANOS</span>
-                        </div>
-                        <div class="col">
-                            <span class="text-light fs-3">Tel: (33) 2494 8488</span>
-                        </div>
-                        <div class="col">
-                            <span class="text-light fs-3">info@ossc.com.mx</span>
-                        </div>
+    <div class="container-fluid copyright bg-ossc2 py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 text-center text-md-start mb-3 mb-md-0">
+                    <div class="col">
+                        <span class="text-light">CONTACTANOS</span>
                     </div>
-                    <div class="col-md-4 text-center text-md-center mb-3 mb-md-0">
-                        <div class="col">
-                            <span class="text-light">UBICACIÓN</span>
-                        </div>
-                        <div class="col">
-                            <span class="text-light fs-3">Unknow</span>
-                        </div>
-                        <div class="col">
-                            <span class="text-light fs-3">.</span>
-                        </div>
+                    <div class="col">
+                        <span class="text-light fs-3">Tel: (33) 2494 8488</span>
                     </div>
-                    <div class="col-md-4 text-center text-md-end mb-3 mb-md-0">
-                        <div class="col">
-                            <span class="text-light">REDES SOCIALES</span>
-                        </div>
-                        <div class="col">
-                            <span class="text-light fs-2">
-                                <i class="bi bi-facebook"></i>
-                                <i class="bi bi-twitter-x"></i>
-                                <i class="bi bi-person-bounding-box"></i>
-                            </span>
-                        </div>
-                        <div class="col">
-                            <span class="text-light">.</span>
-                        </div>
+                    <div class="col">
+                        <span class="text-light fs-3">info@ossc.com.mx</span>
                     </div>
                 </div>
-                <br>
-                <div class="row">
-                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        <span class="text-light"><a href="https://www.ossc.mx/" class="text-light">OSSC</a>, Derechos
-                            reservados.</span>
+                <div class="col-md-4 text-center text-md-center mb-3 mb-md-0">
+                    <div class="col">
+                        <span class="text-light">UBICACIÓN</span>
                     </div>
-                    <div class="col-md-6 text-center text-md-end text-white">
-                        Desarrollado por OSSC y Distribuido por <a class="text-light"
-                            href="https://www.ossc.mx/">OSSC</a>
+                    <div class="col">
+                        <span class="text-light fs-3">Unknow</span>
+                    </div>
+                    <div class="col">
+                        <span class="text-light fs-3">.</span>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center text-md-end mb-3 mb-md-0">
+                    <div class="col">
+                        <span class="text-light">REDES SOCIALES</span>
+                    </div>
+                    <div class="col">
+                        <span class="text-light fs-2">
+                            <i class="bi bi-facebook"></i>
+                            <i class="bi bi-twitter-x"></i>
+                            <i class="bi bi-person-bounding-box"></i>
+                        </span>
+                    </div>
+                    <div class="col">
+                        <span class="text-light">.</span>
                     </div>
                 </div>
             </div>
+            <br>
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    <span class="text-light"><a href="https://www.ossc.mx/" class="text-light">OSSC</a>, Derechos
+                        reservados.</span>
+                </div>
+                <div class="col-md-6 text-center text-md-end text-white">
+                    Desarrollado por OSSC y Distribuido por <a class="text-light" href="https://www.ossc.mx/">OSSC</a>
+                </div>
+            </div>
         </div>
+    </div>
     <script type="text/javascript" src="lib/main.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
