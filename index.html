@@ -19,7 +19,7 @@
 
 <body onresize="resizeW()">
     <!-- Menu Principal -->
-    <nav class="container">
+    <nav class="container-fluid">
         <div class="row-sm row-md row-lg menu mt-3">
             <div class="col-sm col-md col-lg text-start ms-2" id="btn">
                 <a class="navbar-brand" id="principal"><b><i class="bi bi-house-door-fill"></i> Inicio</b></a>
@@ -32,8 +32,9 @@
             </div>
         </div>
     </nav>
+    <br>
     <!-- Logo y Titulo -->
-    <div class="container-fluid pt-1 bg-light mb-5">
+    <div class="container-fluid pt-1 mb-5">
         <div class="container pt-5">
             <div class="row g-5 pt-5">
                 <div class="col-lg-6 align-self-center text-center text-lg-start mb-lg-5" data-aos="zoom-in-right"
@@ -57,110 +58,60 @@
     <div class="container-fluid">
         <div class="row-sm row-md row-lg">
             <div class="col-sm-12 col-md-12 col-lg-12">
-                <h1 class="text-ossc2 text-center">Nuestros Clientes</h1>
+                <h1 class="text-ossc2 text-center">Nuestros Productos</h1>
             </div>
         </div>
     </div>
 <div class="container-fluid">
+    <div class="row">
+        <div class="col">
+            <h2 class="text-secondary text-center"><b class="text-black">Ofrecemos diversos modulos </b>para afrontar cada reto.</h2>
+        </div>
+    </div>
   <div class="row">
-    <div class="col-sm col-md col-lg">
+    <div class="col-sm col-lg">
         <button class="carousel-controls prev-btn" id="prevBtn">&lt;</button>
     </div>
-    <div class="col-sm col-md col-lg p-3">
+    <div class="col-sm col-lg p-3">
       <div class="card-container p-1 m-1" id="cardContainer">
-        <div class="cards shadow p-3" style="background-image: url(images/canadian.png);">
-            <!-- <h5 class="card-title">Card 1</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+        <div class="cards shadow p-3" style="background-image: url(images/nomina_capital.jpg);background-repeat: no-repeat;background-size: cover;background-position: left center;">
+            <h2 class="text-white text-center"><b>Nomina y Capital Humano</b></h2>
         </div>
         <!-- Add more cards -->
-        <div class="cards shadow p-3" style="background-image: url(images/fabricas.png);">
-            <!-- <h5 class="card-title">Card 2</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+        <div class="cards shadow p-3" style="background-image: url(images/reloj_checador.jpeg);background-repeat: no-repeat;background-size: cover;background-position: left center;">
+            <h2 class="text-white text-center"><b>Reloj Checador</b></h2>
         </div>
-        <div class="cards shadow p-3" style="background-image: url(images/fruti_queko.jpg);">
-            <!-- <h5 class="card-title">Card 3</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+        <div class="cards shadow p-3" style="background-image: url(images/kiosko_empleados.jpg);background-repeat: no-repeat;background-size: cover;background-position: top center;">
+            <h2 class="text-black contorno text-center"><b>Kiosko De Empleados</b></h2>
         </div>
-        <div class="cards shadow p-3" style="background-image: url(images/global_gas.png);">
-            <!-- <h5 class="card-title">Card 4</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+        <div class="cards shadow p-3" style="background-image: url(images/desarrollo_talento.jpg);background-repeat: no-repeat;background-size: cover;background-position: top center;">
+            <h2 class="text-white text-center"><b>Desarrollo y Talento Humano</b></h2>
         </div>
-        <div class="cards shadow p-3" style="background-image: url(images/mca.png);">
-            <!-- <h5 class="card-title">Card 5</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+        <div class="cards shadow p-3" style="background-image: url(images/evaluacion_360.jpg);background-repeat: no-repeat;background-size: cover;background-position: left center;">
+            <h2 class="text-black contorno text-center"><b>Evaluaciones 360°</b></h2>
         </div>
-        <div class="cards shadow p-3" style="background-image: url(images/nefab.png);">
-            <!-- <h5 class="card-title">Card 6</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+        <div class="cards shadow p-3" style="background-image: url(images/reclutamiento_seleccion.jpg);background-repeat: no-repeat;background-size: cover;background-position: left center;">
+            <h2 class="text-white text-center"><b>Reclutamiento y Seleccion</b></h2>
         </div>
+        <div class="cards shadow p-3" style="background-image: url(images/digitalizador_documentos.jpg);background-repeat: no-repeat;background-size: cover;background-position: top center;">
+            <h2 class="text-black contorno text-center"><b>Digitalizador De Documentos</b></h2>
+        </div>
+        <!-- <div class="cards shadow p-3" style="background-image: url(images/pd9.png);background-repeat: no-repeat;background-size: cover;">
+            <h2 class="text-white text-center"><b>Nomina y Capital Humano </b></h2>
+        </div>
+        <div class="cards shadow p-3" style="background-image: url(images/pd10.jpg);background-repeat: no-repeat;background-size: cover;">
+            <h2 class="text-white text-center"><b>Nomina y Capital Humano </b></h2>
+        </div> -->
         <!-- Repeat card structure for cards 3 to 9 -->
       </div>
-      <div class="col-sm col-md col-lg">
+      <div class="col-sm col-lg">
         <button class="carousel-controls next-btn" id="nextBtn">&gt;</button>
       </div>
     </div>
   </div>
 </div>
     <!-- Tercer Contenido - Productos -->
-    <div class="container-fluid">
-        <div class="row-sm row-md row-lg">
-            <div class="col-sm-12 col-md-12 col-lg-12">
-                <h1 class="text-ossc2 text-center">Nuestros Productos</h1>
-            </div>
-        </div>
-    </div>
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-sm col-md col-lg">
-        <button class="carousel-controls2 prev-btn" id="prevBtn2">&lt;</button>
-    </div>
-    <div class="col-sm col-md col-lg p-3">
-      <div class="card-container p-1 m-1" id="cardContainer2">
-        <div class="cards2 shadow p-3" style="background-image: url(images/pd1.jpg);">
-            <!-- <h5 class="card-title">Card 1</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-        </div>
-        <!-- Add more cards -->
-        <div class="cards2 shadow p-3" style="background-image: url(images/pd2.jpg);">
-            <!-- <h5 class="card-title">Card 2</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-        </div>
-        <div class="cards2 shadow p-3" style="background-image: url(images/pd4.jpg);">
-            <!-- <h5 class="card-title">Card 3</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-        </div>
-        <div class="cards2 shadow p-3" style="background-image: url(images/pd5.jpg);">
-            <!-- <h5 class="card-title">Card 4</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-        </div>
-        <div class="cards2 shadow p-3" style="background-image: url(images/pd6.png);">
-            <!-- <h5 class="card-title">Card 5</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-        </div>
-        <div class="cards2 shadow p-3" style="background-image: url(images/pd7.png);">
-            <!-- <h5 class="card-title">Card 6</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-        </div>
-        <div class="cards2 shadow p-3" style="background-image: url(images/pd8.png);">
-            <!-- <h5 class="card-title">Card 6</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-        </div>
-        <div class="cards2 shadow p-3" style="background-image: url(images/pd9.png);">
-            <!-- <h5 class="card-title">Card 6</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-        </div>
-        <div class="cards2 shadow p-3" style="background-image: url(images/pd10.jpg);">
-            <!-- <h5 class="card-title">Card 6</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-        </div>
-        <!-- Repeat card structure for cards 3 to 9 -->
-      </div>
-    </div>
-    <div class="col-sm col-md col-lg">
-        <button class="carousel-controls2 next-btn" id="nextBtn2">&gt;</button>
-    </div>
-  </div>
-</div>
+    
     <!-- Primera Info -->
 
     <!-- Segunda Info -->

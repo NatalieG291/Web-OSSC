@@ -104,10 +104,10 @@
     margin-top: 1vw;
     margin-bottom: 1vw;
     transition: transform 0.3s ease;
-    user-select: none;
+    -ms-user-select: none;
     -moz-user-select: none;
     -webkit-user-select: none;
-    -ms-user-select: none;
+    user-select: none;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 15vw;
@@ -121,59 +121,29 @@
       }
   }
 
-  @media (min-width: 769px) {
+  @media (max-width: 900px) {
       .cards{
-          width: 18vw;
-          height: 24vw;
+          width: 24vw;
+          height: 30vw;
       }
   }
+
+  @media (min-width: 1600px) {
+    .cards{
+        width: 18vw;
+        height: 24vw;
+    }
+}
   .cards:hover {
-    transform: scale(101%);
+    transition: 1s;
+    transform: scale(105%);
+    opacity: 0.9;
   }
 
-  .cards2 {
-    flex: 0 0 auto;
-    margin-right: 1vw;
-    margin-left: 1vw;
-    margin-top: 1vw;
-    margin-bottom: 1vw;
-    transition: transform 0.3s ease;
-    user-select: none;
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: 41vw;
-    border-radius: 1vw;
-  }
-
-  @media (max-width: 768px) {
-      .cards2{
-          width: 45vw;
-          height: 65vw;
-      }
-  }
-
-  @media (min-width: 769px) {
-      .cards2{
-          width: 18vw;
-          height: 24vw;
-      }
-  }
-  .cards2:hover {
-    transform: scale(101%);
-  }
 
   .carousel-controls {
-    bottom: 0;
-    border: none;
-    outline: none;
-    cursor: pointer;
-  }
-
-  .carousel-controls2 {
-    bottom: 0;
+    position: absolute;
+    bottom: 20%;
     border: none;
     outline: none;
     cursor: pointer;
@@ -186,6 +156,7 @@
     border-radius: 5vw;
     font-size: 2vw;
   }
+
   .next-btn {
     z-index: 1;
     right: 0;
@@ -211,4 +182,8 @@
   .next-btn:not(:hover){
       transition: 1s;
       opacity: 0.1;
+  }
+
+  .contorno{
+    -webkit-text-stroke: 1px white;
   }
