@@ -17,7 +17,7 @@
     </style>
 </head>
 
-<body onresize="resizeW()">
+<body onresize="resizeW()" onload="overX()">
     <!-- Menu Principal -->
     <nav class="container-fluid">
         <div class="row-sm row-md row-lg menu mt-3">
@@ -37,25 +37,25 @@
     <div class="container-fluid pt-1 mb-5">
         <div class="container pt-5">
             <div class="row g-5 pt-5">
+                <div class="col-lg-6 align-self-center text-center text-lg-center" data-aos="zoom-in-left"
+                    data-aos-offset="200" data-aos-duration="3000" data-aos-delay="100">
+                    <img class="img-fluid" src="images/Logo_OSSC.png" alt="">
+                    <h3 class="text-ossc2">Software De Nomina y Capital Humano</h3>
+                </div>
                 <div class="col-lg-6 align-self-center text-center text-lg-start mb-lg-5" data-aos="zoom-in-right"
-                    data-aos-offset="200" data-aos-duration="1000">
+                    data-aos-offset="200" data-aos-duration="1500" data-aos-delay="50">
                     <!-- <div class="btn btn-sm border rounded-pill text-white px-3 mb-3 ">AI.Tech</div> -->
                     <h1 class="display-4 text-black mb-4 "><b>Unete a !OSSC¡</b></h1>
                     <p class="text-secondary mb-4 "><b>Tu mejor opción en cuanto a software de nomina y capital
                             humano.</b></p>
-                    <a href="" class="btn btn-secondary py-sm-3 px-sm-5 rounded-pill me-3 ">Nosotros</a>
-                    <a href="" class="btn btn-outline-secondary py-sm-3 px-sm-5 rounded-pill ">Contacto</a>
-                </div>
-                <div class="col-lg-6 align-self-center text-center text-lg-center" data-aos="zoom-in-left"
-                    data-aos-offset="200" data-aos-duration="1000">
-                    <img class="img-fluid" src="images/Logo_OSSC.png" alt="">
-                    <h3 class="text-ossc2">Software De Nomina y Capital Humano</h3>
+                    <a href="" class="btn btn-outline-primary py-sm-3 px-sm-5 rounded-pill ">Nosotros</a>
+                    <a href="" class="btn btn-outline-primary py-sm-3 px-sm-5 rounded-pill ">Contacto</a>
                 </div>
             </div>
         </div>
     </div>
     <!-- Segundo Contenido -->
-    <div class="container-fluid">
+    <div class="container-fluid" data-aos="zoom-out-down" data-aos-offset="200" data-aos-duration="2000">
         <div class="row-sm row-md row-lg">
             <div class="col-sm-12 col-md-12 col-lg-12">
                 <h1 class="text-ossc2 text-center">Nuestros Productos</h1>
@@ -63,38 +63,38 @@
         </div>
     </div>
 <div class="container-fluid">
-    <div class="row">
+    <div class="row" data-aos="zoom-out-down" data-aos-offset="200" data-aos-duration="2500" data-aos-delay="50">
         <div class="col">
             <h2 class="text-secondary text-center"><b class="text-black">Ofrecemos diversos modulos </b>para afrontar cada reto.</h2>
         </div>
     </div>
-  <div class="row">
+  <div class="row" data-aos="zoom-out-down" data-aos-offset="200" data-aos-duration="3000" data-aos-delay="100">
     <div class="col-sm col-lg">
         <button class="carousel-controls prev-btn" id="prevBtn">&lt;</button>
     </div>
     <div class="col-sm col-lg p-3">
-      <div class="card-container p-1 m-1" id="cardContainer">
-        <div class="cards shadow p-3" style="background-image: url(images/nomina_capital.jpg);background-repeat: no-repeat;background-size: cover;background-position: left center;">
-            <h2 class="text-white text-center"><b>Nomina y Capital Humano</b></h2>
+      <div class="card-container" id="cardContainer">
+        <div class="cards shadow p-2" style="background-image: url(images/nomina_capital.jpg);background-repeat: no-repeat;background-size: cover;background-position: left center;">
+            <h2 class="text-white contornoB text-center"><b>Nomina y Capital Humano</b></h2>
         </div>
         <!-- Add more cards -->
-        <div class="cards shadow p-3" style="background-image: url(images/reloj_checador.jpeg);background-repeat: no-repeat;background-size: cover;background-position: left center;">
-            <h2 class="text-white text-center"><b>Reloj Checador</b></h2>
+        <div class="cards shadow p-2" style="background-image: url(images/reloj_checador.jpeg);background-repeat: no-repeat;background-size: cover;background-position: left center;">
+            <h2 class="text-white contornoB text-center"><b>Reloj Checador</b></h2>
         </div>
-        <div class="cards shadow p-3" style="background-image: url(images/kiosko_empleados.jpg);background-repeat: no-repeat;background-size: cover;background-position: top center;">
-            <h2 class="text-black contorno text-center"><b>Kiosko De Empleados</b></h2>
+        <div class="cards shadow p-2" style="background-image: url(images/kiosko_empleados.jpg);background-repeat: no-repeat;background-size: cover;background-position: top center;">
+            <h2 class="text-black contornoW text-center"><b>Kiosko De Empleados</b></h2>
         </div>
-        <div class="cards shadow p-3" style="background-image: url(images/desarrollo_talento.jpg);background-repeat: no-repeat;background-size: cover;background-position: top center;">
-            <h2 class="text-white text-center"><b>Desarrollo y Talento Humano</b></h2>
+        <div class="cards shadow p-2" style="background-image: url(images/desarrollo_talento.jpg);background-repeat: no-repeat;background-size: cover;background-position: top center;">
+            <h2 class="text-white contornoB text-center"><b>Desarrollo y Talento Humano</b></h2>
         </div>
-        <div class="cards shadow p-3" style="background-image: url(images/evaluacion_360.jpg);background-repeat: no-repeat;background-size: cover;background-position: left center;">
-            <h2 class="text-black contorno text-center"><b>Evaluaciones 360°</b></h2>
+        <div class="cards shadow p-2" style="background-image: url(images/evaluacion_360.jpg);background-repeat: no-repeat;background-size: cover;background-position: left center;">
+            <h2 class="text-black contornoW text-center"><b>Evaluaciones 360°</b></h2>
         </div>
-        <div class="cards shadow p-3" style="background-image: url(images/reclutamiento_seleccion.jpg);background-repeat: no-repeat;background-size: cover;background-position: left center;">
-            <h2 class="text-white text-center"><b>Reclutamiento y Seleccion</b></h2>
+        <div class="cards shadow p-2" style="background-image: url(images/reclutamiento_seleccion.jpg);background-repeat: no-repeat;background-size: cover;background-position: left center;">
+            <h2 class="text-white contornoB text-center"><b>Reclutamiento y Seleccion</b></h2>
         </div>
-        <div class="cards shadow p-3" style="background-image: url(images/digitalizador_documentos.jpg);background-repeat: no-repeat;background-size: cover;background-position: top center;">
-            <h2 class="text-black contorno text-center"><b>Digitalizador De Documentos</b></h2>
+        <div class="cards shadow p-2" style="background-image: url(images/digitalizador_documentos.jpg);background-repeat: no-repeat;background-size: cover;background-position: top center;">
+            <h2 class="text-black contornoW text-center"><b>Digitalizador De Documentos</b></h2>
         </div>
         <!-- <div class="cards shadow p-3" style="background-image: url(images/pd9.png);background-repeat: no-repeat;background-size: cover;">
             <h2 class="text-white text-center"><b>Nomina y Capital Humano </b></h2>
@@ -111,7 +111,32 @@
   </div>
 </div>
     <!-- Tercer Contenido - Productos -->
-    
+    <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm col-lg shadow mt-3 mb-3 imgDeg" style="background-image: url(images/capacitacion.jpeg);">
+            <h1 class="text-center text-ossc2 display-4">Capacitación</h1>
+            <div class="row">
+                <div class="col-6">
+                </div>
+                <div class="col-6 fondo">
+                    <p class="text-justify tsd">La capacitación en una empresa es un proceso continuo y dinámico que busca mejorar el rendimiento y la competitividad de los empleados, permitiendo a la empresa adaptarse a los cambios del mercado y alcanzar sus objetivos empresariales.</p>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+            <div class="col-sm col-lg shadow mt-3 mb-3 imgDeg" style="background-image: url(images/soporte_tecnico.jpg);">
+                <h1 class="text-center text-ossc2 display-4">Soporte</h1>
+                <div class="row">
+                    <div class="col-6 fondo">
+                        <p class="text-justify tsd">El soporte técnico juega un papel crucial en el mantenimiento y la operación eficiente de los sistemas tecnológicos de una organización, asegurando que los usuarios puedan utilizar sus recursos tecnológicos de manera efectiva y sin interrupciones significativas.</p>
+                    </div>
+                    <div class="col-6">
+                    </div>
+                </div>
+              </div>
+          </div>
+      </div>    
     <!-- Primera Info -->
 
     <!-- Segunda Info -->
