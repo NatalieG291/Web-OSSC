@@ -126,8 +126,8 @@
 
   @media (min-width: 1px) and (max-width: 768px) {
       .cards{
-          width: 50vw;
-          height: 56vw;
+          width: 60vw;
+          height: 45vw;
       }
       .imgDeg{
         background-repeat: no-repeat;
@@ -242,11 +242,11 @@
   }
 
   .contornoB{
-    -webkit-text-stroke: 1.5px black;
+    -webkit-text-stroke: 1px black;
   }
 
   .contornoW{
-    -webkit-text-stroke: 1.5px white;
+    -webkit-text-stroke: 1px white;
   }
 
   .fondo{
