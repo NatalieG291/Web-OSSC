@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'SF';
+  src: url('../fonts/SF_Pro/SF-Pro-Display-Bold.otf') format("opentype");
+  font-family: 'SF-2';
+  src: url('../fonts/SF_Pro/SF-Pro-Rounded-Bold.otf') format("opentype");
+
+}
+
 @media (min-width: 132px) and (max-width: 899px) {
     .menu {
         z-index: 1;
@@ -125,7 +133,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
-        height: 75vw;
+        height: 100vw;
       }
     
     .tsd{
