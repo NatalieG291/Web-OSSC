@@ -54,7 +54,8 @@
         html {
             font-family: 'SF';
             -ms-text-size-adjust: 100%;
-            -webkit-text-size-adjust: 100%
+            -webkit-text-size-adjust: 100%;
+            scroll-snap-type: y mandatory;
         }
 
         body {
@@ -709,6 +710,15 @@
         }
 
         @media screen and (max-width:991px) {
+            html {
+                scroll-snap-type: none;
+            }
+            .section {
+                scroll-snap-align: none;
+            }
+            .section.info {
+                height: auto !important;
+            }
             .w-container {
                 max-width: 728px
             }
@@ -2268,7 +2278,11 @@
             padding-bottom: 100px;
             background-color: white;
             color: #616161;
+            scroll-snap-align: start;
         }
+            .section.info {
+                height: 100vh;
+            }
 
             .section.lightgrey {
                 background-color: #f2f2f2;
@@ -2897,8 +2911,8 @@
                 display: block;
                 padding: 36px;
                 border-radius: 2px;
-                background-color: #fff2f7;
-                box-shadow: #e83174 0px 0px 0px 2px inset;
+                background-color: rgb(63, 155, 217, 0.2);
+                box-shadow: rgb(63, 155, 217) 0px 0px 0px 2px inset;
                 color: rgba(64, 51, 56, 0.59);
                 text-align: left;
             }
@@ -3390,13 +3404,8 @@
                 }
 
                 .note-text.ex.blue {
-                    margin-top: 13px;
-                    margin-left: 26px;
-                    padding-bottom: 0px;
-                    padding-left: 36px;
-                    float: left;
-                    background-image: url(http://uploads.webflow.com/5317d67d660658b254000454/534e3bfe3392f3d069000167_arrow-blue-leftz.png);
-                    background-position: 0px 38%;
+                    padding-right: 47px;
+                    background-position: 100% 100%;
                     background-size: 32px;
                     background-repeat: no-repeat;
                 }
@@ -3467,6 +3476,12 @@
             right: 0px;
         }
 
+        html.w-mod-js *[data-ix="fade-in-heading"] {
+            opacity: 0;
+            -webkit-transform: translate(0px, -30px);
+            -ms-transform: translate(0px, -30px);
+            transform: translate(0px, -30px);
+        }
         html.w-mod-js *[data-ix="fade-in-heading"] {
             opacity: 0;
             -webkit-transform: translate(0px, -30px);
@@ -3928,6 +3943,7 @@
                 padding-right: 10px;
                 padding-bottom: 20px;
                 box-shadow: #dbdbdb 0px 1px 0px 0px;
+                text-align: center;
             }
 
             .example-right-col {
@@ -4104,7 +4120,7 @@
     <nav class="container-fluid">
         <div class="row-sm row-md row-lg menu mt-3">
             <div class="col-sm col-md col-lg text-start ms-2" id="btn">
-                <a class="navbar-brand" id="principal"><b><i class="bi bi-house-door-fill"></i> Inicio</b></a>
+                <a class="navbar-brand" id="principal" href="/index.html"><b><i class="bi bi-house-door-fill"></i> Inicio</b></a>
                 <a class="navbar-brand show" id="itm" href="#"><b><i class="bi bi-clipboard-fill"></i> Productos</b></a>
                 <a class="navbar-brand show" id="itm2" href="#"><b><i class="bi bi-info-circle-fill"></i> Nosotros</b></a>
                 <a class="navbar-brand show" id="itm3" href="#"><b><i class="bi bi-gear-fill"></i> Soluciones</b></a>
@@ -4112,7 +4128,7 @@
             </div>
         </div>
     </nav>
-    <div class="header" data-ix="show-nav">
+    <div class="header" style="scroll-snap-align: start;" data-ix="show-nav">
 
         <div class="w-container contents">
             <div class="main-heading-wrapper">
@@ -4200,7 +4216,283 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid copyright bg-ossc2 py-4">
+    <div class="section info lightgrey" id="nomina">
+        <div class="w-container">
+            <h2 class="left-heading small-padding" data-ix="fade-in-heading-a">Nomina y capital humano &nbsp;</h2>
+            <div class="w-row example">
+                <div class="w-col w-col-8 example-left-col" data-ix="fade-from-left">
+                    <div class="note-text ex blue">Confianza y seguridad de un sistema para el pago puntual a empleados.</div>
+                    <div class="ix-playground">
+                        <div class="w-clearfix ix-wrapper inlineblock">
+                            <!--<img class="example-1-img" src="http://uploads.webflow.com/5317d67d660658b254000454/534c8b2a2492bb33580006f0_cactus.png" width="61" alt="534c8b2a2492bb33580006f0_cactus.png">-->
+                            <h3 class="example-1-title">Sistema de nomina GIRO</h3>
+                            <p class="no-padding">Una poderosa aplicacion para el pago de nomina, manejo de Recursos Humanos, control de accesos y muchos mas modulos que lo complementan.</p>
+                        </div>
+                    </div>
+                    <div class="caption-text on-white">Ventajas</div>
+                    <ul>
+                        <li>Flexibilidad total en programacion para pago de nomina.</li>
+                        <li>Interfaz con multiples aplicaciones como bancos, vales, polizas contables y mas.</li>
+                        <li>Finiquitos totalmente configurables a sus necesidades.</li>
+                        <li>Control de prestamos, fondo de ahorro y caja de ahorro.</li>
+                    </ul>
+                </div>
+                <div class="w-col w-col-4 example-right-col" data-ix="fade-from-right">
+                    <div>
+                        <img src="images/nomina.png" width="350" alt="giro_logo.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section info" id="reloj">
+        <div class="w-container">
+            <h2 class="left-heading small-padding" data-ix="fade-in-heading-a">Reloj checador &nbsp;</h2>
+            <div class="w-col w-col-3 example-left-col" data-ix="fade-from-left">
+                <div>
+                    <img src="Images/reloj.jpg" width="350" alt="reloj.jpg">
+                </div>
+            </div>
+            <div class="w-row example">
+                <div class="w-col w-col-8 example-right-col" data-ix="fade-from-right">
+                    <div class="note-text ex blue">Control preciso de tiempos configurable a cualquier horario.</div>
+                    <div class="ix-playground">
+                        <div class="w-clearfix ix-wrapper inlineblock">
+                            <h3 class="example-1-title">Control de accesos GIRO</h3>
+                            <p class="no-padding">Una herramienta que te permite crear una gran variedad de turnos que se adapten a las necesidades de horarios de los trabajadores.</p>
+                        </div>
+                    </div>
+                    <div class="caption-text on-white">Ventajas</div>
+                    <ul>
+                        <li>Los registros de asistencia se guardan en nuestra base de datos permitiendo su consulta en cualquier momento.</li>
+                        <li>Registro claro de ausencias o retardos considerando justificaciones por vacaciones, permisos o incapacidades.</li>
+                        <li>Envio completo de horas laboradas, retardos y tiempo extra.</li>
+                        <li>Integrable con tarjeta de proximidad, huella digital y reconocimiento facial.</li>
+                        <li>Capaz de controlar lectores en distintos puntos de acceso a traves de internet.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section info lightgrey" id="kiosco">
+        <div class="w-container">
+            <h2 class="left-heading small-padding" data-ix="fade-in-heading-a">Kiosco de empleados &nbsp;</h2>
+            <div class="w-row example">
+                <div class="w-col w-col-8 example-left-col" data-ix="fade-from-left">
+                    <div class="note-text ex blue">Practico canal informativo para tus trabajadores.</div>
+                    <div class="ix-playground">
+                        <div class="w-clearfix ix-wrapper inlineblock">
+                            <h3 class="example-1-title">Portal empresarial OSSC</h3>
+                            <p class="no-padding">Facilita una ventana para consulta y actualizacion de informacion de los trabajadores en linea o dentro de la empresa, consulta pagos, vacaciones, saldos de fondo de ahorro y mas.</p>
+                        </div>
+                    </div>
+                    <div class="caption-text on-white">Ventajas</div>
+                    <ul>
+                        <li>Comunicacion practica para sus trabajadores en un portal configurable para internet o intranet de la empresa.</li>
+                        <li>Acceso para consulta individual de dias de vacaciones o tramites de las mismas.</li>
+                        <li>Descarga de sus recibos de nomina CFDI actuales y anteriores.</li>
+                        <li>Consulta de saldos de fondo de ahorro y/o caja de ahorro.</li>
+                        <li>Solicitud de prestamos</li>
+                        <li>Consulta de registros de Reloj checador GIRO</li>
+                    </ul>
+                </div>
+                <div class="w-col w-col-4 example-right-col" data-ix="fade-from-right">
+                    <div>
+                        <img src="images/kiosco.png" width="350" alt="kiosco.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section info" id="gestion">
+        <div class="w-container">
+            <h2 class="left-heading small-padding" data-ix="fade-in-heading-a">Gestión y desarrollo del talento humano &nbsp;</h2>
+            <div class="w-col w-col-3 example-left-col" data-ix="fade-from-left">
+                <div>
+                    <img src="images/talento.png" width="350" alt="talento.png">
+                </div>
+            </div>
+            <div class="w-row example">
+                <div class="w-col w-col-8 example-right-col" data-ix="fade-from-right">
+                    <div class="note-text ex blue">Impulsa la colaboracion y retroalimentacion entre miembros de la organizacion.</div>
+                    <div class="ix-playground">
+                        <div class="w-clearfix ix-wrapper inlineblock">
+                            <h3 class="example-1-title">Clima laboral, cursos en linea, NOM035 y mas modulos.</h3>
+                            <p class="no-padding">Contribuye a mejorar la implicacion y retencion de los colaboradores impulsando la colaboracion y retroalimentacion.</p>
+                        </div>
+                    </div>
+                    <div class="caption-text on-white">Ventajas</div>
+                    <ul>
+                        <li>Concentra la informacion de y para los colaboradores en un solo sitio.</li>
+                        <li>Autoriza las tareas y procesos relativos a la gestion del talento humano.</li>
+                        <li>Facilita los procesos debido a que cuenta con capacidad de integracion con otros sistemas.</li>
+                     </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section info lightgrey" id="portalossc">
+        <div class="w-container">
+            <h2 class="left-heading small-padding" data-ix="fade-in-heading-a">Portal OSSC empresa &nbsp;</h2>
+            <div class="w-row example">
+                <div class="w-col w-col-8 example-left-col" data-ix="fade-from-left">
+                    <div class="note-text ex blue">Mayor facilidad para procesar nuevos ingresos.</div>
+                    <div class="ix-playground">
+                        <div class="w-clearfix ix-wrapper inlineblock">
+                            <h3 class="example-1-title">Pre-alta de candidatos.</h3>
+                            <p class="no-padding">Un agregado acicional para las vacantes de tu empresa de forma digital con la posibilidad de canalizar la labor de captura a terceros.</p>
+                        </div>
+                    </div>
+                    <div class="caption-text on-white">Ventajas</div>
+                    <ul>
+                        <li>Alta de trabajadores desde cualquier parte a traves de internet.</li>
+                        <li>Rol administrativo para verificar o rechazar las altas ingresadas.</li>
+                        <li>Reportes con infomacion relevante de la plantilla.</li>
+                        <li>Visualizacion de nomina para comentar, aceptar o rechazar de forma eficiente.</li>
+                        <li>Proceso de pre-alta de expedientes para las vacantes en el sistema, realizable por proveedores externos.</li>
+                    </ul>
+                </div>
+                <div class="w-col w-col-4 example-right-col" data-ix="fade-from-right">
+                    <div>
+                        <img src="images/evaluacion.png" width="350" alt="Evaluacion.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section info" id="evaluaciones">
+        <div class="w-container">
+            <h2 class="left-heading small-padding" data-ix="fade-in-heading-a">Evaluaciones 360° y por Objetivos &nbsp;</h2>
+            <div class="w-col w-col-3 example-left-col" data-ix="fade-from-left">
+                <div>
+                    <img src="images/evaluaciones-1.png" width="350" alt="evaluaciones.png">
+                </div>
+            </div>
+            <div class="w-row example">
+                <div class="w-col w-col-8 example-right-col" data-ix="fade-from-right">
+                    <div class="note-text ex blue">Monitorea periodicamente los avances conseguidos.</div>
+                    <div class="ix-playground">
+                        <div class="w-clearfix ix-wrapper inlineblock">
+                            <h3 class="example-1-title">Evaluacion por desempeño y objetivos.</h3>
+                            <p class="no-padding">Una herramienta que permite realizar la evaluacion del desempeño del personal de acuerdo a las competencias, habilidades y comportamiento esperado desde una evaluacion de 90°, 180° y 360°</p>
+                        </div>
+                    </div>
+                    <div class="caption-text on-white">Ventajas</div>
+                    <ul>
+                        <li>Detecta areas de oportunidad del individuo.</li>
+                        <li>Ayuda a diseñar programas de desarrollo y capacitacion.</li>
+                        <li>Identifica el grado de contribucion de las personas a objetivos de su puesto en un periodo determinado.</li>
+                        <li>Mejora el resultado mediante la retroalimentacion.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section info lightgrey" id="reclutamiento">
+        <div class="w-container">
+            <h2 class="left-heading small-padding" data-ix="fade-in-heading-a">Reclutamiento &nbsp;</h2>
+            <div class="w-row example">
+                <div class="w-col w-col-8 example-left-col" data-ix="fade-from-left">
+                    <div class="note-text ex blue">Optimiza el proceso de reclutamiento y selección de tu empresa.</div>
+                    <div class="ix-playground">
+                        <div class="w-clearfix ix-wrapper inlineblock">
+                            <h3 class="example-1-title">Reclutamiento y seleccion de personal.</h3>
+                            <p class="no-padding">Controla las vacantes, estadisticas de eficiencia en cobertura, ayuda en la busqueda del personal interno o externo con el perfil mas adecuado al puesto de la vacante.</p>
+                        </div>
+                    </div>
+                    <div class="caption-text on-white">Ventajas</div>
+                    <ul>
+                        <li>Optimiza el proceso de reclutamiento y seleccion de tu empresa.</li>
+                        <li>Ahorra tiempo publicando en forma automatica las vacantes en el portal corporativo.</li>
+                        <li>Colabora en linea con quienes intervienen en el proceso de seleccion de candidatos.</li>
+                        <li>Los empleados de tu empresa pueden postularse en las ofertas disponibles y rellenar un formulario directamente en el modulo.</li>
+                        <li>En un solo sitio puedes tener una base de datos donde incluir a los candidatos, su curriculum, agenda de entrevistas y anotaciones.</li>
+                    </ul>
+                </div>
+                <div class="w-col w-col-4 example-right-col" data-ix="fade-from-right">
+                    <div>
+                        <img src="images/reclutamiento.png" width="350" alt="reclutamiento.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section info" id="comedor">
+        <div class="w-container">
+            <h2 class="left-heading small-padding" data-ix="fade-in-heading-a">Comedor electronico &nbsp;</h2>
+            <div class="w-col w-col-3 example-left-col" data-ix="fade-from-left">
+                <div>
+                    <img src="images/giro+logo-1920w.jpg" width="250" alt="logo giro.jpg">
+                </div>
+            </div>
+            <div class="w-row example" data-ix="fade-from-right">
+                <div class="w-col w-col-8 example-right-col">
+                    <div class="note-text ex blue">Titulo</div>
+                    <div class="ix-playground">
+                        <div class="w-clearfix ix-wrapper inlineblock">
+                            <h3 class="example-1-title">Titulo</h3>
+                            <p class="no-padding">Descripcion</p>
+                        </div>
+                    </div>
+                    <div class="caption-text on-white">Ventajas</div>
+                    <ul>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section info lightgrey" id="cfdi">
+        <div class="w-container">
+            <h2 class="left-heading small-padding" data-ix="fade-in-heading-a">Recibos de nomina CFDI &nbsp;</h2>
+            <div class="w-row example">
+                <div class="w-col w-col-8 example-left-col" data-ix="fade-from-left">
+                    <div class="note-text ex blue">Titulo</div>
+                    <div class="ix-playground">
+                        <div class="w-clearfix ix-wrapper inlineblock">
+                            <h3 class="example-1-title">Titulo</h3>
+                            <p class="no-padding">Descripcion</p>
+                        </div>
+                    </div>
+                    <div class="caption-text on-white">Ventajas</div>
+                    <ul>
+                        <li></li>
+                    </ul>
+                </div>
+                <div class="w-col w-col-4 example-right-col" data-ix="fade-from-right">
+                    <div>
+                        <img src="images/giro+logo-1920w.jpg" width="250" alt="logo giro.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section info" id="digitalizador">
+        <div class="w-container">
+            <h2 class="left-heading small-padding" data-ix="fade-in-heading-a">Digitalizador de documentos &nbsp;</h2>
+            <div class="w-col w-col-3 example-left-col" data-ix="fade-from-left">
+                <div>
+                    <img src="images/giro+logo-1920w.jpg" width="250" alt="logo giro.jpg">
+                </div>
+            </div>
+            <div class="w-row example" data-ix="fade-from-right">
+                <div class="w-col w-col-8 example-right-col">
+                    <div class="note-text ex blue">Titulo</div>
+                    <div class="ix-playground">
+                        <div class="w-clearfix ix-wrapper inlineblock">
+                            <h3 class="example-1-title">Titulo</h3>
+                            <p class="no-padding">Descripcion</p>
+                        </div>
+                    </div>
+                    <div class="caption-text on-white">Ventajas</div>
+                    <ul>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid copyright bg-ossc2 py-4" style="scroll-snap-align: start;">
         <div class="container">
             <div class="row">
                 <div class="col-md-4 text-center text-md-start mb-3 mb-md-0">
@@ -4258,6 +4550,6 @@
     </div>
     <script type="text/javascript" src="lib/main.js"></script>
     <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script type="text/javascript" src="https://daks2k3a4ib2z.cloudfront.net/5317d67d660658b254000454/js/webflow.js?2f83b8326cc4c8f7327b5dba30444a37"></script>
+    <script type="text/javascript" src="lib/anim.js"></script>
 </body>
 </html>
