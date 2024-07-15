@@ -47,8 +47,8 @@ template {
 
 html {
   font-family: "SF";
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
+  /* -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; */
   scroll-snap-type: y mandatory;
 }
 
@@ -180,7 +180,7 @@ button,
 html input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-  -webkit-appearance: button;
+  /* -webkit-appearance: button; */
   cursor: pointer;
 }
 
@@ -196,7 +196,7 @@ input[type="radio"] {
 }
 
 input[type="search"] {
-  -webkit-appearance: textfield;
+  /* -webkit-appearance: textfield; */
   -moz-box-sizing: content-box;
   -webkit-box-sizing: content-box;
   box-sizing: content-box;
@@ -389,7 +389,7 @@ html input[type="button"],
 input[type="reset"],
 input[type="submit"] {
   cursor: pointer;
-  -webkit-appearance: button;
+  /* -webkit-appearance: button; */
 }
 
 .w-form {
@@ -425,7 +425,7 @@ label {
   font-size: 14px;
   line-height: 1.42857143;
   color: #555;
-  vertical-align: middle;
+  /* vertical-align: middle; */
   background-color: #fff;
   border: 1px solid #ccc;
 }
