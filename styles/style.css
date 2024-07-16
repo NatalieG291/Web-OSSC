@@ -806,25 +806,67 @@ body {
 }
 
 @media screen and (min-width: 1200px) {
-  .contenedor-w {
-    max-width: 1170px;
-  }
-=======
-.team-member {
-    text-align: center;
-    margin-bottom: 30px;
+    .contenedor-w {
+        max-width: 1170px;
+    }
+
+    =======
+    .team-member {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .team-member img {
+        width: 50%;
+        height: auto;
+        border-radius: 50%;
+    }
+
+    .team-member h5 {
+        margin-top: 15px;
+        font-weight: bold;
+    }
+
+    .sinFondo {
+        background-color: transparent;
+    }
 }
-.team-member img {
-    width: 50%;
-    height: auto;
-    border-radius: 50%;
+/**/
+.section.lightgrey.solucioness {
+    padding-bottom: 75px;
 }
-.team-member h5 {
-    margin-top: 15px;
-    font-weight: bold;
+.soluciones-wrapper {
+    padding-bottom: 31px;
+}
+.soluciones-link {
+    display: block;
+    padding: 38px 23px 23px;
+    border-radius: 2px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 0px 0px 2px inset;
+    -webkit-transition: background-color 300ms ease;
+    transition: background-color 300ms ease;
+    color: #a3a3a3;
+    text-decoration: none;
 }
 
-.sinFondo {
-  background-color: transparent;
->>>>>>> d7396ffb1e680ee35d946a21afcea7f196fb5632
+    .soluciones-link:hover {
+        background-color: #f2f2f2;
+    }
+
+    .soluciones-link._2 {
+        box-shadow: #3a8ff0 0px 0px 0px 2px inset;
+    }
+
+        .soluciones-link._2:hover {
+            background-color: #ebf4ff;
+        }
+
+.soluciones-title {
+    margin-bottom: 7px;
+    line-height: 25px;
+    font-weight: 400;
 }
+    .soluciones-title.time {
+        color: rgba(0, 0, 0, 0.43);
+    }
