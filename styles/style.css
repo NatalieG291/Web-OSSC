@@ -882,13 +882,13 @@ body {
 }
 
 .boton-modal label {
-  padding: 15px 30px;
+  padding: 1vw 2vw;
   background-color: #00284e;
   color: #ffff;
   border-radius: 50%;
   cursor: pointer;
   transition: all 300mx ease-out;
-  font-size: 3vw;
+  font-size: 2vw;
   box-shadow: 1px 10px 15px rgba(0, 0, 0, 0.3);
 }
 
