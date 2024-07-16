@@ -23,12 +23,14 @@
   <nav class="container-fluid">
     <div class="row-sm row-md row-lg menu mt-4">
       <div class="col-sm col-md col-lg text-start ms-2" id="btn">
-        <a class="navbar-brand" id="principal" href="index.html"><b><i class="bi bi-house-door-fill"></i> Inicio</b></a>
-        <a class="navbar-brand show" id="itm" href="productos.html"><b><i class="bi bi-clipboard-fill"></i>
+        <a class="navbar-brand" id="principal" href="/index.html"><b><i class="bi bi-house-door-fill"></i>
+            Inicio</b></a>
+        <a class="navbar-brand show" id="itm" href="/productos.html"><b><i class="bi bi-clipboard-fill"></i>
             Productos</b></a>
-        <a class="navbar-brand show" id="itm2" href="nosotros.html"><b><i class="bi bi-info-circle-fill"></i>
+        <a class="navbar-brand show" id="itm2" href="/nosotros.html"><b><i class="bi bi-info-circle-fill"></i>
             Nosotros</b></a>
-        <a class="navbar-brand show" id="itm3" href="#"><b><i class="bi bi-gear-fill"></i> Soluciones</b></a>
+        <a class="navbar-brand show" id="itm3" href="/soluciones.html"><b><i class="bi bi-gear-fill"></i>
+            Soluciones</b></a>
         <a class="navbar-brand show" id="itm4" href="#"><b><i class="bi bi-clipboard2-data-fill"></i> Cursos</b></a>
       </div>
     </div>
@@ -50,8 +52,8 @@
             <b>Tu mejor opción en cuanto a software de nomina y capital
               humano.</b>
           </p>
-          <a href="#" class="btn btn-outline-info py-sm-3 px-sm-5 rounded-pill">info@ossc.com.mx</a>
-          <a href="#" class="btn btn-outline-info py-sm-3 px-sm-5 rounded-pill">Tel: (33) 2494 8488</a>
+          <a href="#" class="btn btn-outline-info py-sm-3 px-sm-5 rounded-pill m-1">info@ossc.com.mx</a>
+          <a href="#" class="btn btn-outline-info py-sm-3 px-sm-5 rounded-pill m-1">Tel: (33) 2494 8488</a>
         </div>
       </div>
     </div>
@@ -82,9 +84,22 @@
     <div class="container-modal">
       <div class="content-modal">
         <h2>Contactanos</h2>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis voluptatum facere nesciunt tempore harum
-          impedit numquam at. Vero, voluptates, aspernatur veritatis rem, suscipit corrupti quam ad maiores aliquid at
-          perspiciatis.</p>
+        <form>
+          <div class="mb-3">
+            <label for="mail" class="form-label">Correo</label>
+            <input type="email" class="form-control" id="mail" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">Compartenos tus datos y nos pondremos en contacto.</div>
+          </div>
+          <div class="mb-3">
+            <label for="texto" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="texto">
+          </div>
+          <div class="mb-3">
+            <label for="texto2" class="form-label">Empresa</label>
+            <input type="text" class="form-control" id="texto2">
+          </div>
+          <button type="submit" class="btn btn-success">Enviar</button>
+        </form>
         <div class="btn-cerrar">
           <label for="btn-modal">Cerrar</label>
         </div>
@@ -183,7 +198,7 @@
         data-aos-duration="2500" data-aos-delay="50" style="background-image: url(images/cap2.png)">
         <div class="row mt-2 mb-2">
           <h1 class="text-start text-ossc2 display-4">Capacitación</h1>
-          <div class="col-4">
+          <div class="col-6">
             <p class="text-justify tsd">
               La capacitación en una empresa es un proceso continuo y dinámico
               que busca mejorar el rendimiento y la competitividad de los
@@ -191,11 +206,13 @@
               mercado y alcanzar sus objetivos empresariales.
             </p>
           </div>
-          <div class="col-8"></div>
+          <div class="col-6">
+            <h1 class="text-end"><a href="#"
+                class="btn btn-info py-sm-2 px-sm-2 py-md-3 px-md-3 py-lg-4 px-lg-4 rounded-pill fs-4" id="mif">Más
+                Información</a>
+            </h1>
+          </div>
         </div>
-        <h1 class="text-center"><a href="#"
-            class="btn fs-5 btn-info py-sm-2 px-sm-2 py-md-3 px-md-3 py-lg-4 px-lg-4 rounded-pill">Más Información</a>
-        </h1>
       </div>
     </div>
     <div class="row">
@@ -203,9 +220,13 @@
         data-aos-duration="2500" data-aos-delay="50" style="background-image: url(images/st2.png)">
         <div class="row mt-2 mb-2">
           <h1 class="text-end text-ossc1 display-4">Soporte</h1>
-          <div class="col-8">
+          <div class="col-6">
+            <h1 class="text-start"><a href="#"
+                class="btn btn-info py-sm-2 px-sm-2 py-md-3 px-md-3 py-lg-4 px-lg-4 rounded-pill fs-4" id="mif2">Más
+                Información</a>
+            </h1>
           </div>
-          <div class="col-4">
+          <div class="col-6">
             <p class="text-end tsd">
               El soporte técnico juega un papel crucial en el mantenimiento y
               la operación eficiente de los sistemas tecnológicos de una
@@ -215,9 +236,6 @@
             </p>
           </div>
         </div>
-        <h1 class="text-center"><a href="#"
-            class="btn fs-5 btn-info py-sm-2 px-sm-2 py-md-3 px-md-3 py-lg-4 px-lg-4 rounded-pill">Más Información</a>
-        </h1>
       </div>
     </div>
     <div class="row">
@@ -225,17 +243,19 @@
         data-aos-duration="2500" data-aos-delay="50" style="background-image: url(images/ad2.png)">
         <div class="row mt-2 mb-2">
           <h1 class="text-start text-ossc2 display-4">Servidor Y Alojamiento</h1>
-          <div class="col-4">
+          <div class="col-6">
             <p class="text-justify tsd">
               En lugar de compartir recursos de servidor con otros usuarios, como en el caso del alojamiento compartido,
               con el arrendamiento de servidor se obtiene acceso exclusivo y completo a un servidor físico o virtual.
             </p>
           </div>
-          <div class="col-8"></div>
+          <div class="col-6">
+            <h1 class="text-end"><a href="#"
+                class="btn btn-info py-sm-2 px-sm-2 py-md-3 px-md-3 py-lg-4 px-lg-4 rounded-pill fs-4" id="mif3">Más
+                Información</a>
+            </h1>
+          </div>
         </div>
-        <h1 class="text-center"><a href="#"
-            class="btn fs-5 btn-info py-sm-2 px-sm-2 py-md-3 px-md-3 py-lg-4 px-lg-4 rounded-pill">Más Información</a>
-        </h1>
       </div>
     </div>
     <div class="row">
@@ -243,18 +263,20 @@
         data-aos-duration="2500" data-aos-delay="50" style="background-image: url(images/software_giro.png)">
         <div class="row mt-2 mb-2">
           <h1 class="text-start text-ossc1 display-4">Arrendamiento</h1>
-          <div class="col-4">
+          <div class="col-6">
             <p class="text-justify tsd">
               El software de giro de nóminas es una herramienta esencial para las empresas que desean optimizar y
-              simplificar la administración de la nómina de sus empleados, garantizando la precisión, la eficiencia y el
-              cumplimiento normativo en todo el proceso de pago de salarios.
+              simplificar la administración de la nómina de sus empleados, garantizando la precisión, eficiencia y el
+              cumplimiento normativo en todo el proceso de pago.
             </p>
           </div>
-          <div class="col-8"></div>
+          <div class="col-6">
+            <h1 class="text-end"><a href="#"
+                class="btn btn-info py-sm-2 px-sm-2 py-md-3 px-md-3 py-lg-4 px-lg-4 rounded-pill fs-4" id="mif4">Más
+                Información</a>
+            </h1>
+          </div>
         </div>
-        <h1 class="text-center"><a href="#"
-            class="btn fs-5 btn-info py-sm-2 px-sm-2 py-md-3 px-md-3 py-lg-4 px-lg-4 rounded-pill">Más Información</a>
-        </h1>
       </div>
     </div>
   </div>
