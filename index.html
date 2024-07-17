@@ -2,353 +2,395 @@
 <html lang="es">
 
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>OSSC</title>
-  <link rel="stylesheet" href="styles/style.css" />
-  <link rel="stylesheet" href="styles/fonts.css" />
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
-  <style>
-    body {
-      font-family: "SF", "SF-2";
-    }
-  </style>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>OSSC</title>
+    <link rel="stylesheet" href="styles/fonts.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <style>
+        body {
+            font-family: "SF", "SF-2";
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="styles/form.css" />
 </head>
 
 <body onresize="resizeW()" onload="overX()">
-  <!-- Menu Principal -->
-  <nav class="container-fluid">
-    <div class="row-sm row-md row-lg menu mt-4">
-      <div class="col-sm col-md col-lg text-start ms-2" id="btn">
-        <a class="navbar-brand" id="principal" href="/index.html"><b><i class="bi bi-house-door-fill"></i>
-            Inicio</b></a>
-        <a class="navbar-brand show" id="itm" href="/productos.html"><b><i class="bi bi-clipboard-fill"></i>
-            Productos</b></a>
-        <a class="navbar-brand show" id="itm2" href="/nosotros.html"><b><i class="bi bi-info-circle-fill"></i>
-            Nosotros</b></a>
-        <a class="navbar-brand show" id="itm3" href="/soluciones.html"><b><i class="bi bi-gear-fill"></i>
-            Soluciones</b></a>
-        <a class="navbar-brand show" id="itm4" href="#"><b><i class="bi bi-clipboard2-data-fill"></i> Cursos</b></a>
-      </div>
-    </div>
-  </nav>
-  <br />
-  <!-- Logo y Titulo -->
-  <div class="container-fluid pt-1 mb-5 bg-body-secondary">
-    <div class="container pt-5" data-aos="zoom-in-down" data-aos-offset="200" data-aos-duration="3000"
-      data-aos-delay="100">
-      <div class="row g-5 pt-5">
-        <div class="col-lg-6 align-self-center text-center text-lg-center">
-          <img class="img-fluid" src="images/Logo_OSSC.png" alt="" />
-          <h3 class="text-ossc2">Software De Nomina y Capital Humano</h3>
+    <div style="display: none" id="formsend">
+        <div class="formsend js-formsend" id="formOpen">
+            <div class="formsend-underlay"></div> <a class="formsend__trigger text-replace form" id="btnOpenForm"></a> <div class="formsend__content">
+                <div class="formsend__layout">
+                    <header class="formsend__header" style="zoom: 1;"><h2 style="text-align: left;">  <span>Contactanos</span></h2> <div class="formsend-account" style="display: flex; align-items: center;"><span class="formsend__close" id="btnOpenForm2"></span></div></header>  <div id="formsend-body" class="formsend__body" style="zoom: 1;">
+                        <div>
+                            <div class="formsend-option formsend-toggle formsend-form" style="display: block; zoom: 1.2;">
+                                <div style="margin-bottom: 10px;">
+                                    <div class="formsend-label">
+                                        Nombre
+                                    </div> <input type="text" class="formsend-input">
+                                </div><div style="margin-bottom: 10px;">
+                                    <div class="formsend-label">
+                                        Correo electronico <span class="formsend-required">*</span>
+                                    </div> <input type="email" class="formsend-input">
+                                </div><div style="margin-bottom: 10px;">
+                                    <div class="formsend-label">
+                                        ¿Como podemos ayudarte?
+                                    </div>    <textarea class="formsend-input" style="min-height: 80px; padding: 5px 10px;"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <footer class="formsend__footer" style="font-size: 14px;"><a class="formsend__checkout" style="background-color: rgb(63, 156, 217);"><em> <span>Enviar</span> <svg viewBox="0 0 24 24" class="icon icon--sm"><g fill="none" stroke="#FFF"><line stroke-width="2" stroke-linecap="round" stroke-linejoin="round" x1="3" y1="12" x2="21" y2="12"></line><polyline stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="15,6 21,12 15,18 "></polyline></g></svg></em></a> </footer>
+                </div>
+            </div>
         </div>
-        <div class="col-lg-6 align-self-center text-center text-lg-start mb-lg-5">
-          <!-- <div class="btn btn-sm border rounded-pill text-white px-3 mb-3 ">AI.Tech</div> -->
-          <h1 class="display-4 text-black mb-4"><b>Unete a !OSSC¡</b></h1>
-          <p class="text-secondary mb-4">
-            <b>Tu mejor opción en cuanto a software de nomina y capital
-              humano.</b>
-          </p>
-          <a href="#" class="btn btn-outline-info py-sm-3 px-sm-5 rounded-pill m-1">info@ossc.com.mx</a>
-          <a href="#" class="btn btn-outline-info py-sm-3 px-sm-5 rounded-pill m-1">Tel: (33) 2494 8488</a>
+    </div>
+    <!-- Menu Principal -->
+    <nav class="container-fluid">
+        <div id="mySidebar" class="sidebar p-1 m-3">
+            <a class="btnLink" id="NavButton"><i class="bi bi-house"> </i> Inicio</a>
+            <a href="productos.html" class="btnLink"><i class="bi bi-info-circle"> </i> Productos</a>
+            <a href="Nosotros.html" class="btnLink"><i class="bi bi-gear"> </i> Nosotros</a>
+            <a href="soluciones.html" class="btnLink"><i class="bi bi-person"> </i> Soluciones</a>
+            <a href="cursos.html" class="btnLink"><i class="=bi bi-telephone"> </i> Cursos</a>
         </div>
-      </div>
-    </div>
-  </div>
-  <!-- Segundo Contenido -->
-  <div class="container-fluid">
-    <div class="row-sm row-md row-lg">
-      <div class="col-sm-12 col-md-12 col-lg-12">
-        <h1 class="text-ossc2 text-center" data-aos="fade-down" data-aos-offset="200" data-aos-duration="2000"
-          data-aos-delay="50">Nuestros Productos</h1>
-      </div>
-    </div>
-  </div>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col">
-        <h2 class="text-secondary text-center" data-aos="zoom-out-down" data-aos-offset="200" data-aos-duration="2500"
-          data-aos-delay="50">
-          <b class="text-black">Ofrecemos diversos modulos </b>para afrontar
-          cada reto.
-        </h2>
-      </div>
-    </div>
-    <div class="boton-modal">
-      <label for="btn-modal"><i class="bi bi-chat-fill icon"></i></label>
-    </div>
-    <input type="checkbox" id="btn-modal">
-    <div class="container-modal">
-      <div class="content-modal">
-        <h2>Contactanos</h2>
-        <form>
-          <div class="mb-3">
-            <label for="mail" class="form-label">Correo</label>
-            <input type="email" class="form-control" id="mail" aria-describedby="emailHelp">
-            <div id="emailHelp" class="form-text">Compartenos tus datos y nos pondremos en contacto.</div>
-          </div>
-          <div class="mb-3">
-            <label for="texto" class="form-label">Nombre</label>
-            <input type="text" class="form-control" id="texto">
-          </div>
-          <div class="mb-3">
-            <label for="texto2" class="form-label">Empresa</label>
-            <input type="text" class="form-control" id="texto2">
-          </div>
-          <button type="submit" class="btn btn-success">Enviar</button>
-        </form>
-        <div class="btn-cerrar">
-          <label for="btn-modal">Cerrar</label>
+    </nav>
+    <br />
+    <!-- Logo y Titulo -->
+    <div class="container-fluid pt-1 mb-5 bg-body-secondary">
+        <div class="container pt-5" data-aos="zoom-in-down" data-aos-offset="200" data-aos-duration="3000"
+             data-aos-delay="100">
+            <div class="row g-5 pt-5">
+                <div class="col-lg-6 align-self-center text-center text-lg-center">
+                    <img class="img-fluid" src="images/Logo_OSSC.png" alt="" />
+                    <h3 class="text-ossc2">Software De Nomina y Capital Humano</h3>
+                </div>
+                <div class="col-lg-6 align-self-center text-center text-lg-start mb-lg-5">
+                    <!-- <div class="btn btn-sm border rounded-pill text-white px-3 mb-3 ">AI.Tech</div> -->
+                    <h1 class="display-4 text-black mb-4"><b>Unete a !OSSC¡</b></h1>
+                    <p class="text-secondary mb-4">
+                        <b>
+                            Tu mejor opción en cuanto a software de nomina y capital
+                            humano.
+                        </b>
+                    </p>
+                    <a href="#" class="btn btn-outline-info py-sm-3 px-sm-5 rounded-pill m-1">info@ossc.com.mx</a>
+                    <a href="#" class="btn btn-outline-info py-sm-3 px-sm-5 rounded-pill m-1">Tel: (33) 2494 8488</a>
+                </div>
+            </div>
         </div>
-      </div>
-      <label for="btn-modal" class="cerrar-modal"></label>
     </div>
-    <div class="row" data-aos="zoom-out-down" data-aos-offset="300" data-aos-duration="3000" data-aos-delay="100">
-      <div class="col-sm col-lg">
-        <button class="carousel-controls prev-btn" id="prevBtn">&lt;</button>
-      </div>
-      <div class="col-sm col-lg p-3">
-        <div class="card-container" id="cardContainer">
-          <div class="cards shadow p-2" style="
+    <!-- Segundo Contenido -->
+    <div class="container-fluid">
+        <div class="row-sm row-md row-lg">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <h1 class="text-ossc2 text-center" data-aos="fade-down" data-aos-offset="200" data-aos-duration="2000"
+                    data-aos-delay="50">
+                    Nuestros Productos
+                </h1>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <h2 class="text-secondary text-center" data-aos="zoom-out-down" data-aos-offset="200" data-aos-duration="2500"
+                    data-aos-delay="50">
+                    <b class="text-black">Ofrecemos diversos modulos </b>para afrontar
+                    cada reto.
+                </h2>
+            </div>
+        </div>
+        <div class="boton-modal">
+            <label for="btn-modal"><i class="bi bi-chat-fill icon"></i></label>
+        </div>
+        <input type="checkbox" id="btn-modal">
+        <div class="container-modal">
+            <div class="content-modal">
+                <h2>Contactanos</h2>
+                <form>
+                    <div class="mb-3">
+                        <label for="mail" class="form-label">Correo</label>
+                        <input type="email" class="form-control" id="mail" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">Compartenos tus datos y nos pondremos en contacto.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="texto" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="texto">
+                    </div>
+                    <div class="mb-3">
+                        <label for="texto2" class="form-label">Empresa</label>
+                        <input type="text" class="form-control" id="texto2">
+                    </div>
+                    <button type="submit" class="btn btn-success">Enviar</button>
+                </form>
+                <div class="btn-cerrar">
+                    <label for="btn-modal">Cerrar</label>
+                </div>
+            </div>
+            <label for="btn-modal" class="cerrar-modal"></label>
+        </div>
+        <div class="row" data-aos="zoom-out-down" data-aos-offset="300" data-aos-duration="3000" data-aos-delay="100">
+            <div class="col-sm col-lg">
+                <button class="carousel-controls prev-btn" id="prevBtn">&lt;</button>
+            </div>
+            <div class="col-sm col-lg p-3">
+                <div class="card-container" id="cardContainer">
+                    <div class="cards shadow p-2" style="
                 background-image: url(images/nomina_capital.jpg);
                 background-repeat: no-repeat;
                 background-size: cover;
                 background-position: left center;
               ">
-            <h1 class="text-white contornoB text-justify ">
-              <b>Nomina y Capital Humano</b>
-            </h1>
-          </div>
-          <div class="cards shadow p-2" style="
+                        <h1 class="text-white contornoB text-justify ">
+                            <b>Nomina y Capital Humano</b>
+                        </h1>
+                    </div>
+                    <div class="cards shadow p-2" style="
                 background-image: url(images/reloj_checador.jpeg);
                 background-repeat: no-repeat;
                 background-size: cover;
                 background-position: left center;
               ">
-            <h1 class="text-white contornoB text-justify ">
-              <b>Reloj Checador</b>
-            </h1>
-          </div>
-          <div class="cards shadow p-2" style="
+                        <h1 class="text-white contornoB text-justify ">
+                            <b>Reloj Checador</b>
+                        </h1>
+                    </div>
+                    <div class="cards shadow p-2" style="
                 background-image: url(images/kiosko_empleados.jpg);
                 background-repeat: no-repeat;
                 background-size: cover;
                 background-position: top center;
               ">
-            <h1 class="text-black contornoW text-justify ">
-              <b>Kiosko De Empleados</b>
-            </h1>
-          </div>
-          <div class="cards shadow p-2" style="
+                        <h1 class="text-black contornoW text-justify ">
+                            <b>Kiosko De Empleados</b>
+                        </h1>
+                    </div>
+                    <div class="cards shadow p-2" style="
                 background-image: url(images/desarrollo_talento.jpg);
                 background-repeat: no-repeat;
                 background-size: cover;
                 background-position: top center;
               ">
-            <h1 class="text-white contornoB text-justify ">
-              <b>Desarrollo y Talento Humano</b>
-            </h1>
-          </div>
-          <div class="cards shadow p-2" style="
+                        <h1 class="text-white contornoB text-justify ">
+                            <b>Desarrollo y Talento Humano</b>
+                        </h1>
+                    </div>
+                    <div class="cards shadow p-2" style="
                 background-image: url(images/evaluacion_360.jpg);
                 background-repeat: no-repeat;
                 background-size: cover;
                 background-position: left center;
               ">
-            <h1 class="text-black contornoW text-justify ">
-              <b>Evaluaciones 360°</b>
-            </h1>
-          </div>
-          <div class="cards shadow p-2" style="
+                        <h1 class="text-black contornoW text-justify ">
+                            <b>Evaluaciones 360°</b>
+                        </h1>
+                    </div>
+                    <div class="cards shadow p-2" style="
                 background-image: url(images/reclutamiento_seleccion.jpg);
                 background-repeat: no-repeat;
                 background-size: cover;
                 background-position: left center;
               ">
-            <h1 class="text-white contornoB text-justify ">
-              <b>Reclutamiento y Seleccion</b>
-            </h1>
-          </div>
-          <div class="cards shadow p-2" style="
+                        <h1 class="text-white contornoB text-justify ">
+                            <b>Reclutamiento y Seleccion</b>
+                        </h1>
+                    </div>
+                    <div class="cards shadow p-2" style="
                 background-image: url(images/digitalizador_documentos.jpg);
                 background-repeat: no-repeat;
                 background-size: cover;
                 background-position: top center;
               ">
-            <h1 class="text-black contornoW text-justify ">
-              <b>Digitalizador De Documentos</b>
-            </h1>
-          </div>
+                        <h1 class="text-black contornoW text-justify ">
+                            <b>Digitalizador De Documentos</b>
+                        </h1>
+                    </div>
+                </div>
+                <div class="col-sm col-lg">
+                    <button class="carousel-controls next-btn" id="nextBtn">
+                        &gt;
+                    </button>
+                </div>
+            </div>
         </div>
-        <div class="col-sm col-lg">
-          <button class="carousel-controls next-btn" id="nextBtn">
-            &gt;
-          </button>
-        </div>
-      </div>
     </div>
-  </div>
-  <!-- Tercer Contenido - Productos -->
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-sm col-lg shadow mt-3 mb-3 imgDeg" data-aos="zoom-in" data-aos-offset="200"
-        data-aos-duration="2500" data-aos-delay="50" style="background-image: url(images/cap2.png)">
-        <div class="row mt-2 mb-2">
-          <h1 class="text-start text-ossc2 display-4">Capacitación</h1>
-          <div class="col-6">
-            <p class="text-justify tsd">
-              La capacitación en una empresa es un proceso continuo y dinámico
-              que busca mejorar el rendimiento y la competitividad de los
-              empleados, permitiendo a la empresa adaptarse a los cambios del
-              mercado y alcanzar sus objetivos empresariales.
-            </p>
-          </div>
-          <div class="col-6">
-            <h1 class="text-end"><a href="#"
-                class="btn btn-info py-sm-2 px-sm-2 py-md-3 px-md-3 py-lg-4 px-lg-4 rounded-pill fs-4" id="mif">Más
-                Información</a>
-            </h1>
-          </div>
+    <!-- Tercer Contenido - Productos -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm col-lg shadow mt-3 mb-3 imgDeg" data-aos="zoom-in" data-aos-offset="200"
+                 data-aos-duration="2500" data-aos-delay="50" style="background-image: url(images/cap2.png)">
+                <div class="row mt-2 mb-2">
+                    <h1 class="text-start text-ossc2 display-4">Capacitación</h1>
+                    <div class="col-6">
+                        <p class="text-justify tsd">
+                            La capacitación en una empresa es un proceso continuo y dinámico
+                            que busca mejorar el rendimiento y la competitividad de los
+                            empleados, permitiendo a la empresa adaptarse a los cambios del
+                            mercado y alcanzar sus objetivos empresariales.
+                        </p>
+                    </div>
+                    <div class="col-6">
+                        <h1 class="text-end">
+                            <a href="#"
+                               class="btn btn-info py-sm-2 px-sm-2 py-md-3 px-md-3 py-lg-4 px-lg-4 rounded-pill fs-4" id="mif">
+                                Más
+                                Información
+                            </a>
+                        </h1>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
+        <div class="row">
+            <div class="col-sm col-lg shadow mt-3 mb-3 imgDeg" data-aos="zoom-in" data-aos-offset="200"
+                 data-aos-duration="2500" data-aos-delay="50" style="background-image: url(images/st2.png)">
+                <div class="row mt-2 mb-2">
+                    <h1 class="text-end text-ossc1 display-4">Soporte</h1>
+                    <div class="col-6">
+                        <h1 class="text-start">
+                            <a href="#"
+                               class="btn btn-info py-sm-2 px-sm-2 py-md-3 px-md-3 py-lg-4 px-lg-4 rounded-pill fs-4" id="mif2">
+                                Más
+                                Información
+                            </a>
+                        </h1>
+                    </div>
+                    <div class="col-6">
+                        <p class="text-end tsd">
+                            El soporte técnico juega un papel crucial en el mantenimiento y
+                            la operación eficiente de los sistemas tecnológicos de una
+                            organización, asegurando que los usuarios puedan utilizar sus
+                            recursos tecnológicos de manera efectiva y sin interrupciones
+                            significativas.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm col-lg shadow mt-3 mb-3 imgDeg" data-aos="zoom-in" data-aos-offset="200"
+                 data-aos-duration="2500" data-aos-delay="50" style="background-image: url(images/ad2.png)">
+                <div class="row mt-2 mb-2">
+                    <h1 class="text-start text-ossc2 display-4">Servidor Y Alojamiento</h1>
+                    <div class="col-6">
+                        <p class="text-justify tsd">
+                            En lugar de compartir recursos de servidor con otros usuarios, como en el caso del alojamiento compartido,
+                            con el arrendamiento de servidor se obtiene acceso exclusivo y completo a un servidor físico o virtual.
+                        </p>
+                    </div>
+                    <div class="col-6">
+                        <h1 class="text-end">
+                            <a href="#"
+                               class="btn btn-info py-sm-2 px-sm-2 py-md-3 px-md-3 py-lg-4 px-lg-4 rounded-pill fs-4" id="mif3">
+                                Más
+                                Información
+                            </a>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm col-lg shadow mt-3 mb-3 imgDeg" data-aos="zoom-in" data-aos-offset="200"
+                 data-aos-duration="2500" data-aos-delay="50" style="background-image: url(images/software_giro.png)">
+                <div class="row mt-2 mb-2">
+                    <h1 class="text-start text-ossc1 display-4">Arrendamiento</h1>
+                    <div class="col-6">
+                        <p class="text-justify tsd">
+                            El software de giro de nóminas es una herramienta esencial para las empresas que desean optimizar y
+                            simplificar la administración de la nómina de sus empleados, garantizando la precisión, eficiencia y el
+                            cumplimiento normativo en todo el proceso de pago.
+                        </p>
+                    </div>
+                    <div class="col-6">
+                        <h1 class="text-end">
+                            <a href="#"
+                               class="btn btn-info py-sm-2 px-sm-2 py-md-3 px-md-3 py-lg-4 px-lg-4 rounded-pill fs-4" id="mif4">
+                                Más
+                                Información
+                            </a>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="row">
-      <div class="col-sm col-lg shadow mt-3 mb-3 imgDeg" data-aos="zoom-in" data-aos-offset="200"
-        data-aos-duration="2500" data-aos-delay="50" style="background-image: url(images/st2.png)">
-        <div class="row mt-2 mb-2">
-          <h1 class="text-end text-ossc1 display-4">Soporte</h1>
-          <div class="col-6">
-            <h1 class="text-start"><a href="#"
-                class="btn btn-info py-sm-2 px-sm-2 py-md-3 px-md-3 py-lg-4 px-lg-4 rounded-pill fs-4" id="mif2">Más
-                Información</a>
-            </h1>
-          </div>
-          <div class="col-6">
-            <p class="text-end tsd">
-              El soporte técnico juega un papel crucial en el mantenimiento y
-              la operación eficiente de los sistemas tecnológicos de una
-              organización, asegurando que los usuarios puedan utilizar sus
-              recursos tecnológicos de manera efectiva y sin interrupciones
-              significativas.
-            </p>
-          </div>
+    <!-- Logo final -->
+    <div class="container-fluid copyright bg-ossc2 py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 text-center text-md-start mb-3 mb-md-0">
+                    <div class="col">
+                        <span class="text-light">CONTACTANOS</span>
+                    </div>
+                    <div class="col">
+                        <span class="text-light fs-3">Tel: (33) 2494 8488</span>
+                    </div>
+                    <div class="col">
+                        <span class="text-light fs-3">info@ossc.com.mx</span>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center text-md-center mb-3 mb-md-0">
+                    <div class="col">
+                        <span class="text-light">UBICACIÓN</span>
+                    </div>
+                    <div class="col">
+                        <span class="text-light fs-3">Unknow</span>
+                    </div>
+                    <div class="col">
+                        <span class="text-light fs-3">.</span>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center text-md-end mb-3 mb-md-0">
+                    <div class="col">
+                        <span class="text-light">REDES SOCIALES</span>
+                    </div>
+                    <div class="col">
+                        <span class="text-light fs-2">
+                            <i class="bi bi-facebook"></i>
+                            <i class="bi bi-twitter-x"></i>
+                            <i class="bi bi-person-bounding-box"></i>
+                        </span>
+                    </div>
+                    <div class="col">
+                        <span class="text-light">.</span>
+                    </div>
+                </div>
+            </div>
+            <br />
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    <span class="text-light">
+                        <a href="https://www.ossc.mx/" class="text-light">OSSC</a>,
+                        Derechos reservados.
+                    </span>
+                </div>
+                <div class="col-md-6 text-center text-md-end text-white">
+                    Desarrollado por OSSC y Distribuido por
+                    <a class="text-light" href="https://www.ossc.mx/">OSSC</a>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-    <div class="row">
-      <div class="col-sm col-lg shadow mt-3 mb-3 imgDeg" data-aos="zoom-in" data-aos-offset="200"
-        data-aos-duration="2500" data-aos-delay="50" style="background-image: url(images/ad2.png)">
-        <div class="row mt-2 mb-2">
-          <h1 class="text-start text-ossc2 display-4">Servidor Y Alojamiento</h1>
-          <div class="col-6">
-            <p class="text-justify tsd">
-              En lugar de compartir recursos de servidor con otros usuarios, como en el caso del alojamiento compartido,
-              con el arrendamiento de servidor se obtiene acceso exclusivo y completo a un servidor físico o virtual.
-            </p>
-          </div>
-          <div class="col-6">
-            <h1 class="text-end"><a href="#"
-                class="btn btn-info py-sm-2 px-sm-2 py-md-3 px-md-3 py-lg-4 px-lg-4 rounded-pill fs-4" id="mif3">Más
-                Información</a>
-            </h1>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-sm col-lg shadow mt-3 mb-3 imgDeg" data-aos="zoom-in" data-aos-offset="200"
-        data-aos-duration="2500" data-aos-delay="50" style="background-image: url(images/software_giro.png)">
-        <div class="row mt-2 mb-2">
-          <h1 class="text-start text-ossc1 display-4">Arrendamiento</h1>
-          <div class="col-6">
-            <p class="text-justify tsd">
-              El software de giro de nóminas es una herramienta esencial para las empresas que desean optimizar y
-              simplificar la administración de la nómina de sus empleados, garantizando la precisión, eficiencia y el
-              cumplimiento normativo en todo el proceso de pago.
-            </p>
-          </div>
-          <div class="col-6">
-            <h1 class="text-end"><a href="#"
-                class="btn btn-info py-sm-2 px-sm-2 py-md-3 px-md-3 py-lg-4 px-lg-4 rounded-pill fs-4" id="mif4">Más
-                Información</a>
-            </h1>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Logo final -->
-  <div class="container-fluid copyright bg-ossc2 py-4">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4 text-center text-md-start mb-3 mb-md-0">
-          <div class="col">
-            <span class="text-light">CONTACTANOS</span>
-          </div>
-          <div class="col">
-            <span class="text-light fs-3">Tel: (33) 2494 8488</span>
-          </div>
-          <div class="col">
-            <span class="text-light fs-3">info@ossc.com.mx</span>
-          </div>
-        </div>
-        <div class="col-md-4 text-center text-md-center mb-3 mb-md-0">
-          <div class="col">
-            <span class="text-light">UBICACIÓN</span>
-          </div>
-          <div class="col">
-            <span class="text-light fs-3">Unknow</span>
-          </div>
-          <div class="col">
-            <span class="text-light fs-3">.</span>
-          </div>
-        </div>
-        <div class="col-md-4 text-center text-md-end mb-3 mb-md-0">
-          <div class="col">
-            <span class="text-light">REDES SOCIALES</span>
-          </div>
-          <div class="col">
-            <span class="text-light fs-2">
-              <i class="bi bi-facebook"></i>
-              <i class="bi bi-twitter-x"></i>
-              <i class="bi bi-person-bounding-box"></i>
-            </span>
-          </div>
-          <div class="col">
-            <span class="text-light">.</span>
-          </div>
-        </div>
-      </div>
-      <br />
-      <div class="row">
-        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-          <span class="text-light"><a href="https://www.ossc.mx/" class="text-light">OSSC</a>,
-            Derechos reservados.</span>
-        </div>
-        <div class="col-md-6 text-center text-md-end text-white">
-          Desarrollado por OSSC y Distribuido por
-          <a class="text-light" href="https://www.ossc.mx/">OSSC</a>
-        </div>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript" src="lib/main.js"></script>
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
-    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
-    crossorigin="anonymous"></script>
+    <script src="lib/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+            integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+            crossorigin="anonymous"></script>
+    <script type="text/javascript"
+            src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 </body>
 
 </html>

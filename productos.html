@@ -17,7 +17,7 @@
           integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
           crossorigin="anonymous" />
 </head>
-<body>
+<body onload="overX()" >
     <div style="display: block" id="formsend">
         <div class="formsend js-formsend" id="formOpen">
             <div class="formsend-underlay"></div> <a class="formsend__trigger text-replace form" id="btnOpenForm"></a> <div class="formsend__content">
@@ -47,15 +47,16 @@
     </div>
     <!-- Menu Principal -->
     <nav class="container-fluid">
-        <div class="row-sm row-md row-lg menu mt-3">
-            <div class="col-sm col-md col-lg text-start ms-2" id="btn">
-                <a class="navbar-brand" id="principal" href="/index.html"><b><i class="bi bi-house-door-fill"></i> Inicio</b></a>
-                <a class="navbar-brand show" id="itm" href="/productos.html"><b><i class="bi bi-clipboard-fill"></i> Productos</b></a>
-                <a class="navbar-brand show" id="itm2" href="/nosotros.html"><b><i class="bi bi-info-circle-fill"></i> Nosotros</b></a>
-                <a class="navbar-brand show" id="itm3" href="/soluciones.html"><b><i class="bi bi-gear-fill"></i> Soluciones</b></a>
-                <a class="navbar-brand show" id="itm4" href="#"><b><i class="bi bi-clipboard2-data-fill"></i> Cursos</b></a>
-            </div>
+
+        <div id="mySidebar" class="sidebar p-1 m-3">
+            <a class="btnLink" id="NavButton"><i class="bi bi-house"> </i> Inicio</a>
+            <a href="productos.html" class="btnLink"><i class="bi bi-info-circle"> </i> Productos</a>
+            <a href="Nosotros.html" class="btnLink"><i class="bi bi-gear"> </i> Nosotros</a>
+            <a href="soluciones.html" class="btnLink"><i class="bi bi-person"> </i> Soluciones</a>
+            <a href="cursos.html" class="btnLink"><i class="=bi bi-telephone"> </i> Cursos</a>
         </div>
+
+
     </nav>
     <div class="encabezado" style="scroll-snap-align: start">
         <div class="contenedor-w contenidos">
@@ -759,13 +760,21 @@
             </div>
         </div>
     </div>
+    <script type="text/javascript" src="lib/main.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
     </script>
-    <script type="text/javascript" src="lib/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+            integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+            crossorigin="anonymous"></script>
     <script type="text/javascript"
             src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script type="text/javascript" src="lib/anim.js"></script>
 </body>
 </html>
