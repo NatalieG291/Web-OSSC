@@ -198,10 +198,10 @@
         font-size: 3rem;
       }
 
-                    .img-giro {
-                      width: 10%;
-                      height: 10%;
-                    }
+    .img-giro {
+      width: 10%;
+      height: 10%;
+    }
 }
   .cards:hover {
     transition: 1s;
