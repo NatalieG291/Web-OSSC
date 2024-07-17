@@ -992,3 +992,118 @@ body {
     width: 90%;
   }
 }
+
+/* actualizacion menu */
+.sidebar {
+    z-index: 1;
+    border-radius: 45px;
+    height: 4em;
+    width: 7em;
+    position: fixed;
+    overflow-x: hidden;
+    transition: 0.3s;
+    scrollbar-width: none;
+    opacity: 0.8;
+    background: rgb(0, 157, 220);
+    margin: 0;
+    box-shadow: 3px 3px 3px 3px rgb(96, 96, 96, 0.2);
+}
+
+@media screen and (min-width: 1200px) {
+    .sidebar:hover {
+        height: 17em;
+        width: 10em;
+    }
+
+    .sidebar.open {
+        height: 17em;
+        width: 10em;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .sidebar {
+        width: 7em;
+        height: 3.6em;
+    }
+
+        .sidebar.open {
+            height: 16.5em;
+            width: 10em;
+        }
+
+    @media (hover: hover) {
+        .sidebar:hover {
+            height: 16.5em;
+            width: 10em;
+        }
+    }
+
+    .btnLink {
+        font-size: 1.3em !important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .sidebar {
+        width: 7em;
+        height: 3.6em;
+    }
+
+        .sidebar.open {
+            height: 16em;
+            width: 10em;
+        }
+
+    @media (hover: hover) {
+        .sidebar:hover {
+            height: 16em;
+            width: 10em;
+        }
+    }
+
+    .btnLink {
+        font-size: 1.2em !important;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .sidebar {
+        width: 6em;
+        height: 3em;
+    }
+
+        .sidebar.open {
+            height: 14.5em;
+            width: 8em;
+        }
+
+    @media (hover: hover) {
+        .sidebar:hover {
+            height: 14.5em;
+            width: 8em;
+        }
+    }
+
+    .btnLink {
+        font-size: 1em !important;
+    }
+}
+
+.btnLink {
+    color: white;
+    text-decoration: none;
+    font-size: 1.3em;
+    display: flex;
+    margin: 0;
+    padding: 10px;
+    cursor: pointer;
+}
+
+    .btnLink:hover {
+        background-color: rgb(255, 255, 255, 0.1);
+    }
+
+    .btnLink.invisible {
+        visibility: hidden;
+    }
