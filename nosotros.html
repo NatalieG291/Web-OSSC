@@ -9,60 +9,69 @@
     <link rel="stylesheet" href="styles/fonts.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <link rel="stylesheet" type="text/css" href="styles/form.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
     <style>
         body {
             font-family: "SF", "SF-2";
         }
     </style>
-    <link rel="stylesheet" type="text/css" href="styles/form.css" />
 </head>
 
 <body onresize="resizeW()" onload="overX()">
-    <div style="display: block" id="formsend">
+    <div style="display: block; visibility: visible;" id="formsend">
         <div class="formsend js-formsend" id="formOpen">
             <div class="formsend-underlay"></div> <a class="formsend__trigger text-replace form" id="btnOpenForm"></a>
             <div class="formsend__content">
                 <div class="formsend__layout">
                     <header class="formsend__header" style="zoom: 1;">
                         <h2 style="text-align: left;"> <span>Contactanos</span></h2>
-                        <div class="formsend-account" style="display: flex; align-items: center;"><span
-                                class="formsend__close" id="btnOpenForm2"></span></div>
+                        <div class="formsend-account" style="display: flex; align-items: center;">
+                            <span class="formsend__close" id="btnOpenForm2"></span>
+                        </div>
                     </header>
                     <div id="formsend-body" class="formsend__body" style="zoom: 1;">
                         <div>
                             <div class="formsend-option formsend-toggle formsend-form"
-                                style="display: block; zoom: 1.2;">
+                                 style="display: block; zoom: 1.2;">
                                 <div style="margin-bottom: 10px;">
                                     <div class="formsend-label">
-                                        Nombre
-                                    </div> <input type="text" class="formsend-input">
+                                        Nombre <span class="formsend-required">*</span>
+                                    </div> <input type="text" id="txtNombre" class="formsend-input" required>
                                 </div>
                                 <div style="margin-bottom: 10px;">
                                     <div class="formsend-label">
                                         Correo electronico <span class="formsend-required">*</span>
-                                    </div> <input type="email" class="formsend-input">
+                                    </div> <input type="email" id="txtEmail" class="formsend-input" required>
                                 </div>
                                 <div style="margin-bottom: 10px;">
                                     <div class="formsend-label">
-                                        ¿Como podemos ayudarte?
+                                        ¿Como podemos ayudarte? <span class="formsend-required">*</span>
                                     </div> <textarea class="formsend-input"
-                                        style="min-height: 80px; padding: 5px 10px;"></textarea>
+                                                     style="min-height: 80px; padding: 5px 10px;" id="txtDetalle" required></textarea>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <footer class="formsend__footer" style="font-size: 14px;"><a class="formsend__checkout"
-                            style="background-color: rgb(63, 156, 217);"><em> <span>Enviar</span> <svg
-                                    viewBox="0 0 24 24" class="icon icon--sm">
+                    <footer class="formsend__footer" style="font-size: 14px;">
+                        <a class="formsend__checkout"
+                           style="background-color: rgb(63, 156, 217);" id="btnEnviar" onclick="EnviaMensaje()">
+                            <div class="spinner-border visually-hidden" id="statusSpinner" role="status">
+                                <span class="visually-hidden">Loading...</span>
+                            </div>
+                            <em id="status">
+                                <span id="txtStatus">Enviar</span> <svg viewBox="0 0 24 24" class="icon icon--sm">
                                     <g fill="none" stroke="#FFF">
                                         <line stroke-width="2" stroke-linecap="round" stroke-linejoin="round" x1="3"
-                                            y1="12" x2="21" y2="12"></line>
+                                              y1="12" x2="21" y2="12"></line>
                                         <polyline stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                            points="15,6 21,12 15,18 "></polyline>
+                                                  points="15,6 21,12 15,18 "></polyline>
                                     </g>
-                                </svg></em></a> </footer>
+                                </svg>
+                            </em>
+                        </a>
+                    </footer>
                 </div>
             </div>
         </div>
@@ -80,11 +89,11 @@
     <br />
     <div class="container-fluid pt-1 mb-5 bg-body-secondary">
         <div class="container pt-5" data-aos="zoom-in-down" data-aos-offset="200" data-aos-duration="3000"
-            data-aos-delay="100">
+             data-aos-delay="100">
             <div class="row g-5 pt-5">
                 <div class="col-lg align-self-center text-center text-lg-center mb-lg-5">
                     <img class="img-fluid w-25 h-25" src="images/Logo_OSSC.png" alt="" data-aos="fade-up"
-                        data-aos-offset="200" data-aos-duration="3000" data-aos-delay="100" />
+                         data-aos-offset="200" data-aos-duration="3000" data-aos-delay="100" />
                     <h1 class="text-ossc2" data-aos="fade-up" data-aos-offset="200" data-aos-duration="3000"
                         data-aos-delay="100">
                         Software De Nómina y Capital Humano
@@ -120,7 +129,7 @@
         <hr>
     </div>
     <div class="container mt-5" data-aos="zoom-in-up" data-aos-offset="200" data-aos-duration="2500"
-        data-aos-delay="50">
+         data-aos-delay="50">
         <div class="row justify-content-center">
             <img class="img-fluid mx-auto rounded-5 w-75" src="images/usuarios.jpg" alt="">
         </div>
@@ -128,7 +137,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-sm col-lg mt-3 mb-3" data-aos="zoom-out-up" data-aos-offset="200" data-aos-duration="2500"
-                data-aos-delay="50">
+                 data-aos-delay="50">
                 <h1 class="text-center text-ossc2 display-2">
                     Software de Nómina <img class="img-fluid img-giro" src="images/giro.png" alt="" />
                 </h1>
@@ -188,7 +197,7 @@
     <div class="container mt-3 mb-3">
         <div class="row">
             <div class="col-lg-4" data-aos="zoom-in-right" data-aos-offset="200" data-aos-duration="2500"
-                data-aos-delay="50">
+                 data-aos-delay="50">
                 <div id="cardG1" class="card border-0 border-end border-secondary rounded-0">
                     <div class="card-body sinFondo">
                         <h2 class="card-title text-center">
@@ -202,7 +211,7 @@
                 </div>
             </div>
             <div class="col-lg-4" data-aos="zoom-in-up" data-aos-offset="200" data-aos-duration="2500"
-                data-aos-delay="50">
+                 data-aos-delay="50">
                 <div id="cardG2" class="card border-0 border-end border-secondary rounded-0">
                     <div class="card-body sinFondo">
                         <h2 class="card-title text-center">
@@ -216,7 +225,7 @@
                 </div>
             </div>
             <div class="col-lg-4" data-aos="zoom-in-left" data-aos-offset="200" data-aos-duration="2500"
-                data-aos-delay="50">
+                 data-aos-delay="50">
                 <div class="card border-0">
                     <div class="card-body sinFondo">
                         <h2 class="card-title text-center">
@@ -284,8 +293,10 @@
                         <h6 class="text-uppercase fw-bold text-dark">¡Contactanos!</h6>
                         <hr class="mb-4 mt-0 d-inline-block mx-auto"
                             style="width: 60px; background-color: #00294f; height: 2px" />
-                        <p class="text-dark"><i class="text-dark bi bi-pin-fill mr-3"></i> Coral #2756-6, col. Victoria,
-                            45060. Zapopan, jalisco.</p>
+                        <p class="text-dark">
+                            <i class="text-dark bi bi-pin-fill mr-3"></i> Coral #2756-6, col. Victoria,
+                            45060. Zapopan, jalisco.
+                        </p>
                         <p class="text-dark"><i class="text-dark bi bi-envelope-fill mr-3"></i> ventas@ossc.com.mx</p>
                         <p class="text-dark"><i class="text-dark bi bi-telephone-fill mr-3"></i> (33) 2494 8488</p>
                     </div>
@@ -299,14 +310,15 @@
         AOS.init();
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-        crossorigin="anonymous"></script>
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
-        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
-        crossorigin="anonymous"></script>
+            integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+            crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 </body>
 
 </html>

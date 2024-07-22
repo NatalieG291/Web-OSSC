@@ -1118,3 +1118,18 @@ body {
     .btnLink.invisible {
         visibility: hidden;
     }
+
+.btnEnviarOK {
+    transition: background 0.5s !important;
+    background: rgb(130, 186, 57) !important;
+}
+
+.btnEnviarWAIT {
+    transition: background 0.5s !important;
+    background: rgb(63, 156, 217) !important;
+}
+
+.btnEnviarERROR {
+    transition: background 0.5s !important;
+    background: rgb(255, 66, 66) !important;
+}
