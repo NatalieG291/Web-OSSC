@@ -997,8 +997,6 @@ body {
 .sidebar {
     z-index: 1;
     border-radius: 3em;
-    height: 5em;
-    width: 10em;
     position: fixed;
     overflow-x: hidden;
     transition: 0.2s;
@@ -1022,87 +1020,92 @@ body {
 }
 
 @media screen and (min-width: 1200px) {
+    .sidebar {
+      width: 11em;
+      height: 5em;
+     }
+
     .sidebar:hover {
       width: 15em;
       height: 22em;
     }
 
     .sidebar.open {
-      width: 14em;
-      height: 25em;
+      width: 15em;
+      height: 22em;
     }
 
     .btnLink {
-      font-size: 1.9em !important;
+      font-size: 2em !important;
     }
 }
 
 @media screen and (max-width: 991px) {
     .sidebar {
-        width: 7em;
-        height: 3.6em;
+        width: 8em;
+        height: 4em;
     }
 
         .sidebar.open {
-          width: 10em;
-          height: 16.5em;
+          width: 13em;
+          height: 19em;
         }
 
     @media (hover: hover) {
         .sidebar:hover {
-          width: 10em;
-          height: 16.5em;
+          width: 13em;
+          height: 19em;
         }
     }
 
     .btnLink {
-        font-size: 1.3em !important;
+        font-size: 1.5em !important;
     }
 }
 
 @media screen and (max-width: 767px) {
     .sidebar {
+        width: 9em;
+        height: 4em;
+    }
+
+        .sidebar.open {
+          width: 13em;
+          height: 19em;
+        }
+
+    @media (hover: hover) {
+        .sidebar:hover {
+          width: 13em;
+          height: 19em;
+        }
+    }
+
+    .btnLink {
+        font-size: 1.5em !important;
+    }
+}
+
+@media screen and (max-width: 486px) {
+    .sidebar {
         width: 7em;
-        height: 3.6em;
+        height: 3.5em;
     }
 
         .sidebar.open {
           width: 10em;
-          height: 16em;
+          height: 17em;
         }
 
     @media (hover: hover) {
         .sidebar:hover {
           width: 10em;
-          height: 16em;
+          height: 17em;
         }
     }
 
     .btnLink {
         font-size: 1.2em !important;
-    }
-}
-
-@media screen and (max-width: 479px) {
-    .sidebar {
-        width: 6em;
-        height: 3em;
-    }
-
-        .sidebar.open {
-          width: 8em;
-          height: 14.5em;
-        }
-
-    @media (hover: hover) {
-        .sidebar:hover {
-          width: 8em;
-          height: 14.5em;
-        }
-    }
-
-    .btnLink {
-        font-size: 1em !important;
     }
 }
 
