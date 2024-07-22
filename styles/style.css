@@ -1013,6 +1013,7 @@ body {
 .sidebar a{
   font-weight: bold;
   text-decoration: none;
+  transition: 0.2s;
 }
 
 .sidebar a:hover{
@@ -1022,16 +1023,17 @@ body {
 
 @media screen and (min-width: 1200px) {
     .sidebar:hover {
-        height: 22em;
-        width: 15em;
+      width: 15em;
+      height: 22em;
     }
 
     .sidebar.open {
-        height: 25em;
-        width: 14em;
+      width: 14em;
+      height: 25em;
     }
 
     .btnLink {
+      transition: 0.2s;
       font-size: 1.9em !important;
     }
 }
@@ -1043,18 +1045,19 @@ body {
     }
 
         .sidebar.open {
-            height: 16.5em;
-            width: 10em;
+          width: 10em;
+          height: 16.5em;
         }
 
     @media (hover: hover) {
         .sidebar:hover {
-            height: 16.5em;
-            width: 10em;
+          width: 10em;
+          height: 16.5em;
         }
     }
 
     .btnLink {
+      transition: 0.2s;
         font-size: 1.3em !important;
     }
 }
@@ -1066,18 +1069,19 @@ body {
     }
 
         .sidebar.open {
-            height: 16em;
-            width: 10em;
+          width: 10em;
+          height: 16em;
         }
 
     @media (hover: hover) {
         .sidebar:hover {
-            height: 16em;
-            width: 10em;
+          width: 10em;
+          height: 16em;
         }
     }
 
     .btnLink {
+      transition: 0.2s;
         font-size: 1.2em !important;
     }
 }
@@ -1089,18 +1093,19 @@ body {
     }
 
         .sidebar.open {
-            height: 14.5em;
-            width: 8em;
+          width: 8em;
+          height: 14.5em;
         }
 
     @media (hover: hover) {
         .sidebar:hover {
-            height: 14.5em;
-            width: 8em;
+          width: 8em;
+          height: 14.5em;
         }
     }
 
     .btnLink {
+      transition: 0.2s;
         font-size: 1em !important;
     }
 }
@@ -1113,11 +1118,8 @@ body {
     margin: 0;
     padding: 10px;
     cursor: pointer;
+    transition: 0.2s;
 }
-
-    .btnLink:hover {
-        background-color: rgb(255, 255, 255, 0.1);
-    }
 
     .btnLink.invisible {
         visibility: hidden;
