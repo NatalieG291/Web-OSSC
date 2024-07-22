@@ -1033,7 +1033,6 @@ body {
     }
 
     .btnLink {
-      transition: 0.2s;
       font-size: 1.9em !important;
     }
 }
@@ -1057,7 +1056,6 @@ body {
     }
 
     .btnLink {
-      transition: 0.2s;
         font-size: 1.3em !important;
     }
 }
@@ -1081,7 +1079,6 @@ body {
     }
 
     .btnLink {
-      transition: 0.2s;
         font-size: 1.2em !important;
     }
 }
@@ -1105,7 +1102,6 @@ body {
     }
 
     .btnLink {
-      transition: 0.2s;
         font-size: 1em !important;
     }
 }
@@ -1113,12 +1109,10 @@ body {
 .btnLink {
     color: white;
     text-decoration: none;
-    font-size: 1.3em;
     display: flex;
     margin: 0;
     padding: 10px;
     cursor: pointer;
-    transition: 0.2s;
 }
 
     .btnLink.invisible {
