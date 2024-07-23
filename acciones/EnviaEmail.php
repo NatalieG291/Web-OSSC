@@ -37,7 +37,7 @@
                         color: gray;
                         font-family: segoe ui;
                     }
-                    h1, h2, p, span
+                    h1, h3, p, span
                     {
                         font-family: segoe UI;
                     }
@@ -46,10 +46,10 @@
             <body>
                 <center>
                 <h1><?php echo $Asunto; ?></h1>
-                <p>El usuario <b><?php echo $Nombre; ?> </b>solicito comunicarse al siguiente correo: <?php echo $Email; ?>.</p>
-				<h2>Mensaje:</h2>
-				<p><?php echo $Mensaje; ?></p>
                 </center>
+                <p>El usuario <b><?php echo $Nombre; ?> </b>solicito comunicarse al siguiente correo: <?php echo $Email; ?>.</p>
+				<h3>Detalle de la solicitud:</h3>
+				<p><?php echo $Mensaje; ?></p>
             </body>
         </html>
     <?php
@@ -68,7 +68,7 @@
         $mail->Username = $Correo;
         $mail->Password = $Contraseña;
 
-        $emails = 'natali11.ngs@gmail.com';
+        $emails = 'natalia.garcia@ossc.com.mx';
         array_map(array($mail, 'AddAddress'), explode(';', $emails));
 
         $mail->SetFrom($Correo, $NombreMostrar);
