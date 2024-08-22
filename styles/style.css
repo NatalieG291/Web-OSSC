@@ -1,3 +1,7 @@
+.body {
+  overflow-x: hidden;
+}
+
 @media (min-width: 132px) and (max-width: 899px) {
   .menu {
     z-index: 1;
@@ -148,7 +152,7 @@
   }
 
   .tsd {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
 
   .img-giro {
