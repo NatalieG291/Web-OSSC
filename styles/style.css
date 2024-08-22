@@ -116,6 +116,7 @@
     width: 60vw;
     height: 45vw;
   }
+
   .imgDeg {
     background-repeat: no-repeat;
     background-size: cover;
@@ -138,6 +139,7 @@
     width: 34vw;
     height: 40vw;
   }
+
   .imgDeg {
     background-repeat: no-repeat;
     background-size: cover;
@@ -160,6 +162,7 @@
     width: 18vw;
     height: 24vw;
   }
+
   .imgDeg {
     background-repeat: no-repeat;
     background-size: cover;
@@ -182,6 +185,7 @@
     width: 18vw;
     height: 24vw;
   }
+
   .imgDeg {
     background-repeat: no-repeat;
     background-size: cover;
@@ -198,6 +202,7 @@
     height: 10%;
   }
 }
+
 .cards:hover {
   transition: 1s;
   transform: scale(105%);
@@ -264,6 +269,7 @@
 body {
   font-family: "SF", "SF-2";
 }
+
 @media screen and (min-width: 1200px) {
   .contenedor-w {
     max-width: 1170px;
@@ -435,12 +441,15 @@ img {
   html {
     scroll-snap-type: none;
   }
+
   .section {
     scroll-snap-align: none;
   }
+
   .section.info {
     height: auto !important;
   }
+
   .contenedor-w {
     max-width: 728px;
   }
@@ -534,6 +543,7 @@ body {
   color: #616161;
   scroll-snap-align: start;
 }
+
 .section.info {
   height: 100vh;
 }
@@ -821,6 +831,7 @@ body {
   .contenedor-w {
     max-width: 1170px;
   }
+
   .team-member {
     text-align: center;
     margin-bottom: 30px;
@@ -845,9 +856,11 @@ body {
 .section.lightgrey.solucioness {
   padding-bottom: 75px;
 }
+
 .soluciones-wrapper {
   padding-bottom: 31px;
 }
+
 .soluciones-link {
   display: block;
   padding: 38px 23px 23px;
@@ -877,6 +890,7 @@ body {
   line-height: 25px;
   font-weight: 400;
 }
+
 .soluciones-title.time {
   color: rgba(0, 0, 0, 0.43);
 }
@@ -1008,10 +1022,12 @@ body {
   transition: 0.3s;
   color: #3a8ff0;
 }
+
 .sidebar:hover {
   width: 10.5em;
   height: 17em;
 }
+
 .btnLink {
   font-size: 1.3em;
 }
@@ -1132,4 +1148,32 @@ body {
 .btnEnviarERROR {
   transition: background 0.5s !important;
   background: rgb(255, 66, 66) !important;
+}
+
+.button-container {
+  position: fixed;
+  bottom: 150px;
+  right: 3em;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 999;
+}
+
+.button-container a {
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 100%;
+  background-color: #fff;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+  color: black;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .button-container {
+    right: 2em;
+    bottom: 100px;
+  }
 }

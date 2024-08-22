@@ -15,6 +15,11 @@
 </head>
 
 <body onload="overX()">
+    <div class="button-container">
+        <a style="display: none" id="button1"><i class="bi bi-caret-up-fill"></i></a>
+        <a style="display: none" id="button2"><i class="bi bi-house-up-fill"></i></a>
+        <a id="button3"><i class="bi bi-caret-down-fill"></i></a>
+    </div>
     <div style="display: block; visibility: visible;" id="formsend">
         <div class="formsend js-formsend" id="formOpen">
             <div class="formsend-underlay"></div> <a class="formsend__trigger text-replace form" id="btnOpenForm"></a>
@@ -108,7 +113,7 @@
                     libre de errores y el pago puntual a tus empleados
                 </b>
             </h2>
-            <a class="alineacion-bloque-w flecha-abajo" href="#more" data-aos="fade-down" data-aos-duration="1200"
+            <a class="alineacion-bloque-w flecha-abajo" href="#1" data-aos="fade-down" data-aos-duration="1200"
                data-aos-delay="2200">
                 <div class="down-inner">
                     <img width="30px" src="images/arrow-down.png" alt="534dd73febf08c3e3000003c_arrow-down.svg" />
@@ -118,98 +123,118 @@
         <div class="objeto _2"></div>
         <div class="objeto"></div>
     </div>
-    <div class="section center" id="more">
+    <div class="section center" id="1">
         <div class="contenedor-w">
             <h2 class="no-margin-heading heading-lvl-2">Nuestros productos</h2>
             <div class="w-row">
-                <div class="w-col w-col-3 feature-pill" data-aos="zoom-in">
-                    <img class="feature-icon" src="images/nomina.jpeg" width="144" alt="nomina.png" />
-                    <h3 class="no-margin-heading heading-lvl-3">Nomina y capital humano<br /><br /></h3>
-                    <p class="parrafo">
-                        Controla la informacion de sus empleados de una manera simple y organizada.
-                    </p>
-                </div>
-                <div class="w-col w-col-3 feature-pill" data-aos="zoom-in" data-aos-delay="100">
-                    <img class="feature-icon" src="images/reloj.jpeg" width="144" alt="reloj.png" />
-                    <h3 class="no-margin-heading heading-lvl-3">Reloj checador<br /><br /><br /></h3>
-                    <p class="parrafo">
-                        Control preciso de tiempos y formas de acceso, configurable a
-                        cualquier horario o turno.
-                    </p>
-                </div>
-                <div class="w-col w-col-3 feature-pill" data-aos="zoom-in" data-aos-delay="200">
-                    <img class="feature-icon" src="images/kiosco.jpeg" width="144" alt="kiosco.png" />
-                    <h3 class="no-margin-heading heading-lvl-3">Kiosco de empleados<br /><br /></h3>
-                    <p class="parrafo">
-                        Práctico canal informativo para tus trabajadores.Mayor eficiencia
-                        para tu Capital Humano.
-                    </p>
-                </div>
-                <div class="w-col w-col-3 feature-pill last" data-aos="zoom-in" data-aos-delay="300">
-                    <img class="feature-icon" src="images/desarrollo.jpeg" width="144" alt="desarrollo.png" />
-                    <h3 class="no-margin-heading heading-lvl-3">Gestion y desarrollo del talento humano</h3>
-                    <p class="parrafo">
-                        Impulsa la colaboración y la retroalimentación entre los miembros
-                        de la organización.
-                    </p>
-                </div>
+                <a style="color: #616161" href="#2" onclick="currentSection = 2;">
+                    <div class="w-col w-col-3 feature-pill" data-aos="zoom-in">
+                        <img class="feature-icon" src="images/nomina.jpeg" width="144" alt="nomina.png" />
+                        <h3 class="no-margin-heading heading-lvl-3">Nomina y capital humano<br /><br /></h3>
+                        <p class="parrafo">
+                            Controla la informacion de sus empleados de una manera simple y organizada.
+                        </p>
+                    </div>
+                </a>
+                <a style="color: #616161" href="#3" onclick="currentSection = 3;">
+                    <div class="w-col w-col-3 feature-pill" data-aos="zoom-in" data-aos-delay="100">
+                        <img class="feature-icon" src="images/reloj.jpeg" width="144" alt="reloj.png" />
+                        <h3 class="no-margin-heading heading-lvl-3">Reloj checador<br /><br /><br /></h3>
+                        <p class="parrafo">
+                            Control preciso de tiempos y formas de acceso, configurable a
+                            cualquier horario o turno.
+                        </p>
+                    </div>
+                </a>
+                <a style="color: #616161" href="#4" onclick="currentSection = 4;">
+                    <div class="w-col w-col-3 feature-pill" data-aos="zoom-in" data-aos-delay="200">
+                        <img class="feature-icon" src="images/kiosco.jpeg" width="144" alt="kiosco.png" />
+                        <h3 class="no-margin-heading heading-lvl-3">Kiosco de empleados<br /><br /></h3>
+                        <p class="parrafo">
+                            Práctico canal informativo para tus trabajadores.Mayor eficiencia
+                            para tu Capital Humano.
+                        </p>
+                    </div>
+                </a>
+                <a style="color: #616161" href="#5" onclick="currentSection = 5;">
+                    <div class="w-col w-col-3 feature-pill last" data-aos="zoom-in" data-aos-delay="300">
+                        <img class="feature-icon" src="images/desarrollo.jpeg" width="144" alt="desarrollo.png" />
+                        <h3 class="no-margin-heading heading-lvl-3">Gestion y desarrollo del talento humano</h3>
+                        <p class="parrafo">
+                            Impulsa la colaboración y la retroalimentación entre los miembros
+                            de la organización.
+                        </p>
+                    </div>
+                </a>
             </div>
         </div>
         <div class="contenedor-w">
             <div class="w-row">
-                <div class="w-col w-col-3 feature-pill" data-aos="zoom-in" data-aos-delay="400">
-                    <img class="feature-icon" src="images/portalossc2.jpeg" width="144" alt="Portal OSSC.png" />
-                    <h3 class="no-margin-heading heading-lvl-3">Portal OSSC Empresa</h3>
-                    <p class="parrafo">Un agregado adicional para la pre-alta de candidatos.</p>
-                </div>
-                <div class="w-col w-col-3 feature-pill" data-aos="zoom-in" data-aos-delay="500">
-                    <img class="feature-icon" src="images/evaluaciones.jpeg" width="144" alt="Evaluaciones.png" />
-                    <h3 class="no-margin-heading heading-lvl-3">Evaluaciones 360° y por Objetivos</h3>
-                    <p class="parrafo">
-                        Concentra en un solo lugar los objetivos que establece la empresa
-                        para marcar el rumbo a seguir.
-                    </p>
-                </div>
-                <div class="w-col w-col-3 feature-pill" data-aos="zoom-in" data-aos-delay="600">
-                    <img class="feature-icon" src="images/Reclutamiento2.jpg" width="144" alt="Reclutamiento.png" />
-                    <h3 class="no-margin-heading heading-lvl-3">Reclutamiento<br /><br /></h3>
-                    <p class="parrafo">
-                        Optimiza el proceso de reclutamiento y selección de tu empresa.
-                    </p>
-                </div>
-                <div class="w-col w-col-3 feature-pill last" data-aos="zoom-in" data-aos-delay="700">
-                    <img class="feature-icon" src="images/comedor2.jpeg" width="144" alt="Comedor electronico.png" />
-                    <h3 class="no-margin-heading heading-lvl-3">Comedor electronico</h3>
-                    <p class="parrafo">
-                        Visualización clara de consumos de alimentos de tus colaboradores.
-                    </p>
-                </div>
+                <a style="color: #616161" href="#6" onclick="currentSection = 6;">
+                    <div class="w-col w-col-3 feature-pill" data-aos="zoom-in" data-aos-delay="400">
+                        <img class="feature-icon" src="images/portalossc2.jpeg" width="144" alt="Portal OSSC.png" />
+                        <h3 class="no-margin-heading heading-lvl-3">Portal OSSC Empresa</h3>
+                        <p class="parrafo">Un agregado adicional para la pre-alta de candidatos.</p>
+                    </div>
+                </a>
+                <a style="color: #616161" href="#7" onclick="currentSection = 7;">
+                    <div class="w-col w-col-3 feature-pill" data-aos="zoom-in" data-aos-delay="500">
+                        <img class="feature-icon" src="images/evaluaciones.jpeg" width="144" alt="Evaluaciones.png" />
+                        <h3 class="no-margin-heading heading-lvl-3">Evaluaciones 360° y por Objetivos</h3>
+                        <p class="parrafo">
+                            Concentra en un solo lugar los objetivos que establece la empresa
+                            para marcar el rumbo a seguir.
+                        </p>
+                    </div>
+                </a>
+                <a style="color: #616161" href="#8" onclick="currentSection = 8;">
+                    <div class="w-col w-col-3 feature-pill" data-aos="zoom-in" data-aos-delay="600">
+                        <img class="feature-icon" src="images/Reclutamiento2.jpg" width="144" alt="Reclutamiento.png" />
+                        <h3 class="no-margin-heading heading-lvl-3">Reclutamiento<br /><br /></h3>
+                        <p class="parrafo">
+                            Optimiza el proceso de reclutamiento y selección de tu empresa.
+                        </p>
+                    </div>
+                </a>
+                <a style="color: #616161" href="#9" onclick="currentSection = 9;">
+                    <div class="w-col w-col-3 feature-pill last" data-aos="zoom-in" data-aos-delay="700">
+                        <img class="feature-icon" src="images/comedor2.jpeg" width="144" alt="Comedor electronico.png" />
+                        <h3 class="no-margin-heading heading-lvl-3">Comedor electronico</h3>
+                        <p class="parrafo">
+                            Visualización clara de consumos de alimentos de tus colaboradores.
+                        </p>
+                    </div>
+                </a>
             </div>
         </div>
         <div class="contenedor-w">
             <div class="w-row">
                 <div class="w-col w-col-3 feature-pill"></div>
-                <div class="w-col w-col-3 feature-pill" data-aos="zoom-in" data-aos-delay="800">
-                    <img class="feature-icon" src="images/timbrado.jpeg" width="144" alt="timbrado.png" />
-                    <h3 class="no-margin-heading heading-lvl-3">Recibos de nomina CFDI</h3>
-                    <p class="parrafo">
-                        Paga tu nómina y envía los recibos de tus trabajadores con el
-                        formato de Comprobante Fiscal Digital por Internet ( CFDI ).
-                    </p>
-                </div>
-                <div class="w-col w-col-3 feature-pill" data-aos="zoom-in" data-aos-delay="900">
-                    <img class="feature-icon" src="images/digitalizador.jpeg" width="144" alt="digitalizador.png" />
-                    <h3 class="no-margin-heading heading-lvl-3">Digitalizador de documentos</h3>
-                    <p class="parrafo">
-                        Respaldo y fácil manejo de toda la documentación para los
-                        expedientes de tus trabajadores.
-                    </p>
-                </div>
+                <a style="color: #616161" href="#10" onclick="currentSection = 10;">
+                    <div class="w-col w-col-3 feature-pill" data-aos="zoom-in" data-aos-delay="800">
+                        <img class="feature-icon" src="images/timbrado.jpeg" width="144" alt="timbrado.png" />
+                        <h3 class="no-margin-heading heading-lvl-3">Recibos de nomina CFDI</h3>
+                        <p class="parrafo">
+                            Paga tu nómina y envía los recibos de tus trabajadores con el
+                            formato de Comprobante Fiscal Digital por Internet ( CFDI ).
+                        </p>
+                    </div>
+                </a>
+                <a style="color: #616161" href="#11" onclick="currentSection = 11;">
+                    <div class="w-col w-col-3 feature-pill" data-aos="zoom-in" data-aos-delay="900">
+                        <img class="feature-icon" src="images/digitalizador.jpeg" width="144" alt="digitalizador.png" />
+                        <h3 class="no-margin-heading heading-lvl-3">Digitalizador de documentos</h3>
+                        <p class="parrafo">
+                            Respaldo y fácil manejo de toda la documentación para los
+                            expedientes de tus trabajadores.
+                        </p>
+                    </div>
+                </a>
                 <div class="w-col w-col-3 feature-pill last"></div>
             </div>
         </div>
     </div>
-    <div class="section info lightgrey" id="nomina">
+    <div class="section info lightgrey" id="2">
         <div class="contenedor-w">
             <h2 class="left-heading small-padding no-margin-heading heading-lvl-2" data-aos="fade-down"
                 data-aos-duration="1000">
@@ -251,7 +276,7 @@
             </div>
         </div>
     </div>
-    <div class="section info" id="reloj">
+    <div class="section info" id="3">
         <div class="contenedor-w">
             <h2 class="left-heading small-padding no-margin-heading heading-lvl-2" data-ix="fade-in-heading-a">
                 Reloj checador &nbsp;
@@ -302,7 +327,7 @@
             </div>
         </div>
     </div>
-    <div class="section info lightgrey" id="kiosco">
+    <div class="section info lightgrey" id="4">
         <div class="contenedor-w">
             <h2 class="left-heading small-padding no-margin-heading heading-lvl-2" data-ix="fade-in-heading-a">
                 Kiosco de empleados &nbsp;
@@ -349,7 +374,7 @@
             </div>
         </div>
     </div>
-    <div class="section info" id="gestion">
+    <div class="section info" id="5">
         <div class="contenedor-w">
             <h2 class="left-heading small-padding no-margin-heading heading-lvl-2" data-ix="fade-in-heading-a">
                 Gestión y desarrollo del talento humano &nbsp;
@@ -395,7 +420,7 @@
             </div>
         </div>
     </div>
-    <div class="section info lightgrey" id="portalossc">
+    <div class="section info lightgrey" id="6">
         <div class="contenedor-w">
             <h2 class="left-heading small-padding no-margin-heading heading-lvl-2" data-ix="fade-in-heading-a">
                 Portal OSSC empresa &nbsp;
@@ -443,7 +468,7 @@
             </div>
         </div>
     </div>
-    <div class="section info" id="evaluaciones">
+    <div class="section info" id="7">
         <div class="contenedor-w">
             <h2 class="left-heading small-padding no-margin-heading heading-lvl-2" data-ix="fade-in-heading-a">
                 Evaluaciones 360° y por Objetivos &nbsp;
@@ -485,7 +510,7 @@
             </div>
         </div>
     </div>
-    <div class="section info lightgrey" id="reclutamiento">
+    <div class="section info lightgrey" id="8">
         <div class="contenedor-w">
             <h2 class="left-heading small-padding no-margin-heading heading-lvl-2" data-ix="fade-in-heading-a">
                 Reclutamiento &nbsp;
@@ -539,7 +564,7 @@
             </div>
         </div>
     </div>
-    <div class="section info" id="comedor">
+    <div class="section info" id="9">
         <div class="contenedor-w">
             <h2 class="left-heading small-padding no-margin-heading heading-lvl-2" data-ix="fade-in-heading-a">
                 Comedor electronico &nbsp;
@@ -587,7 +612,7 @@
             </div>
         </div>
     </div>
-    <div class="section info lightgrey" id="cfdi">
+    <div class="section info lightgrey" id="10">
         <div class="contenedor-w">
             <h2 class="left-heading small-padding no-margin-heading heading-lvl-2" data-ix="fade-in-heading-a">
                 Recibos de nomina CFDI &nbsp;
@@ -633,7 +658,7 @@
             </div>
         </div>
     </div>
-    <div class="section info" id="digitalizador">
+    <div class="section info" id="11">
         <div class="contenedor-w">
             <h2 class="left-heading small-padding no-margin-heading heading-lvl-2" data-ix="fade-in-heading-a">
                 Digitalizador de documentos &nbsp;
