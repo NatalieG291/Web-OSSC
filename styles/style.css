@@ -216,14 +216,14 @@
   z-index: 1;
   left: 0;
   border-radius: 5vw;
-  font-size: 2vw;
+  font-size: 3vw;
 }
 
 .next-btn {
   z-index: 1;
   right: 0;
   border-radius: 5vw;
-  font-size: 2vw;
+  font-size: 3vw;
 }
 
 .prev-btn:hover {
