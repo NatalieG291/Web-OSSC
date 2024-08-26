@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Posiciona los elementos al principio de la página */
+  font-family: "SF", "SF-2"; /* Fuente personalizada */
+}
+
+.navbar {
+  background: linear-gradient(
+    to bottom,
+    #d3d3d3,
+    #ffffff
+  ); /* Degradado de gris claro a blanco */
+  border-radius: 2vw; /* Bordes redondeados */
+  position: absolute;
+  top: 1vw; /* Ajusta la distancia desde la parte superior */
+  padding: 1vw; /* Padding */
+  display: inline-block;
+  transform: scaleX(1); /* Escala inicial */
+  transition: transform 0.4s ease, width 0.4s ease, height 0.4s ease; /* Transiciones suaves */
+  min-width: 10vw; /* Ancho mínimo en estado contraído */
+  height: 4vw; /* Altura reducida en estado contraído */
+  overflow: hidden; /* Oculta el contenido al contraerse */
+  white-space: nowrap; /* Evita que el texto se rompa */
+}
+
+.navbar:hover {
+  transform: scaleX(1.2); /* Expande el menú en el eje X al hacer hover */
+  width: auto; /* Permite que el ancho se ajuste al contenido */
+}
+
+.navbar-nav {
+  display: flex; /* Alinea los elementos del menú en fila */
+  flex-direction: column; /* Alinea los elementos verticalmente */
+  align-items: center; /* Centra los elementos horizontalmente */
+  justify-content: center; /* Centra los elementos verticalmente */
+  margin: 0; /* Elimina el margen */
+  padding: 0; /* Elimina el padding */
+  height: auto; /* Ajusta la altura en función del contenido */
+  width: 100%; /* Asegura que el contenedor ocupe todo el ancho disponible */
+  opacity: 0; /* Oculta los elementos al principio */
+  visibility: hidden; /* Oculta los elementos al principio */
+  transition: opacity 0.4s ease, visibility 0.4s ease; /* Transición suave para la visibilidad */
+}
+
+.navbar:hover .navbar-nav {
+  opacity: 1; /* Muestra los elementos al hacer hover */
+  visibility: visible; /* Muestra los elementos al hacer hover */
+}
+
+/* Media queries para ajustar el tamaño del navbar y navbar-nav */
+
+@media (max-width: 600px) {
+  .navbar {
+    width: 15vw; /* Ancho mínimo en pantallas pequeñas */
+    height: 5vw; /* Altura reducida en pantallas pequeñas */
+  }
+
+  .navbar:hover {
+    width: 35vw; /* Ancho expandido en pantallas pequeñas */
+    height: auto; /* Ajusta la altura en función del contenido */
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 3vw; /* Tamaño de texto más grande en pantallas pequeñas */
+  }
+
+  .active-item {
+    font-size: 2vw; /* Tamaño del texto */
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1200px) {
+  .navbar {
+    width: 13vw; /* Ancho mínimo en pantallas medianas */
+    height: 4vw; /* Altura reducida en pantallas medianas */
+  }
+
+  .navbar:hover {
+    width: 40vw; /* Ancho expandido en pantallas medianas */
+    height: auto; /* Ajusta la altura en función del contenido */
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 1.5vw; /* Tamaño de texto intermedio en pantallas medianas */
+  }
+
+  .active-item {
+    font-size: 1.5vw; /* Tamaño del texto */
+  }
+}
+
+@media (min-width: 1201px) {
+  .navbar {
+    width: 10vw; /* Ancho mínimo en pantallas grandes */
+    height: 4vw; /* Altura reducida en pantallas grandes */
+  }
+
+  .navbar:hover {
+    width: 30vw; /* Ancho expandido en pantallas grandes */
+    height: auto; /* Ajusta la altura en función del contenido */
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 1.2vw; /* Tamaño de texto más pequeño en pantallas grandes */
+  }
+
+  .active-item {
+    font-size: 1.5vw; /* Tamaño del texto */
+  }
+}
+
+.active-item {
+  display: block; /* Muestra solo el elemento activo cuando está contraído */
+  color: var(--bs-primary); /* Texto en color primario */
+  text-align: center;
+  transition: opacity 0.3s ease; /* Transición suave para el texto activo */
+  white-space: nowrap; /* Evita que el texto se rompa en varias líneas */
+}
+
+.navbar-nav .nav-link {
+  color: var(--bs-primary); /* Color de texto primario de Bootstrap */
+  transition: color 0.3s ease; /* Transición suave de color */
+  margin: 0.5vw 0; /* Espaciado entre los enlaces */
+  text-align: center; /* Centra el texto dentro de los enlaces */
+}
+
+.navbar-nav .nav-link:hover {
+  color: var(--bs-secondary); /* Cambia a color secundario en hover */
+}
