@@ -1,0 +1,25 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "tarea-Web-OSSC",
+      "appliesTo": "/",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "tarea-Web-OSSC",
+      "appliesTo": "/",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "tarea-Web-OSSC",
+      "appliesTo": "/",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "tarea-Web-OSSC",
+      "appliesTo": "/",
+      "type": "launch"
+    }
+  ]
+}
