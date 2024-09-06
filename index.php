@@ -1,24 +1,37 @@
+<?php
+
+$pagina = "secciones/".$_REQUEST["Pagina"].".php";
+
+if (strrpos($pagina, 'Ejemplo')) {
+    $estilos = 'styles/Ejemplo.css';
+    $titulo = 'ejemplo';
+}
+?>
 <!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
-    <title></title>
-    <link rel="stylesheet" href="styles/menu.css" />
-    <link rel="stylesheet" href="styles/form.css" />
-    <link rel="stylesheet" href="styles/fonts.css" />
+    <title><?php echo $titulo; ?></title>
+    <link rel="stylesheet" href="styles/menu.css" /> <!-- NO EDITAR-->
+    <link rel="stylesheet" href="styles/form.css" /> <!-- NO EDITAR-->
+    <link rel="stylesheet" href="styles/fonts.css" /> <!-- NO EDITAR-->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link rel="stylesheet" href="<?php echo $estilos; ?>" /> <!-- NO EDITAR-->
 </head>
 <body>
+    <!-- NO EDITAR -->
     <?php include("secciones/menu.php"); ?>
 
-    <!-- CONTENIDO -->
+    <?php include($pagina); ?>
 
     <?php include("secciones/email.php"); ?>
     <?php include("secciones/footer.php"); ?>
+
+    <!---->
 
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
