@@ -136,3 +136,51 @@
     .btnLink.invisible {
         visibility: hidden;
     }
+
+.navbar {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.active {
+    background: #3f9cd9 !important;
+    border-radius: 5px 5px 5px 5px;
+    color: white !important;
+}
+
+.navbar-brand {
+    padding-left: 20%;
+}
+
+@media screen and (min-width: 1300px) {
+    .navbar-brand {
+        padding-left: 25%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .navbar-brand {
+        padding-left: 0%;
+    }
+}
+
+.nav-link {
+    position: relative;
+}
+
+    .nav-link:after {
+        background: none repeat scroll 0 0 transparent;
+        bottom: 0;
+        content: "";
+        display: block;
+        height: 3px;
+        left: 50%;
+        position: absolute;
+        background: #3f9cd9;
+        transition: width 0.3s ease 0s, left 0.3s ease 0s;
+        width: 0;
+    }
+
+    .nav-link:not(.active):hover:after{
+        width: 100%;
+        left: 0;
+    }
