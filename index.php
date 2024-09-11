@@ -7,7 +7,7 @@ if (strrpos($pagina, 'Ejemplo')) {
     $titulo = 'ejemplo';
 } elseif (strrpos($pagina, 'Content')) {
     $estilos = 'styles/content.css';
-    $titulo = 'content';
+    $titulo = 'ejemplo';
 }
 ?>
 <!DOCTYPE html>
