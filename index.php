@@ -5,9 +5,9 @@ $pagina = "secciones/" . $_REQUEST["Pagina"] . ".php";
 if (strrpos($pagina, 'Ejemplo')) {
     $estilos = 'styles/Ejemplo.css';
     $titulo = 'ejemplo';
-} elseif (strrpos($pagina, 'Content')) {
-    $estilos = 'styles/content.css';
-    $titulo = 'ejemplo';
+} elseif (strrpos($pagina, 'Inicio')) {
+    $estilos = 'styles/inicio.css';
+    $titulo = 'Inicio';
 }
 ?>
 <!DOCTYPE html>
