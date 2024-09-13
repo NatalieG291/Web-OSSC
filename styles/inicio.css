@@ -1,12 +1,15 @@
 body {
   font-family: "SF", "SF-2";
-  overflow-x: hidden;
+}
+
+html, body {
+    overflow-x: hidden;
 }
 
 .full-width {
     margin: 0;
     padding: 0;
-    width: 100vw;
+    width: 100%;
     position: relative;
 }
 
@@ -33,13 +36,18 @@ body {
 
 .text-overlay2 {
     position: absolute;
-    top: 10%; /* Ajusta según sea necesario */
-    left: 30%;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     color: white;
     text-align: center;
 }
 
 .text-overlay h1 {
+    font-size: 3.5vw; /* Tamaño del <h1> en función del ancho de la pantalla */
+}
+
+.text-overlay2 h1 {
     font-size: 3.5vw; /* Tamaño del <h1> en función del ancho de la pantalla */
 }
 
@@ -134,8 +142,7 @@ body {
 #carouselExampleControls {
     position: absolute; /* Asegura que el carrusel esté sobre la imagen de fondo */
     top: 40%; /* Ajusta la posición vertical del carrusel sobre la imagen */
-    left: 10%; /* Ajusta la posición horizontal del carrusel si es necesario */
-    width: 80%; /* Ajusta el ancho del carrusel según tu necesidad */
+    width: 100%; /* Ajusta el ancho del carrusel según tu necesidad */
     margin: 0 auto; /* Centra el carrusel horizontalmente si está dentro de un contenedor centrado */
     z-index: 1; /* Asegura que el carrusel esté encima de la imagen de fondo */
     background-color: transparent; /* Fondo transparente para el carrusel */
@@ -143,7 +150,7 @@ body {
 
 /* Estilos específicos para las cards dentro del carrusel */
 #carouselExampleControls .carousel-item .card {
-    margin: 0 0.5px; /* Espaciado específico para las cards del carrusel */
+    margin: 0 1vw; /* Espaciado específico para las cards del carrusel */
     border: none; /* Elimina el borde para las cards del carrusel */
     text-align: center; /* Centra el contenido dentro de las cards */
 }
@@ -187,4 +194,17 @@ body {
     #carouselExampleControls .carousel-item .card {
         margin-bottom: 1rem; /* Espacio adicional en la parte inferior */
     }
+}
+
+.widcard{
+    width: 15vw;
+}
+
+@keyframes beat {
+  0%, 50%, 100% { transform: scale(1, 1); }
+  30%, 80% { transform: scale(1.1, 1.1); }
+}
+
+.effect:hover{
+    animation: 1s ease 0s infinite beat;
 }

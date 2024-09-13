@@ -25,7 +25,7 @@
     <div class="row justify-content-center mt-5">
         <div class="col-12 col-md-6 col-lg-3 mb-4">
             <div class="card text-center">
-                <img src="/images/ex1.png" class="card-img-top" alt="Example 1">
+                <img src="/images/ex1.png" class="card-img-top effect" alt="Example 1">
                 <div class="card-body">
                     <p class="card-text">Precisión y Eficacia</p>
                 </div>
@@ -34,7 +34,7 @@
 
         <div class="col-12 col-md-6 col-lg-3 mb-4">
             <div class="card text-center">
-                <img src="/images/ex2.png" class="card-img-top" alt="Example 2">
+                <img src="/images/ex2.png" class="card-img-top effect" alt="Example 2">
                 <div class="card-body">
                     <p class="card-text">Cumplimiento normativo durante el proceso de pago</p>
                 </div>
@@ -43,7 +43,7 @@
 
         <div class="col-12 col-md-6 col-lg-3 mb-4">
             <div class="card text-center">
-                <img src="/images/ex3.png" class="card-img-top" alt="Example 3">
+                <img src="/images/ex3.png" class="card-img-top effect" alt="Example 3">
                 <div class="card-body">
                     <p class="card-text">Soporte Técnico</p>
                 </div>
@@ -52,7 +52,7 @@
 
         <div class="col-12 col-md-6 col-lg-3 mb-4">
             <div class="card text-center">
-                <img src="/images/ex4.png" class="card-img-top" alt="Example 4">
+                <img src="/images/ex4.png" class="card-img-top effect" alt="Example 4">
                 <div class="card-body">
                     <p class="card-text">100% programable de acuerdo a tu empresa</p>
                 </div>
@@ -64,7 +64,8 @@
     <div class="image-container">
         <img class="fondo" src="/images/fondo2.png" alt="Fondo2">
         <div class="text-overlay2">
-            <h1>Cada dia más empresas <span> <b>confían</b> </span> en nosotros <br> <span><b>¡Descúbrelo por ti
+            <h1>Cada dia más empresas <span class="text-secondary"> <b>confían</b> </span> en nosotros <br> <span
+                    class="text-secondary"><b>¡Descúbrelo por ti
                         mismo!</b></span></h1>
         </div>
         <!-- Carrusel de cards -->
@@ -72,27 +73,40 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div class="card-wrapper container-sm d-flex justify-content-around">
-                        <div class="card" style="width: 18rem;">
+                        <div class="card widcard">
                             <img src="/images/canadian.png" class="card-img-top" alt="...">
                         </div>
-                        <div class="card" style="width: 18rem;">
-                            <img src="/images/universalwipes.jpg" class="card-img-top" alt="...">
+                        <div class="card widcard">
+                            <img src="/images/uwipes.png" class="card-img-top" alt="...">
                         </div>
-                        <div class="card" style="width: 18rem;">
+                        <div class="card widcard">
                             <img src="/images/nefab.png" class="card-img-top" alt="...">
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="card-wrapper container-sm d-flex justify-content-around">
-                        <div class="card" style="width: 18rem;">
+                        <div class="card widcard">
                             <img src="/images/sirloin.png" class="card-img-top" alt="...">
                         </div>
-                        <div class="card" style="width: 18rem;">
-                            <img src="/images/global_gas.png" class="card-img-top" alt="...">
+                        <div class="card widcard">
+                            <img src="/images/global.png" class="card-img-top" alt="...">
                         </div>
-                        <div class="card" style="width: 18rem;">
-                            <img src="/images/fruti_queko.jpg" class="card-img-top" alt="...">
+                        <div class="card widcard">
+                            <img src="/images/frutiqueko.png" class="card-img-top" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card-wrapper container-sm d-flex justify-content-around">
+                        <div class="card widcard">
+                            <img src="/images/plasencia.png" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card widcard">
+                            <img src="/images/mca.png" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card widcard">
+                            <img src="/images/giro.png" class="card-img-top" alt="...">
                         </div>
                     </div>
                 </div>
