@@ -6,6 +6,8 @@
                 <span class="text-warning">nómina y capital humano</span> <br>
                 hecho a la medida de tu empresa
             </h1>
+            <br>
+            <a name="btnAgenda" id="btnAgenda" class="btn btn-primary fs-2" href="#" role="button">Agendar Demo</a>
         </div>
         <img class="phone" src="/images/phone.png" alt="Phone">
     </div>
@@ -14,11 +16,11 @@
 <br>
 <div class="container-fluid full-width">
     <div class="text-content">
-        <h2>Conoce nuestro Software de <span class="text-primary">nómina</span> <img class="logo" src="/images/giro.png"
-                alt="Giro"></h2>
-        <h3>Con este software tendrás el control de tu empresa, <br> gracias a que es una herramienta que <span
-                class="text-primary">optimiza y simplifica</span> la administración de la <span
-                class="text-primary">nómina</span> para tus empleados</h3>
+        <h2 class="text-ossc-2">Conoce nuestro Software de <span class="text-ossc-1">nómina</span> <img class="logo"
+                src="/images/giro.png" alt="Giro"></h2>
+        <h4 class="text-ossc-2">Con este software tendrás el control de tu empresa, <br> gracias a que es una
+            herramienta que <span class="text-ossc-1">optimiza y simplifica</span> la administración de la <span
+                class="text-ossc-1">nómina</span> para tus empleados</h4>
     </div>
 
     <!-- Fila para las cards -->
@@ -27,34 +29,34 @@
             <div class="card text-center">
                 <img src="/images/ex1.png" class="card-img-top effect" alt="Example 1">
                 <div class="card-body">
-                    <p class="card-text">Precisión y Eficacia</p>
+                    <p class="card-text text-ossc-2">Precisión y Eficacia</p>
                 </div>
             </div>
         </div>
 
         <div class="col-12 col-md-6 col-lg-3 mb-4">
             <div class="card text-center">
-                <img src="/images/ex2.png" class="card-img-top effect" alt="Example 2">
+                <img src="/images/ex2.png" class="card-img-top effect2" alt="Example 2">
                 <div class="card-body">
-                    <p class="card-text">Cumplimiento normativo durante el proceso de pago</p>
+                    <p class="card-text text-ossc-2">Cumplimiento normativo durante el proceso de pago</p>
                 </div>
             </div>
         </div>
 
         <div class="col-12 col-md-6 col-lg-3 mb-4">
             <div class="card text-center">
-                <img src="/images/ex3.png" class="card-img-top effect" alt="Example 3">
+                <img src="/images/ex3.png" class="card-img-top effect3" alt="Example 3">
                 <div class="card-body">
-                    <p class="card-text">Soporte Técnico</p>
+                    <p class="card-text text-ossc-2">Soporte Técnico</p>
                 </div>
             </div>
         </div>
 
         <div class="col-12 col-md-6 col-lg-3 mb-4">
             <div class="card text-center">
-                <img src="/images/ex4.png" class="card-img-top effect" alt="Example 4">
+                <img src="/images/ex4.png" class="card-img-top effect4" alt="Example 4">
                 <div class="card-body">
-                    <p class="card-text">100% programable de acuerdo a tu empresa</p>
+                    <p class="card-text text-ossc-2">100% programable de acuerdo a tu empresa</p>
                 </div>
             </div>
         </div>
@@ -62,10 +64,13 @@
 </div>
 <div class="container-fluid full-width">
     <div class="image-container">
-        <img class="fondo" src="/images/fondo2.png" alt="Fondo2">
+        <video class="fondo-video" autoplay muted loop>
+            <source src="/images/move_wall.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
         <div class="text-overlay2">
-            <h1>Cada dia más empresas <span class="text-secondary"> <b>confían</b> </span> en nosotros <br> <span
-                    class="text-secondary"><b>¡Descúbrelo por ti
+            <h1>Cada dia más empresas <span class="text-ossc-1"> <b>confían</b> </span> en nosotros <br> <span
+                    class="text-ossc-1"><b>¡Descúbrelo por ti
                         mismo!</b></span></h1>
         </div>
         <!-- Carrusel de cards -->

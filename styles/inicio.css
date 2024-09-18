@@ -6,6 +6,14 @@ html, body {
     overflow-x: hidden;
 }
 
+.text-ossc-1{
+    color: #3f9bd9;
+}
+
+.text-ossc-2{
+    color: #00284e;
+}
+
 .full-width {
     margin: 0;
     padding: 0;
@@ -23,6 +31,12 @@ html, body {
     height: 50%;
     background-repeat: no-repeat;
     background-size: cover; /* Cubrir el fondo */
+}
+
+.fondo-video {
+    width: 100%;
+    height: 50%;
+    object-fit: cover; /* Asegura que el video cubra el contenedor */
 }
 
 .text-overlay {
@@ -205,6 +219,18 @@ html, body {
   30%, 80% { transform: scale(1.1, 1.1); }
 }
 
-.effect:hover{
+.effect{
     animation: 1s ease 0s infinite beat;
+}
+
+.effect2{
+    animation: 1.5s ease 0s infinite beat;
+}
+
+.effect3{
+    animation: 2s ease 0s infinite beat;
+}
+
+.effect4{
+    animation: 2.5s ease 0s infinite beat;
 }
