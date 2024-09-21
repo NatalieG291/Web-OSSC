@@ -1,33 +1,38 @@
 <div class="container-fluid full-width">
     <div class="image-container">
-        <img class="fondo" src="/images/fondo.jpg" alt="Fondo">
+        <!--<img class="fondo" src="/images/fondo.jpg" alt="Fondo">-->
+        <iframe class="fondo" src="canvas/mesh/index.html"></iframe>
         <div class="text-overlay">
-            <h1 class="text-white">Un software de <br>
+            <h1 class="text-white">
+                Un software de <br>
                 <span class="text-warning">nómina y capital humano</span> <br>
                 hecho a la medida de tu empresa
             </h1>
             <br>
             <a name="btnAgenda" id="btnAgenda" class="btn btn-primary fs-2" href="#" role="button">Agendar Demo</a>
         </div>
-        <img class="phone" src="/images/phone.png" alt="Phone">
+        <img class="phone" src="/images/phone anim.gif" alt="Phone">
     </div>
 </div>
 <br>
 <br>
 <div class="container-fluid full-width">
     <div class="text-content">
-        <h2 class="text-ossc-2">Conoce nuestro Software de <span class="text-ossc-1">nómina</span> <img class="logo"
-                src="/images/giro.png" alt="Giro"></h2>
-        <h4 class="text-ossc-2">Con este software tendrás el control de tu empresa, <br> gracias a que es una
-            herramienta que <span class="text-ossc-1">optimiza y simplifica</span> la administración de la <span
-                class="text-ossc-1">nómina</span> para tus empleados</h4>
+        <h2 class="text-ossc-2">
+            Conoce nuestro Software de <span class="text-ossc-1">nómina</span> <img class="logo"
+                                                                                    src="/images/giro.png" alt="Giro">
+        </h2>
+        <h4 class="text-ossc-2">
+            Con este software tendrás el control de tu empresa, <br> gracias a que es una
+            herramienta que <span class="text-ossc-1">optimiza y simplifica</span> la administración de la <span class="text-ossc-1">nómina</span> para tus empleados
+        </h4>
     </div>
 
     <!-- Fila para las cards -->
     <div class="row justify-content-center mt-5">
         <div class="col-12 col-md-6 col-lg-3 mb-4">
             <div class="card text-center">
-                <img src="/images/ex1.png" class="card-img-top effect" alt="Example 1">
+                <img src="/images/01.gif" class="card-img-top" alt="Example 1">
                 <div class="card-body">
                     <p class="card-text text-ossc-2">Precisión y Eficacia</p>
                 </div>
@@ -36,7 +41,7 @@
 
         <div class="col-12 col-md-6 col-lg-3 mb-4">
             <div class="card text-center">
-                <img src="/images/ex2.png" class="card-img-top effect2" alt="Example 2">
+                <img src="/images/02.gif" class="card-img-top" alt="Example 2">
                 <div class="card-body">
                     <p class="card-text text-ossc-2">Cumplimiento normativo durante el proceso de pago</p>
                 </div>
@@ -45,7 +50,7 @@
 
         <div class="col-12 col-md-6 col-lg-3 mb-4">
             <div class="card text-center">
-                <img src="/images/ex3.png" class="card-img-top effect3" alt="Example 3">
+                <img src="/images/03.gif" class="card-img-top" alt="Example 3">
                 <div class="card-body">
                     <p class="card-text text-ossc-2">Soporte Técnico</p>
                 </div>
@@ -54,7 +59,7 @@
 
         <div class="col-12 col-md-6 col-lg-3 mb-4">
             <div class="card text-center">
-                <img src="/images/ex4.png" class="card-img-top effect4" alt="Example 4">
+                <img src="/images/04.gif" class="card-img-top" alt="Example 4">
                 <div class="card-body">
                     <p class="card-text text-ossc-2">100% programable de acuerdo a tu empresa</p>
                 </div>
@@ -69,9 +74,14 @@
             Your browser does not support the video tag.
         </video>
         <div class="text-overlay2">
-            <h1>Cada dia más empresas <span class="text-ossc-1"> <b>confían</b> </span> en nosotros <br> <span
-                    class="text-ossc-1"><b>¡Descúbrelo por ti
-                        mismo!</b></span></h1>
+            <h1>
+                Cada dia más empresas <span class="text-ossc-1"> <b>confían</b> </span> en nosotros <br> <span class="text-ossc-1">
+                    <b>
+                        ¡Descúbrelo por ti
+                        mismo!
+                    </b>
+                </span>
+            </h1>
         </div>
         <!-- Carrusel de cards -->
         <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
@@ -117,11 +127,133 @@
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-                data-bs-slide="prev"><i class="bi bi-caret-left-fill h1"></i>
+                    data-bs-slide="prev">
+                <i class="bi bi-caret-left-fill h1"></i>
             </button>
             <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-                data-bs-slide="next"><i class="bi bi-caret-right-fill h1"></i>
+                    data-bs-slide="next">
+                <i class="bi bi-caret-right-fill h1"></i>
             </button>
+        </div>
+    </div>
+</div>
+<div class="container-fluid full-width" style="height: 100vw">
+    <div class="position-absolute bottom-0 end-0" style="width: 100%; z-index: -1">
+        <iframe class="constellation" src="canvas/constellation/demo.php"></iframe>
+        <div class="gradient-overlay"></div>
+    </div>
+    <div class="row justify-content-center mt-5">
+        <div class="col-12 col-md-6 col-lg-4 mb-4">
+            <div class="card" style="background-color: transparent">
+                <div class="card-body">
+                    <h1 class="text-dark">
+                        Explora los <br>
+                        productos que <br />
+                        <span class="text-primary fst-italic">transformarán</span> <br>
+                        tu empresa
+                    </h1>
+                    <br>
+                    <a name="btnWsp" id="btnWsp" class="btn btn-primary fs-4" href="#" role="button">Escribenos por WhatsApp</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="mb-4 p-1 card-prod-offset" style="width: auto">
+            <div class="card text-white">
+                <img src="images/prod1.png" style="height: 35vw;" />
+                <div class="card-img-overlay">
+                    <div class="position-absolute bottom-0 start-0">
+                        <div class="p-2 bg-primary text-white text-card fs-3 text-center">
+                            humano <br />Nomina y capital
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mb-4 p-1 card-prod-offset" style="width: auto">
+            <div class="card bg-dark text-white">
+                <img src="images/prod2.png" style="height: 35vw;" />
+                <div class="card-img-overlay">
+                    <div class="position-absolute bottom-0 start-0">
+                        <div class="p-2 bg-primary text-white text-card fs-3 text-center">
+                            <br />Reloj checador<br />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mb-4 p-1 card-prod-offset" style="width: auto">
+            <div class="card bg-dark text-white">
+                <img src="images/prod3.png" style="height: 35vw;" />
+                <div class="card-img-overlay">
+                    <div class="position-absolute bottom-0 start-0">
+                        <div class="p-2 bg-primary text-white text-card fs-3 text-center">
+                            empleados <br />Kiosco de
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mb-4 p-1 card-prod-offset" style="width: auto">
+            <div class="card bg-dark text-white">
+                <img src="images/prod4.png" style="height: 35vw;" />
+                <div class="card-img-overlay">
+                    <div class="position-absolute bottom-0 start-0">
+                        <div class="p-2 bg-primary text-white text-card fs-3 text-center">
+                            talento humano <br /> Desarrollo y
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mb-4 p-1 card-prod-offset" style="width: auto">
+            <div class="card bg-dark text-white">
+                <img src="images/prod5.png" style="height: 35vw;" />
+                <div class="card-img-overlay">
+                    <div class="position-absolute bottom-0 start-0">
+                        <div class="p-2 bg-primary text-white text-card fs-3 text-center">
+                            <br />Evaluacion 360º<br />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row justify-content-center" style="padding-top: 20vw;">
+        <div class="col-12 col-md-6 col-lg-4 mb-4">
+            <h1 class="text-white fs-1">¿Te gustaria recibir <br />mas informacion?</h1>
+            <h5 class="text-white">Nos pondremos en contacto contigo<br /> ¡Nos vemos pronto!</h5>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 mb-4">
+            <form class="row g-3 text-white">
+                <div class="col-12">
+                    <label for="Nombre" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="Nombre">
+                </div>
+                <div class="col-12">
+                    <label for="Empresa" class="form-label">Empresa</label>
+                    <input type="text" class="form-control" id="Empresa">
+                </div>
+                <div class="col-md-6">
+                    <label for="Empleados" class="form-label">Numero de empleados</label>
+                    <input type="number" class="form-control" id="Empleados">
+                </div>
+                <div class="col-md-6">
+                    <label for="Cargo" class="form-label">Cargo</label>
+                    <input type="text" class="form-control" id="Cargo">
+                </div>
+                <div class="col-md-6">
+                    <label for="Email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="Email">
+                </div>
+                <div class="col-md-6">
+                    <label for="Telefono" class="form-label">Telefono</label>
+                    <input type="tel" class="form-control" id="Telefono">
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </div>
+            </form>
         </div>
     </div>
 </div>
