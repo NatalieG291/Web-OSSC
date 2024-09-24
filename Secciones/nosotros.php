@@ -62,5 +62,11 @@
             <p class="text-ossc-1 mt-0 fontsize2">Orientación a resultados</p>
         </div>
     </div>
-
+</div>
+<div class="container-fluid">
+    <div class="row justify-content-center align-items-center">
+        <div class="col">Column</div>
+        <div class="col">Column</div>
+        <div class="col">Column</div>
+    </div>
 </div>

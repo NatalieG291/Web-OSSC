@@ -32,7 +32,7 @@ html, body {
 }
 
 .fontsize3{
-    font-size: 3vw;
+    font-size: 2vw;
 }
 
 .content-overlay{
@@ -71,7 +71,7 @@ html, body {
 }
 
 .elemento-5 {
-    top: 37%;  /* Ajusta la posición vertical (90% desde arriba) */
+    top: 31%;  /* Ajusta la posición vertical (90% desde arriba) */
     left: 80%; /* Ajusta la posición horizontal (85% desde la izquierda) */
 }
 
