@@ -14,26 +14,98 @@ html, body {
     color: #00284e;
 }
 
-.full-width {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    position: relative;
-}
-
 .logos{
     width: 9vw;
     vertical-align: baseline;
 }
 
-.cinta{
-    width: 100%;
+.globos{
+    width: 10vw;
 }
 
 .fontsize{
     font-size: 4vw;
 }
 
+.fontsize2{
+    font-size: 1vw;
+}
+
+.fontsize3{
+    font-size: 3vw;
+}
+
 .content-overlay{
-    margin-top: 10%;
+    margin-top: 2vw;
+}
+
+.cinta {
+    width: 100%; /* Imagen de fondo ocupa el ancho completo */
+    height: auto;
+}
+
+/* Estilo general para los elementos que se superponen */
+.col-elemento {
+    width: 10vw; /* Tamaño de cada div con la imagen y el texto */
+}
+
+/* Posiciones personalizadas para cada elemento */
+.elemento-1 {
+    top: 31%;  /* Ajusta la posición vertical (20% desde arriba) */
+    left: 10%; /* Ajusta la posición horizontal (10% desde la izquierda) */
+}
+
+.elemento-2 {
+    top: 31%;  /* Ajusta la posición vertical (40% desde arriba) */
+    left: 27%; /* Ajusta la posición horizontal (30% desde la izquierda) */
+}
+
+.elemento-3 {
+    top: 31%;  /* Ajusta la posición vertical (60% desde arriba) */
+    left: 45%; /* Ajusta la posición horizontal (50% desde la izquierda) */
+}
+
+.elemento-4 {
+    top: 31%;  /* Ajusta la posición vertical (80% desde arriba) */
+    left: 62%; /* Ajusta la posición horizontal (70% desde la izquierda) */
+}
+
+.elemento-5 {
+    top: 37%;  /* Ajusta la posición vertical (90% desde arriba) */
+    left: 80%; /* Ajusta la posición horizontal (85% desde la izquierda) */
+}
+
+@media (max-width: 1000px) {
+    .fontsize2{
+        visibility: hidden;
+        display: none;
+    }
+    .globos{
+    width: 10vw;
+    }
+    /* Posiciones personalizadas para cada elemento */
+.elemento-1 {
+    top: 32%;  /* Ajusta la posición vertical (20% desde arriba) */
+    left: 10%; /* Ajusta la posición horizontal (10% desde la izquierda) */
+}
+
+.elemento-2 {
+    top: 32%;  /* Ajusta la posición vertical (40% desde arriba) */
+    left: 27%; /* Ajusta la posición horizontal (30% desde la izquierda) */
+}
+
+.elemento-3 {
+    top: 32%;  /* Ajusta la posición vertical (60% desde arriba) */
+    left: 45%; /* Ajusta la posición horizontal (50% desde la izquierda) */
+}
+
+.elemento-4 {
+    top: 32%;  /* Ajusta la posición vertical (80% desde arriba) */
+    left: 62%; /* Ajusta la posición horizontal (70% desde la izquierda) */
+}
+
+.elemento-5 {
+    top: 32%;  /* Ajusta la posición vertical (90% desde arriba) */
+    left: 79%; /* Ajusta la posición horizontal (85% desde la izquierda) */
+}
 }
