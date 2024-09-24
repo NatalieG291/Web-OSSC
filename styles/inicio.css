@@ -216,34 +216,8 @@ html, body {
 
 .widcard {
     width: 15vw;
+    padding: 1vw;
 }
-
-@keyframes beat {
-    0%, 50%, 100% {
-        transform: scale(1, 1);
-    }
-
-    30%, 80% {
-        transform: scale(1.1, 1.1);
-    }
-}
-
-.effect {
-    animation: 1s ease 0s infinite beat;
-}
-
-.effect2 {
-    animation: 1.5s ease 0s infinite beat;
-}
-
-.effect3 {
-    animation: 2s ease 0s infinite beat;
-}
-
-.effect4 {
-    animation: 2.5s ease 0s infinite beat;
-}
-
 
 .constellation {
     width: 100%;
@@ -267,17 +241,18 @@ html, body {
 
 .text-card {
     --bs-bg-opacity: .5;
-    -webkit-writing-mode: vertical-lr;
+    writing-mode: vertical-rl; /* Mantiene el texto en modo vertical, de derecha a izquierda */
+    height: 20vw;
+    width: 10vw;
+    display: flex;
+    align-items: flex-start; /* Alinea el contenido hacia la parte inferior */
+    justify-content: flex-start; /* Alinea el contenido hacia la izquierda */
     transform: rotate(180deg);
-    height: 20vw !important;
-    width: 8vw;
 }
 
-@media (max-width: 1000px) {
-    .card-prod-offset {
-        visibility: hidden;
-        display: none;
-    }
+.mvl {
+    font-size: 2.1vw;
+    margin: 0; /* Asegura que no haya margen adicional que afecte la posición del texto */
 }
 
 @media (max-width: 955px) {
