@@ -1,0 +1,39 @@
+body {
+    font-family: "SF", "SF-2";
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+.text-ossc-1 {
+    color: #3f9bd9;
+}
+
+.text-ossc-2 {
+    color: #00284e;
+}
+
+.full-width {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: relative;
+}
+
+.logos{
+    width: 9vw;
+    vertical-align: baseline;
+}
+
+.cinta{
+    width: 100%;
+}
+
+.fontsize{
+    font-size: 4vw;
+}
+
+.content-overlay{
+    margin-top: 10%;
+}

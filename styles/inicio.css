@@ -242,8 +242,8 @@ html, body {
 .text-card {
     --bs-bg-opacity: .5;
     writing-mode: vertical-rl; /* Mantiene el texto en modo vertical, de derecha a izquierda */
-    height: 20vw;
-    width: 10vw;
+    height: 18vw;
+    width: 8vw;
     display: flex;
     align-items: flex-start; /* Alinea el contenido hacia la parte inferior */
     justify-content: flex-start; /* Alinea el contenido hacia la izquierda */

@@ -8,6 +8,9 @@ if (strrpos($pagina, 'Ejemplo')) {
 } elseif (strrpos($pagina, 'Inicio')) {
     $estilos = 'styles/inicio.css';
     $titulo = 'Inicio';
+} elseif (strrpos($pagina, 'Nosotros')) {
+    $estilos = 'styles/nosotros.css';
+    $titulo = 'Nosotros';
 }
 ?>
 <!DOCTYPE html>
