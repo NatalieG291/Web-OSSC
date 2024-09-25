@@ -65,8 +65,16 @@
 </div>
 <div class="container-fluid">
     <div class="row justify-content-center align-items-center">
-        <div class="col">Column</div>
-        <div class="col">Column</div>
-        <div class="col">Column</div>
+        <!-- Columna del texto (lado izquierdo) -->
+        <div class="col-6 d-flex flex-column align-items-center text-center">
+            <img src="/images/Emblema_OSSC_1.png" alt="Emblema" class="emb m-4">
+            <p class="fontsize4">“Nos enorgullece ser un socio estratégico en la <span
+                    class="text-ossc-1">transformación digital</span> de las empresas facilitando la gestión del capital
+                humano a través de soluciones tecnológicas que se adaptan a sus necesidades”</p>
+        </div>
+        <!-- Columna de la imagen (lado derecho) -->
+        <div class="col-6 d-flex justify-content-end">
+            <img src="/images/fd2.png" alt="Fondo" class="fd">
+        </div>
     </div>
 </div>
