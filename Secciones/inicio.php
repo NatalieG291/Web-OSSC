@@ -20,12 +20,11 @@
     <div class="text-content">
         <h2 class="text-ossc-2">
             Conoce nuestro Software de <span class="text-ossc-1">nómina</span> <img class="logo" src="/images/giro.png"
-                alt="Giro">
+                                                                                    alt="Giro">
         </h2>
         <h4 class="text-ossc-2">
             Con este software tendrás el control de tu empresa, <br> gracias a que es una
-            herramienta que <span class="text-ossc-1">optimiza y simplifica</span> la administración de la <span
-                class="text-ossc-1">nómina</span> para tus empleados
+            herramienta que <span class="text-ossc-1">optimiza y simplifica</span> la administración de la <span class="text-ossc-1">nómina</span> para tus empleados
         </h4>
     </div>
 
@@ -76,8 +75,7 @@
         </video>
         <div class="text-overlay2">
             <h1>
-                Cada dia más empresas <span class="text-ossc-1"> <b>confían</b> </span> en nosotros <br> <span
-                    class="text-ossc-1">
+                Cada dia más empresas <span class="text-ossc-1"> <b>confían</b> </span> en nosotros <br> <span class="text-ossc-1">
                     <b>
                         ¡Descúbrelo por ti
                         mismo!
@@ -129,11 +127,11 @@
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-                data-bs-slide="prev">
+                    data-bs-slide="prev">
                 <i class="bi bi-caret-left-fill h1"></i>
             </button>
             <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-                data-bs-slide="next">
+                    data-bs-slide="next">
                 <i class="bi bi-caret-right-fill h1"></i>
             </button>
         </div>
@@ -144,77 +142,152 @@
         <iframe class="constellation" src="canvas/constellation/demo.php"></iframe>
         <div class="gradient-overlay"></div>
     </div>
-    <div class="row">
-        <div
-            class="col-sm-12 col-lg-4 col-md-12 d-flex flex-column justify-content-center align-items-center text-center mt-3 bg-white">
-            <h1 class="text-dark">
-                Explora los <br>
-                productos que <br />
-                <span class="text-ossc-1 fst-italic">transformarán</span> <br>
-                tu empresa
-            </h1>
-            <br>
-            <a name="btnWsp" id="btnWsp" class="btn btn-primary fs-4" href="#" role="button">Escríbenos por WhatsApp</a>
-        </div>
-        <div class="col-sm-12 col-lg-8 col-md-12 d-flex flex-column mt-3 bg-white">
-            <div class="container-fluid d-flex justify-content-center align-items-center">
-                <div class="row justify-content-center">
-                    <div class="col-2 d-flex flex-column">
-                        <div class="card text-white">
-                            <img src="images/prod1.png" style="height: 37vw;" />
-                            <div class="card-img-overlay">
-                                <div class="position-absolute bottom-0 start-0">
-                                    <div class="p-2 bg-primary text-white text-card text-center">
-                                        <h3 class="mvl">Nómina y Capital Humano</h3>
+    <!--    <div class="row">
+            <div class="col-sm-12 col-lg-4 col-md-12 d-flex flex-column justify-content-center align-items-center text-center mt-3 bg-white">
+                <h1 class="text-dark">
+                    Explora los <br>
+                    productos que <br />
+                    <span class="text-ossc-1 fst-italic">transformarán</span> <br>
+                    tu empresa
+                </h1>
+                <br>
+                <a name="btnWsp" id="btnWsp" class="btn btn-primary fs-4" href="#" role="button">Escríbenos por WhatsApp</a>
+            </div>
+            <div class="col-sm-12 col-lg-8 col-md-12 d-flex flex-column mt-3 bg-white">
+                <div class="container-fluid d-flex justify-content-center align-items-center">
+                    <div class="row justify-content-center">
+                        <div class="col-2 d-flex flex-column">
+                            <div class="card text-white">
+                                <img src="images/prod1.png" style="height: 37vw;" />
+                                <div class="card-img-overlay">
+                                    <div class="position-absolute bottom-0 start-0">
+                                        <div class="p-2 bg-primary text-white text-card text-center">
+                                            <h3 class="mvl">Nómina y Capital Humano</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-2 d-flex flex-column">
+                            <div class="card text-white">
+                                <img src="images/prod2.png" style="height: 37vw;" />
+                                <div class="card-img-overlay">
+                                    <div class="position-absolute bottom-0 start-0">
+                                        <div class="p-2 bg-primary text-white text-card text-center">
+                                            <h3 class="mvl">Reloj Checador</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-2 d-flex flex-column">
+                            <div class="card text-white">
+                                <img src="images/prod3.png" style="height: 37vw;" />
+                                <div class="card-img-overlay">
+                                    <div class="position-absolute bottom-0 start-0">
+                                        <div class="p-2 bg-primary text-white text-card text-center">
+                                            <h3 class="mvl">Kiosko De Empleados</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-2 d-flex flex-column">
+                            <div class="card text-white">
+                                <img src="images/prod4.png" style="height: 37vw;" />
+                                <div class="card-img-overlay">
+                                    <div class="position-absolute bottom-0 start-0">
+                                        <div class="p-2 bg-primary text-white text-card text-center">
+                                            <h3 class="mvl">Desarrollo y Talento Humano</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-2 d-flex flex-column">
+                            <div class="card text-white">
+                                <img src="images/prod5.png" style="height: 37vw;" />
+                                <div class="card-img-overlay">
+                                    <div class="position-absolute bottom-0 start-0">
+                                        <div class="p-2 bg-primary text-white text-card text-center">
+                                            <h3 class="mvl">Evaluación 360°</h3>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-2 d-flex flex-column">
-                        <div class="card text-white">
-                            <img src="images/prod2.png" style="height: 37vw;" />
-                            <div class="card-img-overlay">
-                                <div class="position-absolute bottom-0 start-0">
-                                    <div class="p-2 bg-primary text-white text-card text-center">
-                                        <h3 class="mvl">Reloj Checador</h3>
-                                    </div>
+                </div>
+            </div>
+        </div>-->
+    <div class="text-center text-lg-start">
+        <div class="container text-center text-md-start">
+            <div class="row mt-5 mb-0">
+                <div class="col-md-10 col-lg-4 col-xl-4 mx-auto mb-5">
+                    <h1 class="text-dark">
+                        Explora los <br>
+                        productos que <br />
+                        <span class="text-ossc-1 fst-italic">transformarán</span> <br>
+                        tu empresa
+                    </h1>
+                    <br>
+                    <a name="btnWsp" id="btnWsp" class="btn btn-primary fs-4" href="#" role="button">Escríbenos por WhatsApp</a>
+                </div>
+                <div class="col-md-1 col-lg-3 col-xl-2 mx-auto mb-5">
+                    <div class="card text-white">
+                        <img src="images/prod1.png" style="height: 37vw;" />
+                        <div class="card-img-overlay">
+                            <div class="position-absolute bottom-0 start-0">
+                                <div class="p-2 bg-primary text-white text-card text-center">
+                                    <h3 class="mvl">Nómina y Capital Humano</h3>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-2 d-flex flex-column">
-                        <div class="card text-white">
-                            <img src="images/prod3.png" style="height: 37vw;" />
-                            <div class="card-img-overlay">
-                                <div class="position-absolute bottom-0 start-0">
-                                    <div class="p-2 bg-primary text-white text-card text-center">
-                                        <h3 class="mvl">Kiosko De Empleados</h3>
-                                    </div>
+                </div>
+                <div class="col-md-1 col-lg-3 col-xl-2 mx-auto mb-5">
+                    <div class="card text-white">
+                        <img src="images/prod2.png" style="height: 37vw;" />
+                        <div class="card-img-overlay">
+                            <div class="position-absolute bottom-0 start-0">
+                                <div class="p-2 bg-primary text-white text-card text-center">
+                                    <h3 class="mvl">Reloj Checador</h3>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-2 d-flex flex-column">
-                        <div class="card text-white">
-                            <img src="images/prod4.png" style="height: 37vw;" />
-                            <div class="card-img-overlay">
-                                <div class="position-absolute bottom-0 start-0">
-                                    <div class="p-2 bg-primary text-white text-card text-center">
-                                        <h3 class="mvl">Desarrollo y Talento Humano</h3>
-                                    </div>
+                </div>
+                <div class="col-md-1 col-lg-3 col-xl-2 mx-auto mb-5">
+                    <div class="card text-white">
+                        <img src="images/prod3.png" style="height: 37vw;" />
+                        <div class="card-img-overlay">
+                            <div class="position-absolute bottom-0 start-0">
+                                <div class="p-2 bg-primary text-white text-card text-center">
+                                    <h3 class="mvl">Kiosko De Empleados</h3>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-2 d-flex flex-column">
-                        <div class="card text-white">
-                            <img src="images/prod5.png" style="height: 37vw;" />
-                            <div class="card-img-overlay">
-                                <div class="position-absolute bottom-0 start-0">
-                                    <div class="p-2 bg-primary text-white text-card text-center">
-                                        <h3 class="mvl">Evaluación 360°</h3>
-                                    </div>
+                </div>
+                <div class="col-md-1 col-lg-3 col-xl-2 mx-auto mb-5">
+                    <div class="card text-white">
+                        <img src="images/prod4.png" style="height: 37vw;" />
+                        <div class="card-img-overlay">
+                            <div class="position-absolute bottom-0 start-0">
+                                <div class="p-2 bg-primary text-white text-card text-center">
+                                    <h3 class="mvl">Desarrollo y Talento Humano</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1 col-lg-3 col-xl-2 mx-auto mb-5">
+                    <div class="card text-white">
+                        <img src="images/prod5.png" style="height: 37vw;" />
+                        <div class="card-img-overlay">
+                            <div class="position-absolute bottom-0 start-0">
+                                <div class="p-2 bg-primary text-white text-card text-center">
+                                    <h3 class="mvl">Evaluación 360°</h3>
                                 </div>
                             </div>
                         </div>
@@ -223,41 +296,45 @@
             </div>
         </div>
     </div>
-    <div class="row justify-content-center p-5">
-        <div class="col-12 col-md-6 col-lg-4 mb-4">
-            <h1 class="text-white fs-1">¿Te gustaria recibir <br />mas informacion?</h1>
-            <h5 class="text-white">Nos pondremos en contacto contigo<br /> ¡Nos vemos pronto!</h5>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4 mb-4">
-            <form class="row g-3 text-white">
-                <div class="col-12">
-                    <label for="Nombre" class="form-label">Nombre</label>
-                    <input type="text" class="form-control" id="Nombre">
+    <div class="text-center text-lg-start">
+        <div class="container text-center text-md-start">
+            <div class="row mt-5 mb-0">
+                <div class="col-md-10 col-lg-4 col-xl-5 mx-auto mb-5">
+                    <h1 class="text-white fs-1">¿Te gustaria recibir <br />mas informacion?</h1>
+                    <h5 class="text-white">Nos pondremos en contacto contigo<br /> ¡Nos vemos pronto!</h5>
                 </div>
-                <div class="col-12">
-                    <label for="Empresa" class="form-label">Empresa</label>
-                    <input type="text" class="form-control" id="Empresa">
+                <div class="col-md-10 col-lg-4 col-xl-5 mx-auto mb-5">
+                    <form class="row g-3 text-white">
+                        <div class="col-12">
+                            <label for="Nombre" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="Nombre">
+                        </div>
+                        <div class="col-12">
+                            <label for="Empresa" class="form-label">Empresa</label>
+                            <input type="text" class="form-control" id="Empresa">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="Empleados" class="form-label">Numero de empleados</label>
+                            <input type="number" class="form-control" id="Empleados">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="Cargo" class="form-label">Cargo</label>
+                            <input type="text" class="form-control" id="Cargo">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="Email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="Email">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="Telefono" class="form-label">Telefono</label>
+                            <input type="tel" class="form-control" id="Telefono">
+                        </div>
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                        </div>
+                    </form>
                 </div>
-                <div class="col-md-6">
-                    <label for="Empleados" class="form-label">Numero de empleados</label>
-                    <input type="number" class="form-control" id="Empleados">
-                </div>
-                <div class="col-md-6">
-                    <label for="Cargo" class="form-label">Cargo</label>
-                    <input type="text" class="form-control" id="Cargo">
-                </div>
-                <div class="col-md-6">
-                    <label for="Email" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="Email">
-                </div>
-                <div class="col-md-6">
-                    <label for="Telefono" class="form-label">Telefono</label>
-                    <input type="tel" class="form-control" id="Telefono">
-                </div>
-                <div class="col-12">
-                    <button type="submit" class="btn btn-primary">Enviar</button>
-                </div>
-            </form>
+            </div>
         </div>
     </div>
 </div>
