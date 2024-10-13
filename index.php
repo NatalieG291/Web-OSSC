@@ -11,6 +11,9 @@ if (strrpos($pagina, 'Ejemplo')) {
 } elseif (strrpos($pagina, 'Nosotros')) {
     $estilos = 'styles/nosotros.css';
     $titulo = 'Nosotros';
+} elseif (strrpos($pagina, 'Productos')) {
+    $estilos = 'styles/productos.css';
+    $titulo = 'Productos';
 }
 ?>
 <!DOCTYPE html>
