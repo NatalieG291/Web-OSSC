@@ -124,48 +124,52 @@
         </div>
     </div>
 </section>
-<section class="section position-relative" style="background-color: white">
-    <div class="position-absolute bottom-0 start-0">
-        <video autoplay muted style="width: 95vh; height: auto">
-            <source src="video/10.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
-        </video>
-    </div>
-    <div class="position-absolute top-0 start-50 translate-middle-x pt-5 mt-5">
-        <br />
-        <br />
-        <br />
-        <br />
-        <h1 class="text-dark fs-1" style="z-index: 999">
-            Cumple con el
-            <span class="text-primary">Seguro <br /> Social </span>
-            de tus empleados
-        </h1>
-        <br />
-        <br />
-        <br />
-        <br />
-        <h4>
-            Dentro de nuestra <span class="text-primary">Nómina OSSC GIRO</span> <br />
-            podrás cumplir con todas las obligaciones <br />
-            del Seguro Social de manera puntual y <br />
-            eficiente, brindándote la tranquilidad de que <br />
-            estás al día con las normativas y <br />regulaciones.
-        </h4>
+<section class="section" style="background-color: white">
+    <div class="row pt-5 mt-5">
+        <div class="col-md-auto">
+            <video autoplay muted style="width: 95vh; height: auto">
+                <source src="video/10.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="col-md-auto">
+            <br />
+            <br />
+            <br />
+            <br />
+            <h1 class="text-dark fs-1" style="z-index: 999">
+                Cumple con el
+                <span class="text-primary">Seguro <br /> Social </span>
+                de tus empleados
+            </h1>
+            <br />
+            <br />
+            <br />
+            <br />
+            <h4>
+                Dentro de nuestra <span class="text-primary">Nómina OSSC GIRO</span> <br />
+                podrás cumplir con todas las obligaciones <br />
+                del Seguro Social de manera puntual y <br />
+                eficiente, brindándote la tranquilidad de que <br />
+                estás al día con las normativas y <br />regulaciones.
+            </h4>
+        </div>
     </div>
 
 </section>
 <section class="section">
     <div class="cointainer">
-        <div class="row">
-            <div class="col-3 align-self-start">
-                
-            </div>
-            <div class="col-6 align-self-center">
+        <div class="row justify-content-md-center">
+            <div class="col-md-auto">
                 <video autoplay muted style="width: 50vh; height: auto">
                     <source src="video/11.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3 align-self-start"></div>
+            <div class="col-6 align-self-center">
                 <h1>
                     El Módulo de Nómina y Capital Humano GIRO es <br />
                     la <span class="text-primary">herramienta perfecta</span> para empresas que <br />
@@ -173,14 +177,15 @@
                     gestión de recursos humanos.
                 </h1>
                 <br />
-                <a name="btnWsp" id="btnWsp" class="btn btn-primary fs-4" href="#" role="button">Agendar Demo</a>
             </div>
-            <div class="col-3 align-self-end">
-                
+            <div class="col-3 align-self-end"></div>
+            <div class="row justify-content-md-center">
+                <div class="col-md-auto">
+                    <a name="btnWsp" id="btnWsp" class="btn btn-primary fs-4" href="#" role="button">ENVIAR WHATSAPP</a>
+                </div>
             </div>
         </div>
     </div>
 </section>
 <section class="section" style="height: 100px;">
-
 </section>
