@@ -296,3 +296,15 @@ html, body {
         font-size: 1.25rem !important;
     }
 }
+
+.form-text-t{
+    font-size: 3vw;
+}
+
+.form-text-s{
+    font-size: 2.5vw;
+}
+
+.form-text-i{
+    font-size: 1.4vw;
+}
