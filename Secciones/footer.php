@@ -47,8 +47,8 @@
                     <h6 class="text-uppercase fw-bold text-dark">¡Contactanos!</h6>
                     <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #00294f; height: 2px">
                     <p class="text-dark">
-                        <i class="text-dark bi bi-pin-fill mr-3"></i> Coral #2756-6, col. Victoria,
-                        45060. Zapopan, jalisco.
+                        <i class="text-dark bi bi-pin-fill mr-3"></i> Obsidiana #2825, Col. Residencial Victoria,
+                        45089. Zapopan, jalisco.
                     </p>
                     <p class="text-dark"><i class="text-dark bi bi-envelope-fill mr-3"></i> ventas@ossc.com.mx</p>
                     <p class="text-dark"><i class="text-dark bi bi-telephone-fill mr-3"></i> (33) 2494 8488</p>

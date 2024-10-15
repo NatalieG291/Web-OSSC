@@ -20,12 +20,11 @@
     <div class="text-content">
         <h2 class="text-ossc-2">
             Conoce nuestro Software de <span class="text-ossc-1">nómina</span> <img class="logo" src="/images/giro.png"
-                alt="Giro">
+                                                                                    alt="Giro">
         </h2>
         <h4 class="text-ossc-2">
             Con este software tendrás el control de tu empresa, <br> gracias a que es una
-            herramienta que <span class="text-ossc-1">optimiza y simplifica</span> la administración de la <span
-                class="text-ossc-1">nómina</span> para tus empleados
+            herramienta que <span class="text-ossc-1">optimiza y simplifica</span> la administración de la <span class="text-ossc-1">nómina</span> para tus empleados
         </h4>
     </div>
 
@@ -70,11 +69,14 @@
 </div>
 <div class="container-fluid full-width">
     <div class="image-container">
-        <img class="fondo-video" src="/images/move_wall.gif" alt="Animated background">
+<!--        <video class="fondo-video" autoplay muted loop>
+            <source src="/images/move_wall.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>-->
+        <img src="images/move_wall.gif" class="fondo-video"/>
         <div class="text-overlay2">
             <h1>
-                Cada dia más empresas <span class="text-ossc-1"> <b>confían</b> </span> en nosotros <br> <span
-                    class="text-ossc-1">
+                Cada dia más empresas <span class="text-ossc-1"> <b>confían</b> </span> en nosotros <br> <span class="text-ossc-1">
                     <b>
                         ¡Descúbrelo por ti
                         mismo!
@@ -126,11 +128,11 @@
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-                data-bs-slide="prev">
+                    data-bs-slide="prev">
                 <i class="bi bi-caret-left-fill h1"></i>
             </button>
             <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-                data-bs-slide="next">
+                    data-bs-slide="next">
                 <i class="bi bi-caret-right-fill h1"></i>
             </button>
         </div>
@@ -230,8 +232,7 @@
                         tu empresa
                     </h1>
                     <br>
-                    <a name="btnWsp" id="btnWsp" class="btn btn-primary fs-4" href="#" role="button">Escríbenos por
-                        WhatsApp</a>
+                    <a name="btnWsp" id="btnWsp" class="btn btn-primary fs-4" href="#" role="button">Escríbenos por WhatsApp</a>
                 </div>
                 <div class="col-md-1 col-lg-3 col-xl-2 mx-auto mb-5">
                     <div class="card text-white">
@@ -300,11 +301,11 @@
         <div class="container text-center text-md-start">
             <div class="row mt-5 mb-0">
                 <div class="col-md-10 col-lg-4 col-xl-5 mx-auto mb-5">
-                    <h1 class="text-white form-text-t">¿Te gustaria recibir <br />mas informacion?</h1>
-                    <h5 class="text-white form-text-s">Nos pondremos en contacto contigo<br /> ¡Nos vemos pronto!</h5>
+                    <h1 class="text-white fs-1">¿Te gustaria recibir <br />mas informacion?</h1>
+                    <h5 class="text-white">Nos pondremos en contacto contigo<br /> ¡Nos vemos pronto!</h5>
                 </div>
                 <div class="col-md-10 col-lg-4 col-xl-5 mx-auto mb-5">
-                    <form class="row g-3 text-white form-text-i">
+                    <form class="row g-3 text-white">
                         <div class="col-12">
                             <label for="Nombre" class="form-label">Nombre</label>
                             <input type="text" class="form-control" id="Nombre">
