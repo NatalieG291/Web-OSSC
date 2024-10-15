@@ -3,16 +3,19 @@
         <a class="navbar-brand" href="#">
             <img src="/images/Logo_OSSC.png" alt="" style="width: 8rem; height: auto">
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg">
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg"
+            aria-controls="navbarOffcanvasLg">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarOffcanvasLg" aria-labelledby="navbarOffcanvasLgLabel">
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarOffcanvasLg"
+            aria-labelledby="navbarOffcanvasLgLabel">
             <div class="offcanvas-header">
-                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
-                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                <h2 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h2>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                    aria-label="Close"></button>
             </div>
             <div class="offcanvas-body">
-                <ul class="navbar-nav justify-content-start flex-grow-1 pe-3">
+                <ul class="navbar-nav justify-content-start flex-grow-1 pe-3 fs-2">
                     <li class="nav-item px-2">
                         <a class="nav-link" id="Inicio" href="index.php?Pagina=Inicio">Inicio</a>
                     </li>
