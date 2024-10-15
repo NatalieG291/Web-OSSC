@@ -12,7 +12,7 @@
         </div>
     </div>
 </section>
-<section class="section pt-5">
+<section class="section pt-5 mesh-1">
     <div class="text-center text-lg-start">
         <div class="container text-center text-md-start">
             <div class="row mt-5 mb-0">
@@ -37,7 +37,7 @@
         </div>
     </div>
 </section>
-<section class="section p-5 mx-5">
+<section class="section p-5 mx-5 mesh-2">
     <div class="row justify-content-center mt-5 pt-5 mx-5">
         <div class="col-5 col-md-4 col-lg-3 col-xl-3 mb-5">
             <div class="card" style="">
@@ -128,7 +128,6 @@
             <br />
             <br />
             <br />
-            <br />
             <h4 class="fs-3">
                 Dentro de nuestra <span class="text-primary">Nómina OSSC GIRO</span> <br />
                 podrás cumplir con todas las obligaciones <br />
@@ -140,7 +139,7 @@
     </div>
 
 </section>
-<section class="section" style="background-color: white">
+<section class="section mesh-1" style="background-color: white;">
     <div class="cointainer">
         <div class="row justify-content-md-center">
             <div class="col-md-auto">

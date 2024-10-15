@@ -20,7 +20,7 @@
         <div class="container text-center text-md-start mt-5 mb-5">
             <div class="row mt-3">
                 <div class="col-md-10 col-lg-4 col-xl-3 mx-auto mb-md-0">
-                    <img src="images/Logo+OSSC-216w.png">
+                    <img src="images/Logo_OSSC.png" style="width: 10rem; height: auto">
                     <p></p>
                     <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #00294f; height: 2px">
                 </div>

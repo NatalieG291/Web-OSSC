@@ -18,6 +18,18 @@ html {
     height: 100vh;
 }
 
+.mesh-1{
+    background-image: url('../images/mesh.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mesh-2 {
+    background-image: url('../images/mesh2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .title{
     position: relative;
     top: 30%;

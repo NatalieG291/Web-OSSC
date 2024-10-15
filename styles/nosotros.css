@@ -122,3 +122,16 @@ html, body {
     left: 79%; /* Ajusta la posición horizontal (85% desde la izquierda) */
 }
 }
+.constellation {
+    height: 100rem !important;
+}
+@media (max-width: 460px){
+    .constellation {
+        height: 200rem !important;
+    }
+}
+@media (max-width: 767px) {
+    .constellation {
+        height: 190rem !important;
+    }
+}

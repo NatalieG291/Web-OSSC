@@ -79,10 +79,12 @@
         </div>
     </div>
 </div>
+<iframe class="constellation" style="width: 100%; height: 100%; border: none; position: absolute; z-index: -1" src="canvas/constellation/demo.php"></iframe>
 <div class="text-center text-lg-start text-white" style="overflow: hidden">
-    <div style="position: absolute; top: inherit; left: 0; width: 100%; height: inherit; z-index: -1; overflow: hidden">
+<!--    <div style="position: absolute; top: inherit; left: 0; width: 100%; height: inherit; z-index: -1; overflow: hidden">
         <iframe style="width: 100%; height: 100vw; border: none" src="canvas/constellation/demo.php"></iframe>
-    </div>
+    </div>-->
+    
     <div class="container text-center text-md-start mt-0 mb-5">
         <div class="row mt-0">
             <div class="col-md-10 col-lg-4 col-xl-10 mx-auto mb-md-0 mt-5">
