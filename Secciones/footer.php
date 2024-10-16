@@ -20,7 +20,9 @@
         <div class="container text-center text-md-start mt-5 mb-5">
             <div class="row mt-3">
                 <div class="col-md-10 col-lg-4 col-xl-3 mx-auto mb-md-0">
-                    <img src="images/Logo_OSSC.png" style="width: 10rem; height: auto">
+                    <a href="Index.php?Pagina=Inicio">
+                        <img src="images/Logo_OSSC.png" style="width: 10rem; height: auto">
+                    </a>
                     <p></p>
                     <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #00294f; height: 2px">
                 </div>
@@ -28,19 +30,19 @@
                     <h6 class="text-uppercase fw-bold text-dark">Enlaces utiles</h6>
                     <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #00294f; height: 2px">
                     <p>
-                        <a href="index.html" class="text-dark">Inicio</a>
+                        <a href="index.php?Pagina=Inicio" class="text-dark">Inicio</a>
                     </p>
                     <p>
-                        <a href="productos.html" class="text-dark">Productos</a>
+                        <a href="index.php?Pagina=Productos" class="text-dark">Productos</a>
                     </p>
                     <p>
-                        <a href="nosotros.html" class="text-dark">Nosotros</a>
+                        <a href="index.php?Pagina=Nosotros" class="text-dark">Nosotros</a>
                     </p>
                     <p>
-                        <a href="soluciones.html" class="text-dark">Soluciones</a>
+                        <a href="index.php?Pagina=Soluciones" class="text-dark">Soluciones</a>
                     </p>
                     <p>
-                        <a href="cursos.html" class="text-dark">Cursos</a>
+                        <a href="index.php?Pagina=Cursos" class="text-dark">Cursos</a>
                     </p>
                 </div>
                 <div class="col-md-10 col-lg-4 col-xl-4 mx-auto mb-md-0 mb-4">

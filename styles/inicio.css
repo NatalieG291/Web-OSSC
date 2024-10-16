@@ -21,12 +21,6 @@ html, body {
     position: relative;
 }
 
-@media (max-width: 768px) {
-    .full-width {
-        margin-top: 10vw;
-    }
-}
-
 .image-container {
     position: relative;
     width: 100%;
@@ -204,7 +198,7 @@ html, body {
 }
 @media (max-width: 1920px) {
     .constellation {
-        height: 50vw;
+        height: 90vw;
     }
 }
 @media (max-width: 1000px) {
@@ -214,7 +208,7 @@ html, body {
 }
 @media (max-width: 950px) {
     .constellation {
-        height: 100vw;
+        height: 120vw;
     }
 }
 @media (max-width: 850px) {
@@ -229,12 +223,12 @@ html, body {
 }
 @media (max-width: 650px){
     .constellation{
-        height: 160vw;
+        height: 180vw;
     }
 }
 @media (max-width: 500px) {
     .constellation {
-        height: 175vw;
+        height: 220vw;
     }
 }
 
@@ -302,46 +296,7 @@ html, body {
         font-size: 1.25rem !important;
     }
 }
-
-/* Estilos para pantallas menores o iguales a 468px */
-@media (max-width: 359px) {
-    .form-text-t {
-        font-size: 5vw;
-    }
-
-    .form-text-s {
-        font-size: 4vw;
-    }
-
-    .form-text-i {
-        font-size: 3vw;
-    }
-}
-
-/* Estilos para pantallas mayores o iguales a 955px */
-@media (min-width: 955px) {
-    .form-text-t {
-        font-size: 3vw;
-    }
-
-    .form-text-s {
-        font-size: 2vw;
-    }
-
-    .form-text-i {
-        font-size: 1.4vw;
-    }
-}
-
-/* Estilos por defecto para pantallas entre 469px y 954px */
-.form-text-t {
-    font-size: 5.5vw;
-}
-
-.form-text-s {
-    font-size: 4.5vw;
-}
-
-.form-text-i {
-    font-size: 2.5vw;
+input, textarea, select {
+    font-size: 16px;
+    / Evita el autozoom en iPhone /
 }

@@ -4,6 +4,7 @@
     overflow-x: hidden;
     transition: scroll 1s ease-in-out;
 }
+
 html {
     scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
@@ -13,30 +14,30 @@ html {
 }
 
 .section {
-
     scroll-snap-align: start;
     height: 100vh;
 }
 
-.mesh-1{
-    background-image: url('../images/mesh.png');
+.mesh-1 {
+    background-image: url('..images/mesh.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .mesh-2 {
-    background-image: url('../images/mesh2.png');
+    background-image: url('..images/mesh2.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.title{
+.title {
     position: relative;
     top: 30%;
     left: 10%;
     font-size: 6vh;
     font-weight: bold;
 }
+
 .banner {
     height: 100vh;
     overflow: hidden;
@@ -52,7 +53,8 @@ html {
     border-radius: 0 21em 21em 0;
     overflow: hidden;
 }
-.card{
+
+.card {
     border: none;
 }
 
@@ -60,33 +62,141 @@ html {
     width: 30vw;
     height: auto;
 }
+
 .imss {
     width: 100vh;
     height: auto;
     position: absolute;
 }
+
 .icons {
     width: 50vh;
     height: auto;
     transform: scale(1.7);
 }
-@media (max-width: 1400px){
+
+@media (max-width: 1920px) {
+    .laptop {
+        width: 45rem;
+        height: auto;
+    }
+}
+
+@media (max-width: 1000px) {
+    .laptop {
+        width: 30rem;
+        height: auto;
+    }
+}
+
+@media (max-width: 950px) {
+    .laptop {
+        width: 30rem;
+        height: auto;
+    }
+
+    .banner {
+        height: 90vh !important;
+    }
+
+    .container_img {
+        height: 90vh !important;
+    }
+
+    .title {
+        font-size: 3rem !important;
+        top: 40% !important;
+    }
+}
+
+@media (max-width: 850px) {
+    .laptop {
+        width: 30rem;
+        height: auto;
+    }
+
+    .banner {
+        height: 90vh !important;
+    }
+
+    .container_img {
+        height: 90vh !important;
+    }
+
+    .title {
+        font-size: 3.5rem !important;
+        top: 40% !important;
+    }
+}
+
+@media (max-width: 750px) {
+    .laptop {
+        width: 30rem;
+        height: auto;
+    }
+
+    .banner {
+        height: 90vh !important;
+    }
+
+    .container_img {
+        height: 90vh !important;
+    }
+
+    .title {
+        font-size: 3rem !important;
+        top: 40% !important;
+    }
+}
+
+@media (max-width: 650px) {
+    .laptop {
+        width: 30rem;
+        height: auto;
+    }
+
+    .banner {
+        height: 90vh !important;
+    }
+
+    .container_img {
+        height: 90vh !important;
+    }
+
+    .title {
+        font-size: 3rem !important;
+        top: 40% !important;
+    }
+}
+
+@media (max-width: 500px) {
+    .laptop {
+        width: 30rem;
+        height: auto;
+    }
+
+    .banner {
+        height: 90vh !important;
+    }
+
+    .container_img {
+        height: 90vh !important;
+    }
+
+    .title {
+        font-size: 2rem !important;
+        top: 50% !important;
+    }
+}
+
+@media (max-width: 1400px) {
     .mx-5 {
         margin-left: 0px !important;
         margin-right: 0px !important;
     }
+
     .card-title {
         height: 250px;
-    }
-    .laptop {
-        width: 60rem;
-        height: auto;
-    }
-}
-@media (max-width: 1350px) {
-    .laptop {
-        width: 40rem;
-        height: auto
     }
 }
 
@@ -99,12 +209,14 @@ html {
         scroll-snap-type: none;
     }
 }
-@media (max-width: 980px){
+
+@media (max-width: 980px) {
     .banner {
         height: 50vh;
         overflow: hidden;
         position: relative;
     }
+
     .container_img {
         position: absolute;
         width: 80%;
@@ -114,6 +226,7 @@ html {
         border-radius: 0 21em 21em 0;
         overflow: hidden;
     }
+
     .title {
         position: relative;
         top: 30%;
@@ -121,39 +234,44 @@ html {
         font-size: 5em;
         font-weight: bold;
     }
+
     .fs-1 {
-        font-size: 4em !important;
+        font-size: 3.5em !important;
     }
+
     .fs-4 {
+        font-size: 2em !important;
+    }
+
+    .fs-3 {
         font-size: 2.5em !important;
     }
-    .fs-3 {
-        font-size: 3em !important;
-    }
+
     .card-title {
         height: 450px;
     }
+
     .card-text {
         margin-top: 25%;
     }
+
     .bman {
-        width: 40vw;
-        height: auto;
+        visibility: hidden;
+        display: none;
     }
+
     .imss {
         visibility: hidden;
         display: none;
     }
+
     .mx-6 {
         margin-left: 6rem !important;
         margin-right: 3rem !important;
     }
+
     .icons {
         width: 60vw;
         height: auto;
-    }
-    .laptop {
-        width: 60rem;
-        height: auto
     }
 }

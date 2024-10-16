@@ -40,41 +40,40 @@
 <section class="section p-5 mx-5 mesh-2">
     <div class="row justify-content-center mt-5 pt-5 mx-5">
         <div class="col-5 col-md-4 col-lg-3 col-xl-3 mb-5">
-            <div class="card">
+            <div class="card" style="">
                 <img class="card-img" src="images/3.jpg" />
             </div>
         </div>
 
         <div class="col-5 col-md-4 col-lg-3 col-xl-3 mb-5">
-            <div class="card">
+            <div class="card" style="">
                 <img class="card-img" src="images/4.jpg" />
             </div>
         </div>
         <div class="col-5 col-md-4 col-lg-3 col-xl-3 mb-5">
-            <div class="card">
+            <div class="card" style="">
                 <img class="card-img" src="images/5.jpg" />
             </div>
         </div>
         <div class="col-5 col-md-4 col-lg-3 col-xl-3 mb-5">
-            <div class="card">
+            <div class="card" style="">
                 <img class="card-img" src="images/6.jpg" />
             </div>
         </div>
         <div class="col-5 col-md-4 col-lg-3 col-xl-3 mb-5">
-            <div class="card">
+            <div class="card" style="">
                 <img class="card-img" src="images/7.jpg" />
             </div>
         </div>
         <div class="col-5 col-md-4 col-lg-3 col-xl-3 mb-5">
-            <div class="card">
+            <div class="card" style="">
                 <img class="card-img" src="images/8.jpg" />
             </div>
         </div>
     </div>
 </section>
 <section class="section">
-    <iframe style="width: 100%; height: 140%; border: none; position: absolute; z-index: -1"
-        src="canvas/mesh/index.html"></iframe>
+    <iframe style="width: 100%; height: 140%; border: none; position: absolute; z-index: -1" src="canvas/mesh/index.html"></iframe>
     <div class="text-center text-lg-start">
         <div class="container text-center text-md-start pt-5">
             <div class="row mt-5 mb-0 pt-5">
@@ -114,7 +113,7 @@
             Your browser does not support the video tag.
         </video>
     </div>
-    <div class="row justify-content-center pt-5 mt-5 position-relative mx-6">
+    <div class="row justify-content-center pt-5 mt-5 position-relative mx-1">
 
         <div class="col-md-auto">
             <br />
@@ -143,16 +142,35 @@
 <section class="section mesh-1" style="background-color: white;">
     <div class="cointainer">
         <div class="row justify-content-md-center">
-            <div class="col-md-auto">
-                <video autoplay muted class="icons">
-                    <source src="video/11.mp4" type="video/mp4" />
-                    Your browser does not support the video tag.
-                </video>
+            <div class="col-2 col-md-auto pt-5 mt-5">
+                <div class="card pt-5 mt-5" style="">
+                    <img class="card-img" style="width: 5rem; height: auto" src="images/13.png" />
+                </div>
+            </div>
+            <div class="col-2 col-md-auto pt-5 mt-5">
+                <div class="card pt-5 mt-5" style="">
+                    <img class="card-img" style="width: 5rem; height: auto" src="images/14.png" />
+                </div>
+            </div>
+            <div class="col-2 col-md-auto pt-5 mt-5">
+                <div class="card pt-5 mt-5" style="">
+                    <img class="card-img" style="width: 5rem; height: auto" src="images/15.png" />
+                </div>
+            </div>
+            <div class="col-2 col-md-auto pt-5 mt-5">
+                <div class="card pt-5 mt-5" style="">
+                    <img class="card-img" style="width: 5rem; height: auto" src="images/16.png" />
+                </div>
+            </div>
+            <div class="col-2 col-md-auto pt-5 mt-5">
+                <div class="card pt-5 mt-5" style="">
+                    <img class="card-img" style="width: 5rem; height: auto" src="images/17.png" />
+                </div>
             </div>
         </div>
-        <div class="row">
+        <div class="row pt-5">
             <div class="col-3 align-self-start"></div>
-            <div class="col-6 align-self-center" style="z-index: 99">
+            <div class="col-10 col-xl-6 col-lg-8 align-self-center mx-2" style="z-index: 99">
                 <h1 class="fs-3">
                     El Módulo de Nómina y Capital Humano GIRO es <br />
                     la <span class="text-primary">herramienta perfecta</span> para empresas que <br />

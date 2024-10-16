@@ -55,7 +55,10 @@
     }
 }
 
-@media screen and (max-width: 991px) {
+@media (max-width: 991px) {
+    .nav-link{
+        font-size: 2rem !important;
+    }
     .sidebar {
         width: 8em;
         height: 4em;
@@ -151,13 +154,13 @@
     padding-left: 20%;
 }
 
-@media screen and (min-width: 1300px) {
+@media (min-width: 1300px) {
     .navbar-brand {
         padding-left: 25%;
     }
 }
 
-@media screen and (max-width: 991px) {
+@media (max-width: 991px) {
     .navbar-brand {
         padding-left: 0%;
     }
