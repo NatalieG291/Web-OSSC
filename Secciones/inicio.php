@@ -9,7 +9,7 @@
                 hecho a la medida de tu empresa
             </h1>
             <br>
-            <a name="btnAgenda" id="btnAgenda" class="btn btn-primary fs-2" href="#" role="button">Agendar Demo</a>
+            <a name="btnAgenda" id="btnAgenda" class="btn btn-primary fs-3" href="#" role="button">Agendar Demo</a>
         </div>
         <img class="phone" src="/images/phone anim.gif" alt="Phone">
     </div>

@@ -21,6 +21,12 @@ html, body {
     position: relative;
 }
 
+@media (max-width: 768px) {
+    .full-width {
+        margin-top: 10vw;
+    }
+}
+
 .image-container {
     position: relative;
     width: 100%;

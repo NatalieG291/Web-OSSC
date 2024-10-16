@@ -21,7 +21,7 @@ if (strrpos($pagina, 'Ejemplo')) {
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1" />
     <title><?php echo $titulo; ?></title>
     <link rel="stylesheet" href="styles/menu.css" /> <!-- NO EDITAR-->
     <link rel="stylesheet" href="styles/form.css" /> <!-- NO EDITAR-->
