@@ -297,41 +297,41 @@
             </div>
         </div>
     </div>-->
-    <div class="text-center text-lg-start">
-        <div class="container text-center text-md-start">
+    <div class="text-lg-start">
+        <div class="container text-md-start">
             <div class="row mt-5 mb-0">
-                <div class="col-md-10 col-lg-4 col-xl-5 mx-auto mb-5">
+                <div class="col-md-10 col-lg-4 col-xl-5 mx-auto mb-2 text-center">
                     <h1 class="text-white form-text-t">¿Te gustaria recibir <br />mas informacion?</h1>
                     <h5 class="text-white form-text-s">Nos pondremos en contacto contigo<br /> ¡Nos vemos pronto!</h5>
                 </div>
                 <div class="col-md-10 col-lg-4 col-xl-5 mx-auto mb-5">
                     <form class="row g-3 text-white form-text-i">
                         <div class="col-12">
-                            <label for="Nombre" class="form-label">Nombre</label>
+                            <label for="Nombre" class="form-label fs-2">Nombre</label>
                             <input type="text" class="form-control" id="Nombre">
                         </div>
                         <div class="col-12">
-                            <label for="Empresa" class="form-label">Empresa</label>
+                            <label for="Empresa" class="form-label fs-2">Empresa</label>
                             <input type="text" class="form-control" id="Empresa">
                         </div>
-                        <div class="col-md-6">
+                        <!-- <div class="col-md-6">
                             <label for="Empleados" class="form-label">Numero de empleados</label>
                             <input type="number" class="form-control" id="Empleados">
-                        </div>
-                        <div class="col-md-6">
+                        </div> -->
+                        <!-- <div class="col-md-6">
                             <label for="Cargo" class="form-label">Cargo</label>
                             <input type="text" class="form-control" id="Cargo">
-                        </div>
-                        <div class="col-md-6">
-                            <label for="Email" class="form-label">Email</label>
+                        </div> -->
+                        <div class="col-12">
+                            <label for="Email" class="form-label fs-2">Email</label>
                             <input type="email" class="form-control" id="Email">
                         </div>
-                        <div class="col-md-6">
-                            <label for="Telefono" class="form-label">Telefono</label>
+                        <div class="col-12">
+                            <label for="Telefono" class="form-label fs-2">Telefono</label>
                             <input type="tel" class="form-control" id="Telefono">
                         </div>
                         <div class="col-12">
-                            <button type="submit" class="btn btn-primary">Enviar</button>
+                            <button type="submit" class="btn btn-primary fs-2">Enviar</button>
                         </div>
                     </form>
                 </div>

@@ -40,40 +40,41 @@
 <section class="section p-5 mx-5 mesh-2">
     <div class="row justify-content-center mt-5 pt-5 mx-5">
         <div class="col-5 col-md-4 col-lg-3 col-xl-3 mb-5">
-            <div class="card" style="">
-                <img class="card-img" src="images/3.jpg"  />
+            <div class="card">
+                <img class="card-img" src="images/3.jpg" />
             </div>
         </div>
 
         <div class="col-5 col-md-4 col-lg-3 col-xl-3 mb-5">
-            <div class="card" style="">
-                <img class="card-img" src="images/4.jpg"  />
+            <div class="card">
+                <img class="card-img" src="images/4.jpg" />
             </div>
         </div>
         <div class="col-5 col-md-4 col-lg-3 col-xl-3 mb-5">
-            <div class="card" style="">
-                <img class="card-img" src="images/5.jpg"  />
+            <div class="card">
+                <img class="card-img" src="images/5.jpg" />
             </div>
         </div>
         <div class="col-5 col-md-4 col-lg-3 col-xl-3 mb-5">
-            <div class="card" style="">
-                <img class="card-img" src="images/6.jpg"  />
+            <div class="card">
+                <img class="card-img" src="images/6.jpg" />
             </div>
         </div>
         <div class="col-5 col-md-4 col-lg-3 col-xl-3 mb-5">
-            <div class="card" style="">
-                <img class="card-img" src="images/7.jpg"  />
+            <div class="card">
+                <img class="card-img" src="images/7.jpg" />
             </div>
         </div>
         <div class="col-5 col-md-4 col-lg-3 col-xl-3 mb-5">
-            <div class="card" style="">
-                <img class="card-img" src="images/8.jpg"  />
+            <div class="card">
+                <img class="card-img" src="images/8.jpg" />
             </div>
         </div>
     </div>
 </section>
 <section class="section">
-    <iframe style="width: 100%; height: 140%; border: none; position: absolute; z-index: -1" src="canvas/mesh/index.html"></iframe>
+    <iframe style="width: 100%; height: 140%; border: none; position: absolute; z-index: -1"
+        src="canvas/mesh/index.html"></iframe>
     <div class="text-center text-lg-start">
         <div class="container text-center text-md-start pt-5">
             <div class="row mt-5 mb-0 pt-5">
