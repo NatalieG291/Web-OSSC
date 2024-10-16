@@ -6,6 +6,10 @@ html, body {
     overflow-x: hidden;
 }
 
+input, textarea, select {
+    font-size: 16px;
+}
+
 .text-ossc-1 {
     color: #3f9bd9;
 }
@@ -295,8 +299,4 @@ html, body {
     #btnWsp {
         font-size: 1.25rem !important;
     }
-}
-input, textarea, select {
-    font-size: 16px;
-    / Evita el autozoom en iPhone /
 }

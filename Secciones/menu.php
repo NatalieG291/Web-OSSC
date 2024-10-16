@@ -1,15 +1,18 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top pt-4 pb-4">
     <div class="container-fluid">
         <a class="navbar-brand" href="index.php?Pagina=Inicio">
-            <img src="/images/Logo_OSSC.png" alt="" style="width: 10rem; height: auto">
+            <img src="/images/Logo_OSSC.png" alt="" style="width: 9rem; height: auto">
         </a>
-        <button class="navbar-toggler fs-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg">
+        <button class="navbar-toggler fs-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg"
+            aria-controls="navbarOffcanvasLg">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarOffcanvasLg" aria-labelledby="navbarOffcanvasLgLabel">
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarOffcanvasLg"
+            aria-labelledby="navbarOffcanvasLgLabel">
             <div class="offcanvas-header">
                 <h5 class="offcanvas-title fs-1" id="offcanvasNavbarLabel">Menu</h5>
-                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                    aria-label="Close"></button>
             </div>
             <div class="offcanvas-body">
                 <ul class="navbar-nav justify-content-start flex-grow-1 pe-3">

@@ -4,7 +4,7 @@
         </div>-->
     <div class="banner position-relative">
         <div class="container_img">
-            <h1 class="title text-white">Nomina y capital humano</h1>
+            <h1 class="title text-white">Nómina Y Capital Humano</h1>
             <iframe style="width: 100%; height: 100%; border: none" src="canvas/constellation/demo.php"></iframe>
         </div>
         <div class="position-absolute bottom-0 start-50 translate-middle-x">
@@ -73,7 +73,8 @@
     </div>
 </section>
 <section class="section">
-    <iframe style="width: 100%; height: 140%; border: none; position: absolute; z-index: -1" src="canvas/mesh/index.html"></iframe>
+    <iframe style="width: 100%; height: 140%; border: none; position: absolute; z-index: -1"
+        src="canvas/mesh/index.html"></iframe>
     <div class="text-center text-lg-start">
         <div class="container text-center text-md-start pt-5">
             <div class="row mt-5 mb-0 pt-5">
@@ -89,11 +90,11 @@
                         hasta los reportes personalizados.
                     </h2>
                 </div>
-                <div class="col-md-10 col-lg-4 col-xl-6 mx-auto mb-5 mt-5 pt-5">
+                <div class="col-md-10 col-lg-4 col-xl-6 mx-auto mb-5 mt-5 pt-5 bman">
                     <div class="position-relative">
                         <div class="position-" style="top: 18vh">
                             <i class=" bi bi-gear-fill text-white fs-1"></i>
-                            <img src="images/bman.png" class="bman" />
+                            <img src="images/bman.png" />
                             <i class=" bi bi-person-vcard text-white fs-1 position-absolute"></i>
                             <i class=" bi bi-pencil-fill text-white fs-1"></i>
                         </div>
@@ -120,11 +121,11 @@
             <br />
             <br />
             <br />
-            <h1 class="text-dark fs-1" style="z-index: 999">
+            <h2 class="text-dark fs-1" style="z-index: 999">
                 Cumple con el
                 <span class="text-primary">Seguro <br /> Social </span>
                 de tus empleados
-            </h1>
+            </h2>
             <br />
             <br />
             <br />
@@ -142,7 +143,7 @@
 <section class="section mesh-1" style="background-color: white;">
     <div class="cointainer">
         <div class="row justify-content-md-center">
-            <div class="col-2 col-md-auto pt-5 mt-5">
+            <div class="col-2 col-md-auto pt-5 mt-5 ms-3">
                 <div class="card pt-5 mt-5" style="">
                     <img class="card-img" style="width: 5rem; height: auto" src="images/13.png" />
                 </div>
@@ -169,9 +170,9 @@
             </div>
         </div>
         <div class="row pt-5">
-            <div class="col-3 align-self-start"></div>
-            <div class="col-10 col-xl-6 col-lg-8 align-self-center mx-2" style="z-index: 99">
-                <h1 class="fs-3">
+            <div class="col-2 align-self-start"></div>
+            <div class="col-8 col-xl-8 col-lg-8 align-self-center mx-2" style="z-index: 99">
+                <h1 class="fs-3 text-center">
                     El Módulo de Nómina y Capital Humano GIRO es <br />
                     la <span class="text-primary">herramienta perfecta</span> para empresas que <br />
                     buscan eficiencia, precisión y control total en su <br />
@@ -179,11 +180,11 @@
                 </h1>
                 <br />
             </div>
-            <div class="col-3 align-self-end"></div>
-            <div class="row justify-content-md-center">
-                <div class="col-md-auto">
-                    <a name="btnWsp" id="btnWsp" class="btn btn-primary fs-4" href="#" role="button">ENVIAR WHATSAPP</a>
-                </div>
+            <div class="col-2 align-self-end"></div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-auto">
+                <a name="btnWsp" id="btnWsp" class="btn btn-primary fs-4" href="#" role="button">ENVIAR WHATSAPP</a>
             </div>
         </div>
     </div>
