@@ -8,7 +8,7 @@
             <iframe style="width: 100%; height: 100%; border: none" src="canvas/constellation/demo.php"></iframe>
         </div>
         <div class="position-absolute bottom-0 start-50 translate-middle-x">
-            <img class="laptop" src="/images/laptop.png" alt="Alternate Text" />
+            <img class="laptop" src="images/laptop.png" alt="Alternate Text" />
         </div>
     </div>
 </section>

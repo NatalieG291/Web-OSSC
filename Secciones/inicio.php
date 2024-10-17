@@ -1,6 +1,6 @@
 <div class="container-fluid full-width">
     <div class="image-container">
-        <!--<img class="fondo" src="/images/fondo.jpg" alt="Fondo">-->
+        <!--<img class="fondo" src="images/fondo.jpg" alt="Fondo">-->
         <iframe class="fondo" src="canvas/mesh/index.html"></iframe>
         <div class="text-overlay">
             <h1 class="text-white">
@@ -11,7 +11,7 @@
             <br>
             <a name="btnAgenda" id="btnAgenda" class="btn btn-primary fs-3" href="#" role="button">Agendar Demo</a>
         </div>
-        <img class="phone" src="/images/phone anim.gif" alt="Phone">
+        <img class="phone" src="images/phone anim.gif" alt="Phone">
     </div>
 </div>
 <br>
@@ -19,7 +19,7 @@
 <div class="container-fluid full-width">
     <div class="text-content">
         <h2 class="text-ossc-2">
-            Conoce nuestro Software de <span class="text-ossc-1">nómina</span> <img class="logo" src="/images/giro.png"
+            Conoce nuestro Software de <span class="text-ossc-1">nómina</span> <img class="logo" src="images/giro.png"
                 alt="Giro">
         </h2>
         <h3 class="text-ossc-2">
@@ -33,7 +33,7 @@
     <div class="row justify-content-center mt-5">
         <div class="col-12 col-md-6 col-lg-3 mb-4">
             <div class="card text-center">
-                <img src="/images/01.gif" class="card-img-top" alt="Example 1">
+                <img src="images/01.gif" class="card-img-top" alt="Example 1">
                 <div class="card-body">
                     <p class="card-text text-ossc-2">Precisión y Eficacia</p>
                 </div>
@@ -42,7 +42,7 @@
 
         <div class="col-12 col-md-6 col-lg-3 mb-4">
             <div class="card text-center">
-                <img src="/images/02.gif" class="card-img-top" alt="Example 2">
+                <img src="images/02.gif" class="card-img-top" alt="Example 2">
                 <div class="card-body">
                     <p class="card-text text-ossc-2">Cumplimiento normativo durante el proceso de pago</p>
                 </div>
@@ -51,7 +51,7 @@
 
         <div class="col-12 col-md-6 col-lg-3 mb-4">
             <div class="card text-center">
-                <img src="/images/03.gif" class="card-img-top" alt="Example 3">
+                <img src="images/03.gif" class="card-img-top" alt="Example 3">
                 <div class="card-body">
                     <p class="card-text text-ossc-2">Soporte Técnico</p>
                 </div>
@@ -60,7 +60,7 @@
 
         <div class="col-12 col-md-6 col-lg-3 mb-4">
             <div class="card text-center">
-                <img src="/images/04.gif" class="card-img-top" alt="Example 4">
+                <img src="images/04.gif" class="card-img-top" alt="Example 4">
                 <div class="card-body">
                     <p class="card-text text-ossc-2">100% programable de acuerdo a tu empresa</p>
                 </div>
@@ -70,7 +70,7 @@
 </div>
 <div class="container-fluid full-width">
     <div class="image-container">
-        <img class="fondo-video" src="/images/move_wall.gif" alt="Animated background">
+        <img class="fondo-video" src="images/move_wall.gif" alt="Animated background">
         <div class="text-overlay2">
             <h1>
                 Cada dia más empresas <span class="text-ossc-1"> <b>confían</b> </span> en nosotros <br> <span
@@ -88,39 +88,39 @@
                 <div class="carousel-item active">
                     <div class="card-wrapper container-sm d-flex justify-content-around">
                         <div class="card widcard">
-                            <img src="/images/canadian.png" class="card-img-top" alt="...">
+                            <img src="images/canadian.png" class="card-img-top" alt="...">
                         </div>
                         <div class="card widcard">
-                            <img src="/images/uwipes.png" class="card-img-top" alt="...">
+                            <img src="images/uwipes.png" class="card-img-top" alt="...">
                         </div>
                         <div class="card widcard">
-                            <img src="/images/nefab.png" class="card-img-top" alt="...">
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="card-wrapper container-sm d-flex justify-content-around">
-                        <div class="card widcard">
-                            <img src="/images/sirloin.png" class="card-img-top" alt="...">
-                        </div>
-                        <div class="card widcard">
-                            <img src="/images/global.png" class="card-img-top" alt="...">
-                        </div>
-                        <div class="card widcard">
-                            <img src="/images/frutiqueko.png" class="card-img-top" alt="...">
+                            <img src="images/nefab.png" class="card-img-top" alt="...">
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="card-wrapper container-sm d-flex justify-content-around">
                         <div class="card widcard">
-                            <img src="/images/plasencia.png" class="card-img-top" alt="...">
+                            <img src="images/sirloin.png" class="card-img-top" alt="...">
                         </div>
                         <div class="card widcard">
-                            <img src="/images/mca.png" class="card-img-top" alt="...">
+                            <img src="images/global.png" class="card-img-top" alt="...">
                         </div>
                         <div class="card widcard">
-                            <img src="/images/giro.png" class="card-img-top" alt="...">
+                            <img src="images/frutiqueko.png" class="card-img-top" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card-wrapper container-sm d-flex justify-content-around">
+                        <div class="card widcard">
+                            <img src="images/plasencia.png" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card widcard">
+                            <img src="images/mca.png" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card widcard">
+                            <img src="images/giro.png" class="card-img-top" alt="...">
                         </div>
                     </div>
                 </div>
@@ -304,7 +304,7 @@
                     <h1 class="text-white form-text-t">¿Te gustaria recibir <br />mas informacion?</h1>
                     <h5 class="text-white form-text-s">Nos pondremos en contacto contigo<br /> ¡Nos vemos pronto!</h5>
                 </div>
-                <div class="col-md-10 col-lg-4 col-xl-5 mx-auto mb-2">
+                <div class="col-md-10 col-lg-4 col-xl-5 mx-auto">
                     <form class="row g-3 text-white">
                         <div class="col-12">
                             <label for="Nombre" class="form-label">Nombre</label>
