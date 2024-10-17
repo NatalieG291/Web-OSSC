@@ -300,7 +300,7 @@
     <div class="text-lg-start">
         <div class="container text-md-start">
             <div class="row mt-5 mb-0">
-                <div class="col-md-10 col-lg-4 col-xl-5 mx-auto mb-5">
+                <div class="col-md-10 col-lg-4 col-xl-5 mx-auto mt-1">
                     <h1 class="text-white form-text-t">¿Te gustaria recibir <br />mas informacion?</h1>
                     <h5 class="text-white form-text-s">Nos pondremos en contacto contigo<br /> ¡Nos vemos pronto!</h5>
                 </div>
