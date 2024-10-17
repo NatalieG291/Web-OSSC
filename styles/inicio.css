@@ -32,7 +32,7 @@ input, textarea, select {
 
 .fondo {
     width: 100%;
-    height: 56vw;
+    height: 65vw;
     /*background-repeat: no-repeat;
     background-size: cover;*/ /* Cubrir el fondo */
 }
@@ -75,7 +75,7 @@ input, textarea, select {
 
 .phone {
     position: absolute;
-    top: 20%; /* Ajusta la posición vertical según tu necesidad */
+    top: 31%; /* Ajusta la posición vertical según tu necesidad */
     left: 50%; /* Ajusta la posición horizontal según tu necesidad */
     width: 40vw; /* El ancho de la imagen del teléfono en función del viewport */
     height: 44.5vw; /* Mantener la proporción de la imagen */
@@ -93,7 +93,6 @@ input, textarea, select {
     text-align: center;
     margin: 0 auto;
     max-width: 80%;
-    font-family: "SF", "SF-2";
 }
 
     /* Estilos para el título principal */
@@ -106,6 +105,19 @@ input, textarea, select {
         font-size: 2.5vw;
         line-height: 1.5;
     }
+
+@media (max-width: 468px) {
+        /* Estilos para el título principal */
+    .text-content h2 {
+        font-size: 5vw;
+    }
+
+    /* Estilos para el subtítulo */
+    .text-content h3 {
+        font-size: 3vw;
+        line-height: 1.5;
+    }
+}
 
 /* Estilos generales para las cards */
 .card {
@@ -299,4 +311,24 @@ input, textarea, select {
     #btnWsp {
         font-size: 1.25rem !important;
     }
+}
+
+.form-text-t{
+font-size: 3vw;
+}
+
+.form-text-s{
+font-size: 2.2vw;
+}
+
+
+@media (max-width: 468px) {
+    .form-text-t{
+font-size: 8vw;
+}
+
+.form-text-s{
+font-size: 4vw;
+}
+
 }

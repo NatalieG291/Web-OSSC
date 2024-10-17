@@ -1,4 +1,4 @@
-<div class="container-fluid full-width pt-5">
+<div class="container-fluid full-width">
     <div class="image-container">
         <!--<img class="fondo" src="/images/fondo.jpg" alt="Fondo">-->
         <iframe class="fondo" src="canvas/mesh/index.html"></iframe>
@@ -9,7 +9,7 @@
                 hecho a la medida de tu empresa
             </h1>
             <br>
-            <a name="btnAgenda" id="btnAgenda" class="btn btn-primary fs-2" href="#" role="button">Agendar Demo</a>
+            <a name="btnAgenda" id="btnAgenda" class="btn btn-primary fs-3" href="#" role="button">Agendar Demo</a>
         </div>
         <img class="phone" src="/images/phone anim.gif" alt="Phone">
     </div>
@@ -20,12 +20,13 @@
     <div class="text-content">
         <h2 class="text-ossc-2">
             Conoce nuestro Software de <span class="text-ossc-1">nómina</span> <img class="logo" src="/images/giro.png"
-                                                                                    alt="Giro">
+                alt="Giro">
         </h2>
-        <h4 class="text-ossc-2">
+        <h3 class="text-ossc-2">
             Con este software tendrás el control de tu empresa, <br> gracias a que es una
-            herramienta que <span class="text-ossc-1">optimiza y simplifica</span> la administración de la <span class="text-ossc-1">nómina</span> para tus empleados
-        </h4>
+            herramienta que <span class="text-ossc-1">optimiza y simplifica</span> la administración de la <span
+                class="text-ossc-1">nómina</span> para tus empleados
+        </h3>
     </div>
 
     <!-- Fila para las cards -->
@@ -72,7 +73,8 @@
         <img class="fondo-video" src="/images/move_wall.gif" alt="Animated background">
         <div class="text-overlay2">
             <h1>
-                Cada dia más empresas <span class="text-ossc-1"> <b>confían</b> </span> en nosotros <br> <span class="text-ossc-1">
+                Cada dia más empresas <span class="text-ossc-1"> <b>confían</b> </span> en nosotros <br> <span
+                    class="text-ossc-1">
                     <b>
                         ¡Descúbrelo por ti
                         mismo!
@@ -124,11 +126,11 @@
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-                    data-bs-slide="prev">
+                data-bs-slide="prev">
                 <i class="bi bi-caret-left-fill h1"></i>
             </button>
             <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-                    data-bs-slide="next">
+                data-bs-slide="next">
                 <i class="bi bi-caret-right-fill h1"></i>
             </button>
         </div>
@@ -140,7 +142,8 @@
         <div class="gradient-overlay"></div>
     </div>
     <div class="row">
-        <div class="col-sm-12 col-lg-4 col-md-12 d-flex flex-column justify-content-center align-items-center text-center mt-3 bg-white">
+        <div
+            class="col-sm-12 col-lg-4 col-md-12 d-flex flex-column justify-content-center align-items-center text-center mt-3 bg-white">
             <h1 class="text-dark">
                 Explora los <br>
                 productos que <br />
@@ -301,8 +304,8 @@
                     <h1 class="text-white form-text-t">¿Te gustaria recibir <br />mas informacion?</h1>
                     <h5 class="text-white form-text-s">Nos pondremos en contacto contigo<br /> ¡Nos vemos pronto!</h5>
                 </div>
-                <div class="col-md-10 col-lg-4 col-xl-5 mx-auto mb-5">
-                    <form class="row g-3 text-white form-text-i">
+                <div class="col-md-10 col-lg-4 col-xl-5 mx-auto mb-2">
+                    <form class="row g-3 text-white">
                         <div class="col-12">
                             <label for="Nombre" class="form-label">Nombre</label>
                             <input type="text" class="form-control" id="Nombre" required>
@@ -320,26 +323,29 @@
                             <input type="tel" class="form-control" id="Telefono" pattern="[0-9]{10}" required>
                         </div>
                         <div class="col-md-12">
-                          <label for="mensaje" class="form-label">Dejanos un mensaje</label>
-                          <textarea class="form-control" id="mensaje" rows="2"></textarea>
+                            <label for="mensaje" class="form-label">Dejanos un mensaje</label>
+                            <textarea class="form-control" id="mensaje" rows="2"></textarea>
                         </div>
                         <fieldset class="row mb-3 mt-3">
                             <legend class="col-form-label col-sm-12 pt-0">Selecciona el software de tu interes</legend>
                             <div class="col-sm-6">
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" name="gridRadios" id="giro" value="option1">
+                                    <input class="form-check-input" type="checkbox" name="gridRadios" id="giro"
+                                        value="option1">
                                     <label class="form-check-label" for="giro">
                                         GIRO
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" name="gridRadios" id="reloj" value="option2">
+                                    <input class="form-check-input" type="checkbox" name="gridRadios" id="reloj"
+                                        value="option2">
                                     <label class="form-check-label" for="reloj">
                                         Control de asistencias
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" name="gridRadios" id="confronta" value="option3">
+                                    <input class="form-check-input" type="checkbox" name="gridRadios" id="confronta"
+                                        value="option3">
                                     <label class="form-check-label" for="confronta">
                                         Confronta GIRO - IDSE - SUA
                                     </label>
@@ -347,19 +353,22 @@
                             </div>
                             <div class="col-sm-6">
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" name="gridRadios" id="digitalizador" value="option1">
+                                    <input class="form-check-input" type="checkbox" name="gridRadios" id="digitalizador"
+                                        value="option1">
                                     <label class="form-check-label" for="digitalizador">
                                         Digitalizador de documentos
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" name="gridRadios" id="kiosco" value="option2">
+                                    <input class="form-check-input" type="checkbox" name="gridRadios" id="kiosco"
+                                        value="option2">
                                     <label class="form-check-label" for="kiosco">
                                         Kiosco de empleados
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" name="gridRadios" id="clima" value="option3">
+                                    <input class="form-check-input" type="checkbox" name="gridRadios" id="clima"
+                                        value="option3">
                                     <label class="form-check-label" for="clima">
                                         Clima laboral
                                     </label>
