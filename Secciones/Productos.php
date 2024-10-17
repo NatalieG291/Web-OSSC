@@ -90,9 +90,9 @@
                         hasta los reportes personalizados.
                     </h2>
                 </div>
-                <div class="col-md-10 col-lg-4 col-xl-6 mx-auto mb-5 mt-5 pt-5 bman">
+                <div class="col-md-10 col-lg-4 col-xl-6 mx-auto mb-5 bman">
                     <div class="position-relative">
-                        <div class="position-" style="top: 18vh">
+                        <div>
                             <i class=" bi bi-gear-fill text-white fs-1"></i>
                             <img src="images/bman.png" />
                             <i class=" bi bi-person-vcard text-white fs-1 position-absolute"></i>
