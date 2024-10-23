@@ -22,7 +22,7 @@
                         gestion de nomina y <br /> capital humano
                     </h1>
                     <br />
-                    <a name="btnWsp" id="btnWsp" class="btn btn-primary fs-4" href="#" role="button">Agendar Demo</a>
+                    <a name="btnWsp" id="btnWsp" class="btn btn-primary fs-4" href="index.php?Pagina=Contacto" role="button">Agendar Demo</a>
                 </div>
                 <div class="col-md-11 col-lg-4 col-xl-6 mx-auto mb-5 mt-5 pt-5">
                     <p class="fs-3 lh-sm text-center">
@@ -90,9 +90,9 @@
                         hasta los reportes personalizados.
                     </h2>
                 </div>
-                <div class="col-md-10 col-lg-4 col-xl-6 mx-auto mb-5 bman">
+                <div class="col-md-10 col-lg-4 col-xl-6 mx-auto mb-5 mt-5 pt-5 bman">
                     <div class="position-relative">
-                        <div>
+                        <div class="position-" style="top: 18vh">
                             <i class=" bi bi-gear-fill text-white fs-1"></i>
                             <img src="images/bman.png" />
                             <i class=" bi bi-person-vcard text-white fs-1 position-absolute"></i>
@@ -184,7 +184,7 @@
         </div>
         <div class="row justify-content-center">
             <div class="col-auto">
-                <a name="btnWsp" id="btnWsp" class="btn btn-primary fs-4" href="#" role="button">ENVIAR WHATSAPP</a>
+                <a name="btnWsp" id="btnWsp" class="btn btn-primary fs-4" href="https://wa.me/3333281779" target="_blank" role="button">ENVIAR WHATSAPP</a>
             </div>
         </div>
     </div>

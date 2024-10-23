@@ -1,0 +1,9 @@
+﻿.input-group {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+    .input-group input {
+        margin-right: 10px;
+    }

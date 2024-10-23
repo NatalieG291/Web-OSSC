@@ -15,12 +15,20 @@
 
     $config = include('config.php');
 
-	$respuesta = array();
+    $respuesta = "";
 
-    $Asunto = $_REQUEST['Asunto'];
-	$Nombre = $_REQUEST['Nombre'];
-	$Email = $_REQUEST['Email'];
-	$Mensaje = $_REQUEST['mensaje'];
+    $Asunto = 'Solicitud de informacion';
+	$Nombre = $_POST['Nombre'];
+    $Empresa = $_POST['Empresa'];
+	$Email = $_POST['Email'];
+    $Telefono = $_POST['Telefono'];
+	$Mensaje = $_POST['Mensaje'];
+    $Giro = $_POST['Giro'];
+    $Reloj = $_POST['Reloj'];
+    $Confronta = $_POST['Confronta'];
+    $Digitalizador = $_POST['Digitalizador'];
+    $Kiosco = $_POST['Kiosco'];
+    $Clima = $_POST['Clima'];
     $mail = new PHPMailer(true);
     $mail->IsSMTP();
     ob_start();
@@ -47,7 +55,31 @@
                 <center>
                 <h1><?php echo $Asunto; ?></h1>
                 </center>
-                <p>El usuario <b><?php echo $Nombre; ?> </b>solicito comunicarse al siguiente correo: <?php echo $Email; ?>.</p>
+                <p>El usuario <b><?php echo $Nombre; ?> </b> de la empresa <b><?php echo $Empresa;?></b> solicito comunicarse por alguno de los siguientes medios</p>
+                <p><b>Correo:</b> <?php echo $Email; ?></p>
+                <p><b>telefono:</b> <?php echo $Telefono;?>.</p>
+                <h3>Software de interes</h3>
+                <ul>
+                    <?php if ($Giro <> '') {
+                        echo '<li>' . $Giro . '</li>';
+                    }?>
+                    <?php if ($Reloj <> '') {
+                        echo '<li>' . $Reloj . '</li>';
+                    }?>
+                    <?php if ($Confronta <> '') {
+                        echo '<li>' . $Confronta . '</li>';
+                    }?>
+                    <?php if ($Digitalizador <> '') {
+                        echo '<li>' . $Digitalizador . '</li>';
+                    }?>
+                    <?php if ($Kiosco <> '') {
+                        echo '<li>' . $Kiosco . '</li>';
+                    }?>
+                    <?php if ($Clima <> '') {
+                        echo '<li>' . $Clima . '</li>';
+                    }?>
+                </ul>
+
 				<h3>Detalle de la solicitud:</h3>
 				<p><?php echo $Mensaje; ?></p>
             </body>
@@ -80,23 +112,19 @@
         $mail->MsgHTML($content);
         $mail->Send();
 
-        $respuesta['error'] = "no";
-        $respuesta['msg'] = "El correo se envio correctamente";
+        $respuesta = "El correo se envio correctamente";
     }
     catch(phpmailerException $e)
     {
-        $respuesta['error'] = "si";
-        $respuesta['msg'] = "No se envio el correo electronico";
+        $respuesta = "No se envio el correo electronico";
 
-        //echo $e;
+        header("HTTP/1.1 500 internal");
     }
     catch(Exception $e)
     {
-        $respuesta['error'] = "si";
-        $respuesta['msg'] = "No se envio el correo electronico (ex) <br>".$e."";
-
-        echo $e;
+        $respuesta = "No se envio el correo electronico";
+        header("HTTP/1.1 500 internal");
     }
 
-	echo json_encode($respuesta);
+	echo $respuesta;
 ?>

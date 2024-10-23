@@ -52,8 +52,8 @@
                         <i class="text-dark bi bi-pin-fill mr-3"></i> Obsidiana #2825, Col. Residencial Victoria,
                         45089. Zapopan, jalisco.
                     </p>
-                    <p class="text-dark"><i class="text-dark bi bi-envelope-fill mr-3"></i> ventas@ossc.com.mx</p>
-                    <p class="text-dark"><i class="text-dark bi bi-telephone-fill mr-3"></i> (33) 2494 8488</p>
+                    <a class="text-dark" href="mailto:ventas@ossc.com.mx"><i class="text-dark bi bi-envelope-fill mr-3"></i> ventas@ossc.com.mx</a><br /><br />
+                    <a class="text-dark" href="tel:3324948488"><i class="text-dark bi bi-telephone-fill mr-3"></i> (33) 2494 8488</a>
                 </div>
             </div>
         </div>

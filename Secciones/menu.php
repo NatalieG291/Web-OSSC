@@ -32,7 +32,7 @@
                         <a class="nav-link" id="Soluciones" href="index.php?Pagina=Soluciones">Soluciones</a>
                     </li>
                     <li class="nav-item px-2 fs-5">
-                        <a class="nav-link" id="Cursos" href="index.php?Pagina=Cursos">Cursos</a>
+                        <a class="nav-link" id="config" href="index.php?Pagina=Cursos">Cursos</a>
                     </li>
                 </ul>
             </div>
