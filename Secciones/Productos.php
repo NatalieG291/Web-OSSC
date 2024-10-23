@@ -121,7 +121,7 @@
             <br />
             <br />
             <br />
-            <h2 class="text-dark fs-1" style="z-index: 999">
+            <h2 class="text-dark fs-1 text-center" style="z-index: 999">
                 Cumple con el
                 <span class="text-primary">Seguro <br /> Social </span>
                 de tus empleados
@@ -129,7 +129,7 @@
             <br />
             <br />
             <br />
-            <h4 class="fs-3">
+            <h4 class="fs-3 text-center">
                 Dentro de nuestra <span class="text-primary">Nómina OSSC GIRO</span> <br />
                 podrás cumplir con todas las obligaciones <br />
                 del Seguro Social de manera puntual y <br />
@@ -142,34 +142,34 @@
 </section>
 <section class="section mesh-1" style="background-color: white;">
     <div class="cointainer">
-        <div class="row justify-content-md-center">
+        <div class="row justify-content-md-center mx-0">
             <div class="col-2 col-md-auto pt-5 mt-5 ms-3">
                 <div class="card pt-5 mt-5" style="">
-                    <img class="card-img" style="width: 5rem; height: auto" src="images/13.png" />
+                    <img class="card-img" style="width: 4rem; height: auto" src="images/13.png" />
                 </div>
             </div>
             <div class="col-2 col-md-auto pt-5 mt-5">
                 <div class="card pt-5 mt-5" style="">
-                    <img class="card-img" style="width: 5rem; height: auto" src="images/14.png" />
+                    <img class="card-img" style="width: 4rem; height: auto" src="images/14.png" />
                 </div>
             </div>
             <div class="col-2 col-md-auto pt-5 mt-5">
                 <div class="card pt-5 mt-5" style="">
-                    <img class="card-img" style="width: 5rem; height: auto" src="images/15.png" />
+                    <img class="card-img" style="width: 4rem; height: auto" src="images/15.png" />
                 </div>
             </div>
             <div class="col-2 col-md-auto pt-5 mt-5">
                 <div class="card pt-5 mt-5" style="">
-                    <img class="card-img" style="width: 5rem; height: auto" src="images/16.png" />
+                    <img class="card-img" style="width: 4rem; height: auto" src="images/16.png" />
                 </div>
             </div>
             <div class="col-2 col-md-auto pt-5 mt-5">
                 <div class="card pt-5 mt-5" style="">
-                    <img class="card-img" style="width: 5rem; height: auto" src="images/17.png" />
+                    <img class="card-img" style="width: 4rem; height: auto" src="images/17.png" />
                 </div>
             </div>
         </div>
-        <div class="row pt-5">
+        <div class="row pt-5 mx-0">
             <div class="col-2 align-self-start"></div>
             <div class="col-8 col-xl-8 col-lg-8 align-self-center mx-2" style="z-index: 99">
                 <h1 class="fs-3 text-center">
@@ -182,7 +182,7 @@
             </div>
             <div class="col-2 align-self-end"></div>
         </div>
-        <div class="row justify-content-center">
+        <div class="row justify-content-center mx-0">
             <div class="col-auto">
                 <a name="btnWsp" id="btnWsp" class="btn btn-primary fs-4" href="https://wa.me/3333281779" target="_blank" role="button">ENVIAR WHATSAPP</a>
             </div>
