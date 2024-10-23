@@ -1,8 +1,9 @@
+<div style="position: absolute; float: left; clear: both; width: 100%; height: 350px; z-index: 0; left no-repeat; z-index: -1">
+    <iframe class="constellation" src="canvas/constellation/demo.php"></iframe>
+    <div class="gradient-overlay"></div>
+</div>
 <div class="container-fluid full-width mt-5 pt-5">
-    <div class="position-absolute bottom-0 end-0" style="width: 100%; z-index: -1">
-        <iframe class="constellation" src="canvas/constellation/demo.php"></iframe>
-        <div class="gradient-overlay"></div>
-    </div>
+
 
     <div class="text-lg-start">
         <div class="container text-md-start">
