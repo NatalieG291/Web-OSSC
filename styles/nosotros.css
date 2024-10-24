@@ -20,7 +20,7 @@ html, body {
 }
 
 @media (max-width: 570px) {
-    .logos{
+    .logos:not(.ossc){
     width: 13vw;
     vertical-align: baseline;
 }

@@ -22,7 +22,7 @@
                         gestion de nomina y <br /> capital humano
                     </h1>
                     <br />
-                    <a name="btnWsp" id="btnWsp" class="btn btn-primary fs-4" href="index.php?Pagina=Contacto" role="button">Agendar Demo</a>
+                    <a name="btnWsp" id="btnWsp" class="btn btn-primary fs-4 btn-salto" href="index.php?Pagina=Contacto" role="button">Agendar Demo</a>
                 </div>
                 <div class="col-md-11 col-lg-4 col-xl-6 mx-auto mb-5 mt-5 pt-5">
                     <p class="fs-3 lh-sm text-center">
@@ -37,35 +37,35 @@
         </div>
     </div>
 </section>
-<section class="section p-5 mx-5 mesh-2">
-    <div class="row justify-content-center mt-5 pt-5 mx-5">
-        <div class="col-5 col-md-4 col-lg-3 col-xl-3 mb-5">
+<section class="section p-5 mesh-2">
+    <div class="row justify-content-center mt-5 pt-5 cards">
+        <div class="col-auto col-md-4 col-lg-3 col-xl-3 mb-5">
             <div class="card" style="">
                 <img class="card-img" src="images/3.jpg" />
             </div>
         </div>
 
-        <div class="col-5 col-md-4 col-lg-3 col-xl-3 mb-5">
+        <div class="col-auto col-md-4 col-lg-3 col-xl-3 mb-5">
             <div class="card" style="">
                 <img class="card-img" src="images/4.jpg" />
             </div>
         </div>
-        <div class="col-5 col-md-4 col-lg-3 col-xl-3 mb-5">
+        <div class="col-auto col-md-4 col-lg-3 col-xl-3 mb-5">
             <div class="card" style="">
                 <img class="card-img" src="images/5.jpg" />
             </div>
         </div>
-        <div class="col-5 col-md-4 col-lg-3 col-xl-3 mb-5">
+        <div class="col-auto col-md-4 col-lg-3 col-xl-3 mb-5">
             <div class="card" style="">
                 <img class="card-img" src="images/6.jpg" />
             </div>
         </div>
-        <div class="col-5 col-md-4 col-lg-3 col-xl-3 mb-5">
+        <div class="col-auto col-md-4 col-lg-3 col-xl-3 mb-5">
             <div class="card" style="">
                 <img class="card-img" src="images/7.jpg" />
             </div>
         </div>
-        <div class="col-5 col-md-4 col-lg-3 col-xl-3 mb-5">
+        <div class="col-auto col-md-4 col-lg-3 col-xl-3 mb-5">
             <div class="card" style="">
                 <img class="card-img" src="images/8.jpg" />
             </div>
@@ -85,8 +85,8 @@
                     </h1>
                     <br />
                     <h2 class="text-white fs-3">
-                        Ajustalo a los requisitos únicos de tu <br />
-                        empresa, desde las fórmulas de cálculo <br />
+                        Ajustalo a los requisitos únicos de tu <br class="salto" />
+                        empresa, desde las fórmulas de cálculo <br class="salto" />
                         hasta los reportes personalizados.
                     </h2>
                 </div>
@@ -130,7 +130,7 @@
             <br />
             <br />
             <h4 class="fs-3 text-center">
-                Dentro de nuestra <span class="text-primary">Nómina OSSC GIRO</span> <br />
+                Dentro de nuestra <span class="text-primary">Nómina OSSC GIRO</span> <br class="salto" />
                 podrás cumplir con todas las obligaciones <br />
                 del Seguro Social de manera puntual y <br />
                 eficiente, brindándote la tranquilidad de que <br />
@@ -173,9 +173,9 @@
             <div class="col-2 align-self-start"></div>
             <div class="col-8 col-xl-8 col-lg-8 align-self-center mx-2" style="z-index: 99">
                 <h1 class="fs-3 text-center">
-                    El Módulo de Nómina y Capital Humano GIRO es <br />
-                    la <span class="text-primary">herramienta perfecta</span> para empresas que <br />
-                    buscan eficiencia, precisión y control total en su <br />
+                    El Módulo de Nómina y Capital Humano GIRO es <br class="salto" />
+                    la <span class="text-primary">herramienta perfecta</span> para empresas que <br class="salto" />
+                    buscan eficiencia, precisión y control total en su <br class="salto" />
                     gestión de recursos humanos.
                 </h1>
                 <br />

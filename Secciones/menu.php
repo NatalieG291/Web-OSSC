@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <div class="container-fluid">
         <a class="navbar-brand" href="index.php?Pagina=Inicio">
-            <img src="images/Logo_OSSC.png" alt="" class="logos">
+            <img src="images/Logo_OSSC.png" alt="" class="logos ossc">
         </a>
         <button class="navbar-toggler fs-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg"
             aria-controls="navbarOffcanvasLg">

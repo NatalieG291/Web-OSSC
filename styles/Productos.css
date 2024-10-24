@@ -212,7 +212,7 @@ html {
 
 @media (max-width: 980px) {
     .banner {
-        height: 50vh;
+        height: 70vh !important;
         overflow: hidden;
         position: relative;
     }
@@ -220,7 +220,7 @@ html {
     .container_img {
         position: absolute;
         width: 80%;
-        height: 40vh;
+        height: 20vh;
         top: -10%;
         right: 20%;
         border-radius: 0 21em 21em 0;
@@ -229,7 +229,7 @@ html {
 
     .title {
         position: relative;
-        top: 30%;
+        top: 30% !important;
         left: 10%;
         font-size: 5em;
         font-weight: bold;
@@ -293,5 +293,36 @@ p.fs-3 {
     .icons {
         width: 60vw;
         height: auto;
+    }
+    .cards.pt-5.mt-5{
+        padding-top: 0px !important;
+        margin-top: 0px !important;
+    }
+    .container.pt-5{
+        padding-top: 5rem !important;
+        padding-bottom: 5rem !important;
+    }
+    .row.mt-5.mb-0.pt-5{
+        padding-top: 0px !important;
+        margin-top: 0px !important;
+    }
+    .salto{
+        display: none;
+    }
+    .mx-auto.mb-5.mt-5.pt-5{
+        padding-top: 0px !important;
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
+    }
+    .justify-content-center.pt-5.mt-5{
+        padding-top: 0px !important;
+        margin-top: 0px !important;
+    }
+    .col-2.col-md-auto.pt-5.mt-5 {
+        padding-top: 0px !important;
+        margin-top: 0px !important;
+    }
+    .btn-salto{
+        margin-bottom: 3rem !important;
     }
 }

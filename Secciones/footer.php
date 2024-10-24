@@ -2,16 +2,16 @@
 <footer class="text-center text-lg-start text-white" style="background-color: #ffffff; scroll-snap-align: start; ">
     <section class="d-flex justify-content-between p-4" style="background-color: #00294f ">
         <div class="me-5">
-            <span>Mantente en contacto con nosotros:</span>
+            <span onclick="alert(width = (window.innerWidth > 0) ? window.innerWidth : screen.width)">Mantente en contacto con nosotros:</span>
         </div>
         <div>
-            <a href="" class="text-white me-4">
+            <a href="https://www.facebook.com/osscmx/" class="text-white me-4">
                 <i class="bi bi-facebook"></i>
             </a>
-            <a href="" class="text-white me-4">
+            <a href="https://x.com/OSSCmx" class="text-white me-4">
                 <i class="bi bi-twitter"></i>
             </a>
-            <a href="" class="text-white me-4">
+            <a href="https://www.linkedin.com/company/ossc-mexico/" class="text-white me-4">
                 <i class="bi bi-linkedin"></i>
             </a>
         </div>

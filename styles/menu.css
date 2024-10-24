@@ -34,15 +34,15 @@
     font-size: 1.3em;
 }
 
-.logos{
-        width: 10vw; 
-        height: auto;
+.logos.ossc{
+        width: 10vw !important; 
+        height: auto !important;
     }
 
 @media (max-width: 468px) {
-    .logos{
-        width: 30vw; 
-        height: auto;
+    .logos.ossc{
+        width: 30vw !important; 
+        height: auto !important;
     }
 }
 
